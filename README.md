@@ -89,6 +89,8 @@ python ./model_eval/model_infer.py --infile <dataset or benchmark path> --outfil
 ```
 The models evaluated in this process undergo supervised fine-tuning using the [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory) framework. Our training procedure utilizes high-quality trajectory data, which is fully open-sourced to ensure research reproducibility.
 
+> Note: The open-source version of Flash-Searcher uses sequential execution for tool calls. To implement parallel tool invocation, refer to the parallel comments in `FlashOAgents/agent.py`. Ensure sufficient tool resources are available to support (task concurrency * tool concurrency (deafult: 5)).
+
 ## Acknowledgement 📑
 Part of the code is developed with reference to the [smolagents](https://github.com/huggingface/smolagents) framework. Building on its design principles, we developed the Flash-Searcher framework, which introduces DAG-based scheduling for efficient task dependency management and parallel tool invocation to accelerate multi-tool execution. This design enhances both computational efficiency and the flexibility of agentic workflows in complex, multimodal scenarios.
 
