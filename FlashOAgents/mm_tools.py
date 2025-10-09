@@ -176,9 +176,6 @@ This tool handles the following file extensions: [".html", ".pdb", ".xlsx", ".xl
         self.text_limit = text_limit
 
     def jsonld_to_markdown(self, data):
-        """
-        将 JSON-LD 数据转换为 Markdown 格式
-        """
         markdown = ""
         if isinstance(data, dict):
             for key, value in data.items():

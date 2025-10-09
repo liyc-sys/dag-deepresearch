@@ -24,6 +24,7 @@ import re
 from copy import deepcopy
 import textwrap
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from collections import deque
 from logging import getLogger
 from typing import Any, Callable, Dict, Generator, List, Optional, Set, Tuple, TypedDict, Union
@@ -711,6 +712,70 @@ class ToolCallingAgent(MultiStepAgent):
                 Panel(Text(f"Function calling number: {len(tool_calls_list)} calls: {str(tool_calls_list)}")),
                 level=LogLevel.INFO,
             )
+
+            # # Parallel tool execution. (Please ensure that the tool implement has sufficient concurrency!)
+            # with ThreadPoolExecutor() as executor:
+            #     futures = []
+            #     tool_info_list = []
+                
+            #     for idx, tool_call in enumerate(tool_calls_list):
+            #         tool_name = tool_call.get("name", "")
+            #         tool_arguments = tool_call.get("arguments", {})
+            #         tool_call_id = tool_call.get("id", "")
+                    
+            #         tool_call_obj = ToolCall(name=tool_name, arguments=tool_arguments, id=tool_call_id)
+            #         memory_step.tool_calls.append(tool_call_obj)
+                    
+            #         self.logger.log(
+            #             Panel(Text(f"Calling tool: '{tool_name}' with arguments: {tool_arguments}")),
+            #             level=LogLevel.INFO,
+            #         )
+                    
+            #         if tool_name == "final_answer":
+            #             if isinstance(tool_arguments, dict):
+            #                 answer = tool_arguments.get("answer", tool_arguments)
+            #             else:
+            #                 answer = tool_arguments
+                        
+            #             final_answer_value = answer
+            #             self.logger.log(
+            #                 Text(f"Final answer: {final_answer_value}", style=f"bold {YELLOW_HEX}"),
+            #                 level=LogLevel.INFO,
+            #             )
+            #             observations.append(str(final_answer_value))
+            #             break
+
+            #         future = executor.submit(self.execute_tool_call, tool_name, tool_arguments)
+            #         futures.append((idx, future, tool_name, tool_arguments))
+            #         tool_info_list.append((idx, tool_name, tool_arguments))
+                
+            #     if final_answer_value is not None:
+            #         memory_step.observations = "\n\n".join(observations) if observations else "No observations"
+            #         return final_answer_value
+                
+            #     if futures:
+            #         futures.sort(key=lambda x: x[0])
+                    
+            #         for idx, future, tool_name, tool_arguments in futures:
+            #             try:
+            #                 observation = future.result()
+            #                 updated_information = str(observation).strip()
+                            
+            #                 observations.append(
+            #                     f"Results for tool call '{tool_name}' with arguments '{tool_arguments}':\n{updated_information}"
+            #                 )
+            #                 self.logger.log(
+            #                     f"Observations: {updated_information.replace('[', '|')}",
+            #                     level=LogLevel.INFO,
+            #                 )
+            #             except Exception as e:
+            #                 observation = str(e)
+            #                 self.logger.error(f"Tool execution error: {observation}")
+            #                 observations.append(
+            #                     f"Error for tool call '{tool_name}' with arguments '{tool_arguments}':\n{observation}"
+            #                 )
+            # memory_step.observations = "\n\n".join(observations) if observations else "No observations"
+
             for tool_call in tool_calls_list:
                 tool_name = tool_call.get("name", "")
                 tool_arguments = tool_call.get("arguments", {})
@@ -745,7 +810,6 @@ class ToolCallingAgent(MultiStepAgent):
                     observation = str(e)
                     self.logger.error(f"Tool execution error: {str(e)}")
 
-                # Record tool call
                 updated_information = str(observation).strip()
                 
                 observations.append(f"Results for tool call '{tool_name}' with arguments '{tool_arguments}':\n{updated_information}")

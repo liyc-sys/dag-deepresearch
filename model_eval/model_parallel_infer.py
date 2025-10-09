@@ -158,10 +158,24 @@ def process_single_data(item, args):
                                 print(f"Final answer: {tmp_answer}")
                                 break
 
-                            for tool in tools_list:
-                                if isinstance(tool, dict) and "name" in tool and "arguments" in tool:
-                                    result = get_search_results_with_format(tool["name"], tool["arguments"])
-                                    tool_results.append(f'''Results for tool call {tool["name"]} with arguments {tool["arguments"]}: {result}''')
+                            with ThreadPoolExecutor(max_workers=5) as executor:
+                                futures = []
+                                for idx, tool in enumerate(tools_list):
+                                    if isinstance(tool, dict) and "name" in tool and "arguments" in tool:
+                                        future = executor.submit(
+                                            get_search_results_with_format, 
+                                            tool["name"], 
+                                            tool["arguments"]
+                                        )
+                                        futures.append((idx, future, tool))
+                                
+                                futures.sort(key=lambda x: x[0])
+                                
+                                for idx, future, tool in futures:
+                                    result = future.result()
+                                    tool_results.append(
+                                        f'''Results for tool call {tool["name"]} with arguments {tool["arguments"]}: {result}'''
+                                    )
                             
                         if tool_results:
                             tools_result_str = "\n\n".join(tool_results)
