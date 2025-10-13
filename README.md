@@ -6,7 +6,7 @@
 
 <div align="center">
 
-  <a href='https://arxiv.org/abs/'><img src='https://img.shields.io/badge/Flash--Searcher-arXiv-d63031?logo=arxiv&logoColor=white'></a>
+  <a href='https://arxiv.org/abs/2509.25301'><img src='https://img.shields.io/badge/Flash--Searcher-arXiv-d63031?logo=arxiv&logoColor=white'></a>
   <a href='https://www.python.org/downloads/release/python-31010/'><img src='https://img.shields.io/badge/Python-3.10-green'></a>
   <a href='https://github.com/OPPO-PersonalAI/Flash-Searcher/blob/main/LICENSE'><img src='https://img.shields.io/badge/License-Apache%202.0-blue'></a>
   
