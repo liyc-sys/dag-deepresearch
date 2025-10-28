@@ -152,7 +152,7 @@ if __name__ == '__main__':
     parser.add_argument('--summary_interval', type=int, default=8, help='Summary interval')
     parser.add_argument('--prompts_type', type=str, default="default", help='Type of prompts to use')
     parser.add_argument('--concurrency', type=int, default=15, help='Number of concurrency')
-    parser.add_argument('--max_steps', type=int, default=16, help='Maximum number of steps')
+    parser.add_argument('--max_steps', type=int, default=40, help='Maximum number of steps')
 
     args = parser.parse_args()
     
