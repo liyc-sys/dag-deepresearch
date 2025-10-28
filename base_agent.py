@@ -104,6 +104,7 @@ class MMSearchAgent(BaseAgent):
         visual_tool = VisualInspectorTool(model, 100000)
         text_tool = TextInspectorTool(model, 100000)
         audio_tool = AudioInspectorTool(model, 100000)
+        # tools = [web_tool, crawl_tool, visual_tool] text or audio tool may not useful during agent execution.
         tools = [web_tool, crawl_tool, visual_tool, text_tool, audio_tool]
 
         self.agent_fn = ToolCallingAgent(
