@@ -41,15 +41,23 @@ class BaseAgent:
             if isinstance(step, TaskStep):
                 continue
             elif isinstance(step, PlanningStep):
-                traj = {"name": "plan", "value": step.plan, "think": step.plan_think, "cot_think": step.plan_reasoning}
+                traj = {"name": "plan", "value": step.plan, "think": step.plan_think, "cot_think": step.plan_reasoning,
+                        "start_time": step.start_time, "end_time": step.end_time, "duration": step.duration,
+                        "input_tokens": step.input_tokens, "output_tokens": step.output_tokens}
                 trajectory.append(traj)
             elif isinstance(step, SummaryStep):
-                traj = {"name": "summary", "value": step.summary, "cot_think": step.summary_reasoning}
+                traj = {"name": "summary", "value": step.summary, "cot_think": step.summary_reasoning,
+                        "start_time": step.start_time, "end_time": step.end_time, "duration": step.duration,
+                        "input_tokens": step.input_tokens, "output_tokens": step.output_tokens}
                 trajectory.append(traj)
             elif isinstance(step, ActionStep):
                 safe_tool_calls = step.tool_calls if step.tool_calls is not None else []
                 traj = {"name": "action", "tool_calls": [st.dict() for st in safe_tool_calls], "obs": step.observations,
-                        "think": step.action_think, "cot_think": step.action_reasoning}
+                        "think": step.action_think, "cot_think": step.action_reasoning,
+                        "start_time": step.start_time, "end_time": step.end_time, "duration": step.duration,
+                        "input_tokens": step.input_tokens, "output_tokens": step.output_tokens,
+                        "llm_start_time": step.llm_start_time, "llm_end_time": step.llm_end_time,
+                        "llm_duration": step.llm_duration}
                 trajectory.append(traj)
             else:
                 raise ValueError("[capture_trajectory] Unknown Step:", step)

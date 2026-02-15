@@ -39,11 +39,17 @@ class ToolCall:
     name: str
     arguments: Any
     id: str
+    start_time: float | None = None
+    end_time: float | None = None
+    duration: float | None = None
 
     def dict(self):
         return {
             "name": self.name,
             "arguments": make_json_serializable(self.arguments),
+            "start_time": self.start_time,
+            "end_time": self.end_time,
+            "duration": self.duration,
         }
 
 @dataclass
@@ -72,7 +78,12 @@ class ActionStep(MemoryStep):
     action_reasoning: Any = None
     score: float = 0.0
     evaluate_thought: str | None = None
-    
+    input_tokens: int | None = None
+    output_tokens: int | None = None
+    llm_start_time: float | None = None
+    llm_end_time: float | None = None
+    llm_duration: float | None = None
+
     def dict(self):
         return {
             "model_input_messages": self.model_input_messages,
@@ -89,6 +100,11 @@ class ActionStep(MemoryStep):
             "action_reasoning": self.action_reasoning,
             "score": self.score,
             "evaluate_thought": self.evaluate_thought,
+            "input_tokens": self.input_tokens,
+            "output_tokens": self.output_tokens,
+            "llm_start_time": self.llm_start_time,
+            "llm_end_time": self.llm_end_time,
+            "llm_duration": self.llm_duration,
         }
 
     def to_messages(self, summary_mode: bool = False, show_model_input_messages: bool = False) -> List[Message]:
@@ -144,6 +160,11 @@ class PlanningStep(MemoryStep):
     plan: str
     plan_think: str
     plan_reasoning: str
+    start_time: float | None = None
+    end_time: float | None = None
+    duration: float | None = None
+    input_tokens: int | None = None
+    output_tokens: int | None = None
 
     def to_messages(self, summary_mode: bool, **kwargs) -> List[Message]:
         messages = []
@@ -164,6 +185,11 @@ class SummaryStep(MemoryStep):
     model_input_messages: List[Message]
     summary: str
     summary_reasoning: str
+    start_time: float | None = None
+    end_time: float | None = None
+    duration: float | None = None
+    input_tokens: int | None = None
+    output_tokens: int | None = None
 
     def to_messages(self, summary_mode: bool, **kwargs) -> List[Message]:
         messages = []

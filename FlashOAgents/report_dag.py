@@ -26,6 +26,11 @@ class ReportSection:
     trajectory: Optional[Dict] = None
     error_message: Optional[str] = None
     retry_count: int = 0
+    section_start_time: Optional[float] = None
+    section_end_time: Optional[float] = None
+    section_duration: Optional[float] = None
+    total_input_tokens: Optional[int] = None
+    total_output_tokens: Optional[int] = None
 
     def dict(self) -> Dict[str, Any]:
         return {
@@ -39,6 +44,11 @@ class ReportSection:
             "trajectory": self.trajectory,
             "error_message": self.error_message,
             "retry_count": self.retry_count,
+            "section_start_time": self.section_start_time,
+            "section_end_time": self.section_end_time,
+            "section_duration": self.section_duration,
+            "total_input_tokens": self.total_input_tokens,
+            "total_output_tokens": self.total_output_tokens,
         }
 
 
