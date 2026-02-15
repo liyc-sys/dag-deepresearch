@@ -8,6 +8,7 @@ from dotenv import load_dotenv
 from FlashOAgents import OpenAIServerModel
 from FlashOAgents.report_orchestrator import ReportOrchestrator
 from utils import write_txt, write_json
+from visualize_dag import visualize_report_dag
 
 logging.basicConfig(
     level=logging.INFO,
@@ -53,6 +54,11 @@ def main(args):
     meta_path = os.path.splitext(args.output_report)[0] + "_meta.json"
     write_json(meta_path, {"outline": result["outline"], "metadata": result["metadata"]})
     logger.info(f"Metadata saved to: {meta_path}")
+
+    # Generate DAG visualization
+    dag_html_path = os.path.splitext(args.output_report)[0] + "_dag.html"
+    visualize_report_dag(meta_path, dag_html_path)
+    logger.info(f"DAG visualization saved to: {dag_html_path}")
 
     # Print summary
     meta = result["metadata"]

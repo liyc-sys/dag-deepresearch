@@ -107,6 +107,8 @@ class ChatMessage:
     reasoning_content: Optional[str] = None
     tool_calls: Optional[List[ChatMessageToolCall]] = None
     raw: Optional[Any] = None  # Stores the raw output from the API
+    input_token_count: Optional[int] = None
+    output_token_count: Optional[int] = None
 
     def model_dump_json(self):
         return json.dumps(get_dict_from_nested_dataclasses(self, ignore_key="raw"))
@@ -499,6 +501,8 @@ class OpenAIServerModel(Model):
                     response.choices[0].message.model_dump(include={"role", "content", "tool_calls", "reasoning_content"})
                 )
                 message.raw = response
+                message.input_token_count = response.usage.prompt_tokens
+                message.output_token_count = response.usage.completion_tokens
 
                 # If model_id contains 'o3' or 'o4', manually truncate content based on stop_sequences
                 if 'o3' in self.model_id.lower() or 'o4' in self.model_id.lower():

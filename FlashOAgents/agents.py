@@ -401,7 +401,9 @@ class MultiStepAgent:
             "role": MessageRole.USER,
             "content": [{"type": "text", "text": populate_template(self.prompt_templates["planning"]["task_input"], variables={"task": task})}],
         }]
+        plan_start_time = time.time()
         chat_message_plan: ChatMessage = self.model(input_messages + task_messages)
+        plan_end_time = time.time()
         think_content = chat_message_plan.reasoning_content
         plans = chat_message_plan.content
         plans_think, plans_answer = "", plans
@@ -416,22 +418,20 @@ class MultiStepAgent:
             level=LogLevel.INFO,
         )
 
-        self.memory.steps.append(
-            PlanningStep(
-                model_input_messages=input_messages,
-                plan=plans_answer,
-                plan_think=plans_think,
-                plan_reasoning=think_content,
-
-            )
-        )
-
-        return PlanningStep(
+        planning_step = PlanningStep(
             model_input_messages=input_messages,
             plan=plans_answer,
             plan_think=plans_think,
             plan_reasoning=think_content,
+            start_time=plan_start_time,
+            end_time=plan_end_time,
+            duration=plan_end_time - plan_start_time,
+            input_tokens=chat_message_plan.input_token_count,
+            output_tokens=chat_message_plan.output_token_count,
         )
+        self.memory.steps.append(planning_step)
+
+        return planning_step
 
 
     def summary_step(self, task, step: int) -> None:
@@ -453,7 +453,9 @@ class MultiStepAgent:
             "content": [{"type": "text", "text": self.prompt_templates["summary"]["update_post_messages"]}],
         }
         input_messages = [update_pre_messages] + memory_messages + [update_post_messages]
+        summary_start_time = time.time()
         chat_message_summary: ChatMessage = self.model(input_messages)
+        summary_end_time = time.time()
 
         summary_answer = chat_message_summary.content
         summary_cot_content = chat_message_summary.reasoning_content
@@ -466,23 +468,23 @@ class MultiStepAgent:
             {summary_answer}
             ```"""
         )
-        self.memory.steps.append(
-            SummaryStep(
-                model_input_messages=input_messages,
-                summary=summary_answer,
-                summary_reasoning=summary_cot_content,
-            )
+        summary_step = SummaryStep(
+            model_input_messages=input_messages,
+            summary=summary_answer,
+            summary_reasoning=summary_cot_content,
+            start_time=summary_start_time,
+            end_time=summary_end_time,
+            duration=summary_end_time - summary_start_time,
+            input_tokens=chat_message_summary.input_token_count,
+            output_tokens=chat_message_summary.output_token_count,
         )
+        self.memory.steps.append(summary_step)
         self.logger.log(
             Rule("[bold]Summary", style="orange"),
             Text(final_summary_redaction),
             level=LogLevel.INFO,
         )
-        return SummaryStep(
-            model_input_messages=input_messages,
-            summary=summary_answer,
-            summary_reasoning=summary_cot_content,
-        )
+        return summary_step
 
 
     def to_dict(self) -> Dict[str, Any]:
@@ -670,9 +672,14 @@ class ToolCallingAgent(MultiStepAgent):
         }]
         
         try:
+            memory_step.llm_start_time = time.time()
             model_message: ChatMessage = self.model(
                 memory_messages + instruction_message,
             )
+            memory_step.llm_end_time = time.time()
+            memory_step.llm_duration = memory_step.llm_end_time - memory_step.llm_start_time
+            memory_step.input_tokens = model_message.input_token_count
+            memory_step.output_tokens = model_message.output_token_count
             memory_step.model_output_messages = model_message
             try:
                 content_dict = json_repair.loads(model_message.content)
@@ -713,118 +720,83 @@ class ToolCallingAgent(MultiStepAgent):
                 level=LogLevel.INFO,
             )
 
-            # # Parallel tool execution. (Please ensure that the tool implement has sufficient concurrency!)
-            # with ThreadPoolExecutor() as executor:
-            #     futures = []
-            #     tool_info_list = []
-                
-            #     for idx, tool_call in enumerate(tool_calls_list):
-            #         tool_name = tool_call.get("name", "")
-            #         tool_arguments = tool_call.get("arguments", {})
-            #         tool_call_id = tool_call.get("id", "")
-                    
-            #         tool_call_obj = ToolCall(name=tool_name, arguments=tool_arguments, id=tool_call_id)
-            #         memory_step.tool_calls.append(tool_call_obj)
-                    
-            #         self.logger.log(
-            #             Panel(Text(f"Calling tool: '{tool_name}' with arguments: {tool_arguments}")),
-            #             level=LogLevel.INFO,
-            #         )
-                    
-            #         if tool_name == "final_answer":
-            #             if isinstance(tool_arguments, dict):
-            #                 answer = tool_arguments.get("answer", tool_arguments)
-            #             else:
-            #                 answer = tool_arguments
-                        
-            #             final_answer_value = answer
-            #             self.logger.log(
-            #                 Text(f"Final answer: {final_answer_value}", style=f"bold {YELLOW_HEX}"),
-            #                 level=LogLevel.INFO,
-            #             )
-            #             observations.append(str(final_answer_value))
-            #             break
-
-            #         future = executor.submit(self.execute_tool_call, tool_name, tool_arguments)
-            #         futures.append((idx, future, tool_name, tool_arguments))
-            #         tool_info_list.append((idx, tool_name, tool_arguments))
-                
-            #     if final_answer_value is not None:
-            #         memory_step.observations = "\n\n".join(observations) if observations else "No observations"
-            #         return final_answer_value
-                
-            #     if futures:
-            #         futures.sort(key=lambda x: x[0])
-                    
-            #         for idx, future, tool_name, tool_arguments in futures:
-            #             try:
-            #                 observation = future.result()
-            #                 updated_information = str(observation).strip()
-                            
-            #                 observations.append(
-            #                     f"Results for tool call '{tool_name}' with arguments '{tool_arguments}':\n{updated_information}"
-            #                 )
-            #                 self.logger.log(
-            #                     f"Observations: {updated_information.replace('[', '|')}",
-            #                     level=LogLevel.INFO,
-            #                 )
-            #             except Exception as e:
-            #                 observation = str(e)
-            #                 self.logger.error(f"Tool execution error: {observation}")
-            #                 observations.append(
-            #                     f"Error for tool call '{tool_name}' with arguments '{tool_arguments}':\n{observation}"
-            #                 )
-            # memory_step.observations = "\n\n".join(observations) if observations else "No observations"
-
+            # Check for final_answer first before submitting parallel tasks
             for tool_call in tool_calls_list:
                 tool_name = tool_call.get("name", "")
                 tool_arguments = tool_call.get("arguments", {})
                 tool_call_id = tool_call.get("id", "")
-                
-                # Create tool call object
+
                 tool_call_obj = ToolCall(name=tool_name, arguments=tool_arguments, id=tool_call_id)
                 memory_step.tool_calls.append(tool_call_obj)
-                
-                self.logger.log(
-                    Panel(Text(f"Calling tool: '{tool_name}' with arguments: {tool_arguments}")),
-                    level=LogLevel.INFO,
-                )
+
                 if tool_name == "final_answer":
                     if isinstance(tool_arguments, dict):
                         answer = tool_arguments.get("answer", tool_arguments)
                     else:
                         answer = tool_arguments
-                    
+
                     final_answer_value = answer
                     self.logger.log(
                         Text(f"Final answer: {final_answer_value}", style=f"bold {YELLOW_HEX}"),
                         level=LogLevel.INFO,
                     )
-                
                     observations.append(str(final_answer_value))
-                    break
+                    memory_step.observations = "\n\n".join(observations)
+                    return final_answer_value
 
+            # Parallel tool execution
+            non_final_calls = [
+                (idx, tc) for idx, tc in enumerate(tool_calls_list)
+                if tc.get("name", "") != "final_answer"
+            ]
+
+            def _timed_tool_call(tool_name, tool_arguments, tool_call_obj):
+                tool_call_obj.start_time = time.time()
                 try:
-                    observation = self.execute_tool_call(tool_name, tool_arguments)
-                except Exception as e:
-                    observation = str(e)
-                    self.logger.error(f"Tool execution error: {str(e)}")
+                    result = self.execute_tool_call(tool_name, tool_arguments)
+                finally:
+                    tool_call_obj.end_time = time.time()
+                    tool_call_obj.duration = tool_call_obj.end_time - tool_call_obj.start_time
+                return result
 
-                updated_information = str(observation).strip()
-                
-                observations.append(f"Results for tool call '{tool_name}' with arguments '{tool_arguments}':\n{updated_information}")
-                self.logger.log(
-                    f"Observations: {updated_information.replace('[', '|')}",
-                    level=LogLevel.INFO,
-                )
+            if non_final_calls:
+                max_workers = min(len(non_final_calls), 5)
+                with ThreadPoolExecutor(max_workers=max_workers) as executor:
+                    futures = []
+                    for idx, tool_call in non_final_calls:
+                        tool_name = tool_call.get("name", "")
+                        tool_arguments = tool_call.get("arguments", {})
+
+                        self.logger.log(
+                            Panel(Text(f"Calling tool: '{tool_name}' with arguments: {tool_arguments}")),
+                            level=LogLevel.INFO,
+                        )
+
+                        tc_obj = memory_step.tool_calls[idx]
+                        future = executor.submit(_timed_tool_call, tool_name, tool_arguments, tc_obj)
+                        futures.append((idx, future, tool_name, tool_arguments))
+
+                    # Collect results in original order
+                    futures.sort(key=lambda x: x[0])
+
+                    for idx, future, tool_name, tool_arguments in futures:
+                        try:
+                            observation = future.result()
+                            updated_information = str(observation).strip()
+                        except Exception as e:
+                            updated_information = str(e)
+                            self.logger.error(f"Tool execution error: {updated_information}")
+
+                        observations.append(
+                            f"Results for tool call '{tool_name}' with arguments '{tool_arguments}':\n{updated_information}"
+                        )
+                        self.logger.log(
+                            f"Observations: {updated_information.replace('[', '|')}",
+                            level=LogLevel.INFO,
+                        )
 
             # Set step observations
             memory_step.observations = "\n\n".join(observations) if observations else "No observations"
-            
-            # Handle final answer if present
-            if final_answer_value is not None:
-                return final_answer_value
-            
             return None
 
         except Exception as e:

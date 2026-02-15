@@ -129,6 +129,8 @@ class ReportOrchestrator:
 
         logger.info(f"Starting research for section '{section.title}' ({section.section_id})")
 
+        section.section_start_time = time.time()
+
         search_agent = SearchAgent(
             model=self.model,
             summary_interval=self.summary_interval,
@@ -138,13 +140,27 @@ class ReportOrchestrator:
 
         result = search_agent(task_string)
 
+        section.section_end_time = time.time()
+        section.section_duration = section.section_end_time - section.section_start_time
+
         if "error" in result and "agent_result" not in result:
             raise RuntimeError(f"SearchAgent failed: {result['error']}")
 
         section.research_result = result.get("agent_result", "")
         section.trajectory = result.get("agent_trajectory")
 
-        logger.info(f"Completed research for section '{section.title}' ({section.section_id})")
+        # Aggregate token counts from trajectory
+        total_in, total_out = 0, 0
+        for step in (section.trajectory or []):
+            total_in += step.get("input_tokens") or 0
+            total_out += step.get("output_tokens") or 0
+        section.total_input_tokens = total_in
+        section.total_output_tokens = total_out
+
+        logger.info(
+            f"Completed research for section '{section.title}' ({section.section_id}) "
+            f"in {section.section_duration:.1f}s, tokens: {total_in} in / {total_out} out"
+        )
         return section
 
     def execute_report(self, outline: ReportOutline) -> ReportOutline:
@@ -173,6 +189,11 @@ class ReportOrchestrator:
                         result = future.result()
                         section.research_result = result.research_result
                         section.trajectory = result.trajectory
+                        section.section_start_time = result.section_start_time
+                        section.section_end_time = result.section_end_time
+                        section.section_duration = result.section_duration
+                        section.total_input_tokens = result.total_input_tokens
+                        section.total_output_tokens = result.total_output_tokens
                         section.status = SectionStatus.COMPLETED
                         logger.info(
                             f"Section '{section.title}' ({section.section_id}) completed"
@@ -305,12 +326,18 @@ class ReportOrchestrator:
         completed = sum(1 for s in outline.sections if s.status == SectionStatus.COMPLETED)
         failed = sum(1 for s in outline.sections if s.status == SectionStatus.FAILED)
 
+        total_input_tokens = sum(s.total_input_tokens or 0 for s in outline.sections)
+        total_output_tokens = sum(s.total_output_tokens or 0 for s in outline.sections)
+
         metadata = {
             "topic": topic,
             "total_sections": len(outline.sections),
             "completed_sections": completed,
             "failed_sections": failed,
             "elapsed_seconds": round(elapsed, 2),
+            "total_input_tokens": total_input_tokens,
+            "total_output_tokens": total_output_tokens,
+            "total_tokens": total_input_tokens + total_output_tokens,
         }
 
         logger.info(
