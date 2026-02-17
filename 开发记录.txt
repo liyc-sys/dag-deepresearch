@@ -1,0 +1,16 @@
+要求要python3.10环境，在conda vlm-data的环境中运行
+pip install -r requirements.txt 
+
+这样告诉claude code
+⏺ Bash(source /Users/liyc/opt/anaconda3/etc/profile.d/conda.sh && conda activate vlm-data && python --version)
+
+使用文件中写好的prompt
+⏺ 改好了。现在可以这样用：
+                                                                                                                                  
+  # 方式 A：短题目直接写
+  python run_deep_report.py --topic "大语言模型对科学研究的影响"                                                                                                                        
+  
+  # 方式 B：长题目写到文件                                                                                                                                                              
+python run_deep_report.py --topic_file /Users/liyc/Desktop/推理框架/github/Flash-Searcher/topic/1.txt --output_report ./output/DRBII_1.md
+
+  逻辑是：--topic_file 优先，读取文件内容作为 topic；如果两个都没给，报错退出。

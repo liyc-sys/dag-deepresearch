@@ -39,6 +39,8 @@ class ToolCall:
     name: str
     arguments: Any
     id: str
+    goal: str | None = None
+    path: str | None = None
     start_time: float | None = None
     end_time: float | None = None
     duration: float | None = None
@@ -47,6 +49,8 @@ class ToolCall:
         return {
             "name": self.name,
             "arguments": make_json_serializable(self.arguments),
+            "goal": self.goal,
+            "path": self.path,
             "start_time": self.start_time,
             "end_time": self.end_time,
             "duration": self.duration,
@@ -116,13 +120,17 @@ class ActionStep(MemoryStep):
             tool_output = {
                 "tools":[tc.dict() for tc in self.tool_calls]
             }
+            assistant_text = ""
+            if self.action_think:
+                assistant_text += f"Reasoning:\n{self.action_think}\n\n"
+            assistant_text += "Calling tools:\n" + str(tool_output)
             messages.append(
                 Message(
                     role=MessageRole.ASSISTANT,
                     content=[
                         {
                             "type": "text",
-                            "text": "Calling tools:\n" + str(tool_output),
+                            "text": assistant_text,
                         }
                     ],
                 )

@@ -359,7 +359,7 @@ def visualize_report_dag(meta_path, output_path=None):
                 for tc in tool_calls:
                     tn = tc.get("name", "?")
                     args = tc.get("arguments", {})
-                    call_info = {"tool": tn, "duration": tc.get("duration")}
+                    call_info = {"tool": tn, "duration": tc.get("duration"), "goal": tc.get("goal"), "path": tc.get("path")}
                     if tn == "web_search":
                         call_info["query"] = args.get("query", "")
                     elif tn == "crawl_page":
@@ -898,6 +898,9 @@ function toggleStep(sid, stepIdx) {{
       h += '<div class="tool-card">';
       var toolDur = c.duration ? ' <span style="color:#999;font-weight:400;font-size:10px">(' + c.duration.toFixed(1) + 's)</span>' : '';
       h += '<div class="tool-name">' + (i+1) + '. ' + esc(c.tool) + toolDur + '</div>';
+      if (c.goal || c.path) {{
+        h += '<div style="color:#AB47BC;font-size:10px;margin-bottom:2px">' + esc((c.goal || '') + (c.path ? ' / ' + c.path : '')) + '</div>';
+      }}
       if (c.tool === 'web_search') {{
         h += '<div class="tool-arg"><span>query: </span>' + esc(c.query || '') + '</div>';
       }} else if (c.tool === 'crawl_page') {{

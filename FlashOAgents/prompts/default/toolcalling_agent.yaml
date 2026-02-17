@@ -224,21 +224,28 @@ step:
           "arguments": {
             "query": "latest AI developments"
           },
+          "goal": "Goal 1: AI Research Trends",
+          "path": "Path 1.1: Web Search for Recent Developments"
         },
         {
           "name": "web_search",
           "arguments": {
             "query": "climate change data"
           },
+          "goal": "Goal 2: Climate Data Collection",
+          "path": "Path 2.1: Climate Statistics Search"
         },
         {
           "name": "web_search",
           "arguments": {
             "query": "space missions current"
           },
+          "goal": "Goal 3: Space Exploration Updates",
+          "path": "Path 3.1: Current Mission Search"
         }
       ]
     }
 
+    Each tool call MUST include "goal" and "path" fields indicating which Goal and Path from the plan it belongs to.
     Note that you may invoke up to 5 tools, but must invoke at least one. If any tool chosen is 'final_answer', the language of your answer text should be the SAME as the original task.
     Now continue to solve the task!

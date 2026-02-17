@@ -76,13 +76,22 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate a Deep Research Report")
 
-    parser.add_argument("--topic", type=str, required=True, help="Research topic (required)")
+    parser.add_argument("--topic", type=str, default=None, help="Research topic (provide this or --topic_file)")
+    parser.add_argument("--topic_file", type=str, default=None, help="Path to a text file containing the research topic")
     parser.add_argument("--output_report", type=str, default="./output/report.md", help="Output report path (default: ./output/report.md)")
     parser.add_argument("--max_section_steps", type=int, default=20, help="Max steps per section in Layer 2 (default: 20)")
-    parser.add_argument("--summary_interval", type=int, default=6, help="Layer 2 summary interval (default: 6)")
-    parser.add_argument("--section_concurrency", type=int, default=5, help="Max parallel sections (default: 5)")
+    parser.add_argument("--summary_interval", type=int, default=8, help="Layer 2 summary interval (default: 8)")
+    parser.add_argument("--section_concurrency", type=int, default=10, help="Max parallel sections (default: 5)")
     parser.add_argument("--max_section_retries", type=int, default=2, help="Max retries per section (default: 2)")
     parser.add_argument("--prompts_type", type=str, default="default", help="Layer 2 prompt type (default: default)")
 
     args = parser.parse_args()
+
+    # Resolve topic: --topic_file takes precedence if both provided
+    if args.topic_file:
+        with open(args.topic_file, "r", encoding="utf-8") as f:
+            args.topic = f.read().strip()
+    if not args.topic:
+        parser.error("Must provide --topic or --topic_file")
+
     main(args)
