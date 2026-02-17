@@ -74,7 +74,7 @@ class ReportOutline:
         """Check if all sections are COMPLETED or FAILED."""
         return all(s.status in (SectionStatus.COMPLETED, SectionStatus.FAILED) for s in self.sections)
 
-    def get_completed_context(self, section_ids: List[str], max_chars_per_section: int = 2000) -> str:
+    def get_completed_context(self, section_ids: List[str], max_chars_per_section: int = 8000) -> str:
         """Get truncated research results from specified completed sections."""
         if not section_ids:
             return ""

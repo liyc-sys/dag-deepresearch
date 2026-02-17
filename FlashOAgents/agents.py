@@ -726,7 +726,10 @@ class ToolCallingAgent(MultiStepAgent):
                 tool_arguments = tool_call.get("arguments", {})
                 tool_call_id = tool_call.get("id", "")
 
-                tool_call_obj = ToolCall(name=tool_name, arguments=tool_arguments, id=tool_call_id)
+                tool_goal = tool_call.get("goal", "")
+                tool_path = tool_call.get("path", "")
+                tool_call_obj = ToolCall(name=tool_name, arguments=tool_arguments, id=tool_call_id,
+                                         goal=tool_goal, path=tool_path)
                 memory_step.tool_calls.append(tool_call_obj)
 
                 if tool_name == "final_answer":
@@ -787,8 +790,10 @@ class ToolCallingAgent(MultiStepAgent):
                             updated_information = str(e)
                             self.logger.error(f"Tool execution error: {updated_information}")
 
+                        tc_obj = memory_step.tool_calls[idx]
+                        path_label = f" [{tc_obj.goal} / {tc_obj.path}]" if tc_obj.goal else ""
                         observations.append(
-                            f"Results for tool call '{tool_name}' with arguments '{tool_arguments}':\n{updated_information}"
+                            f"Results for tool call '{tool_name}'{path_label} with arguments '{tool_arguments}':\n{updated_information}"
                         )
                         self.logger.log(
                             f"Observations: {updated_information.replace('[', '|')}",
