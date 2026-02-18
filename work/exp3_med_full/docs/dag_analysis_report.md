@@ -549,9 +549,35 @@ DAG 通过**逐步推理**得出正确答案，DAG-Med 的 aggressive prompt 导
 | 答案精准提取（DSQ类） | **DAG-Med** > SWALM > DAG > FlashSearcher | medical aggressive answer prompt 最有效；避免无谓放弃 |
 | 深度研究（DRB2类） | **暂无好方案** | 需要超过 40 步的长时推理能力 |
 
-### 8.4 Git 分支
+### 8.4 高优先级后续开发方向
+
+基于实验发现，以下两个方向是最高优先级的改进：
+
+#### 方向 A：解决 Planning "认知锁定"问题
+
+**问题**：DAG 的 Plan 在 GAIA（-4.0%）、XBench（-12.0%）上造成失败放大。
+当计划中指定的路径失败时，模型倾向于汇报失败，而不是尝试替代策略。
+
+**建议方案（优先级从高到低）**：
+1. **动态 Fallback**：在 summary_step 检测到 Path 失败率 > 50% 时，插入"允许偏离原计划"的指令
+2. **软性计划（Soft Planning）**：修改 Planning Prompt 中的措辞，将 Goal/Path 描述为"建议方向"而非"必须路径"
+3. **感知式重规划**：每 20 步检测搜索质量，如果覆盖率低，触发 mini re-plan
+
+#### 方向 B：区分"信息检索型"与"计算推理型"问题
+
+**问题**：`aggressive final answer` 对纯信息检索（DSQ +8.7%）有帮助，但对计算/推理验证（DSQ -11 cases）有害。
+
+**建议方案**：
+1. **任务分类器**：Planning 时增加 "question_type: [retrieval|calculation|reasoning]" 字段
+2. **区别化 final answer 策略**：
+   - retrieval 类：aggressive（"基于现有证据给出最佳答案"）
+   - calculation 类：conservative（"展示计算过程，验证后给出答案"）
+   - reasoning 类：chain-of-thought（"分步推理，验证逻辑一致性"）
+
+### 8.5 Git 分支
 
 - `main`：exp3_med_full 基础实验（flashsearcher + dag + swalm）
 - **`exp/dag-med-prompts`**：医学优化版（dag_med framework + medical prompts）
   - 文件：`FlashOAgents/prompts/medical/toolcalling_agent.yaml`
   - 关键改动：max_goals=3, EXACT queries, medical domain context, aggressive final answer
+  - 实验结论：dsq +8.7%↑↑ > swalm，bc_zh +3.3%↑，drb 持平，bc_en -6.0%↓（混合域受害）
