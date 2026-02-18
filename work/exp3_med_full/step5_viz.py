@@ -183,6 +183,7 @@ def generate_html(table_data, summaries):
   .fw-0 {{ background: linear-gradient(90deg, #7c4dff, #b39ddb); }}
   .fw-1 {{ background: linear-gradient(90deg, #00897b, #80cbc4); }}
   .fw-2 {{ background: linear-gradient(90deg, #e64a19, #ffccbc); }}
+  .fw-3 {{ background: linear-gradient(90deg, #1565c0, #90caf9); }}
 
   .legend {{
     display: flex; gap: 16px; margin-bottom: 20px; flex-wrap: wrap;
@@ -222,8 +223,8 @@ const BENCHMARKS = {benchmarks_json};
 const BENCH_LABELS = {bench_labels_json};
 const TABLE_DATA = {table_data_json};
 
-const FW_COLORS = ['fw-0', 'fw-1', 'fw-2'];
-const FW_SOLID  = ['#9575cd', '#26a69a', '#ef6c00'];
+const FW_COLORS = ['fw-0', 'fw-1', 'fw-2', 'fw-3'];
+const FW_SOLID  = ['#9575cd', '#26a69a', '#ef6c00', '#1976d2'];
 
 // ---- Legend ----
 const legendEl = document.getElementById('legend');
