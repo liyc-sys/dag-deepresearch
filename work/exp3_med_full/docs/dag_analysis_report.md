@@ -283,12 +283,12 @@ FlashOAgents/prompts/
 | **SWALM** | 4.0% | 33.3% | 43.4% | 94.0% | 22.0% | 14.0% | — | 58.0% |
 | **FlashSearcher** | 6.0% | 26.7% | 34.4% | **98.0%** | **40.0%** | 22.0% | 1.2% | **76.0%** |
 | **DAG** | **12.0%** | **36.7%** | 36.9% | **98.0%** | 36.0% | **24.0%** | **1.4%** | 64.0% |
-| **DAG-Med** | 6.1%↓ | 40.0%↑ | **45.6%**↑↑ | 进行中 | 进行中 | 进行中 | 进行中 | 进行中 |
+| **DAG-Med** | 6.1%↓ | 40.0%↑ | **45.6%**↑↑ | **98.0%**= | 进行中 | 进行中 | 进行中 | 进行中 |
 
-注：**加粗**=该列最高，`↑↑`=比DAG提升>5%，`↑`=比DAG提升，`↓`=比DAG下降，`进行中`=推理仍在运行（dag_med drb/gaia/hle/drb2/xbench）
+注：**加粗**=该列最高，`↑↑`=比DAG提升>5%，`↑`=比DAG提升，`=`=与DAG持平，`↓`=比DAG下降，`进行中`=推理仍在运行（dag_med gaia/hle/drb2/xbench）
 
-**已完成 benchmark 统计（DAG-Med 排除进行中）**：
-- DAG-Med 在 3 个完成的 benchmark 中：1 升（dsq +8.7%），1 平（bc_zh +3.3%），1 降（bc_en -5.9%）
+**已完成 benchmark 统计（DAG-Med）**：
+- bc_en: -5.9%↓（混合域有害），bc_zh: +3.3%↑，dsq: +8.7%↑↑（最大收益），drb: 98%=（DRB已是上限，与其他框架持平）
 
 ### 7.2 DAG-Med bc_en 初步分析（关键发现）
 
@@ -477,9 +477,9 @@ DAG 通过**逐步推理**得出正确答案，DAG-Med 的 aggressive prompt 导
 
 ### 7.8 待补充（推理进行中）
 
-- DAG-Med: drb/gaia/hle/drb2/xbench → 关键假设验证（医学优化对 GAIA 多步推理、HLE 医学教育、XBench 知识宽度的效果）
+- DAG-Med drb: ✅ **98.0%**（已完成，与 DAG/FS 持平，DRB 是上限，符合预测）
+- DAG-Med gaia/hle/drb2/xbench → 关键假设验证（仍在推理中）
 - **预测**：
-  - drb_med: DAG-Med ≈ DAG（98%，DRB已是上限）
   - gaia_med: DAG-Med 可能 < DAG（固定计划 + 医学偏置 在多步推理任务上双重限制）
   - hle_med: DAG-Med 可能 > DAG（医学专业知识应有帮助）
   - drb2_med: DAG-Med ≈ DAG ≈ 1%（超出框架能力上限）
