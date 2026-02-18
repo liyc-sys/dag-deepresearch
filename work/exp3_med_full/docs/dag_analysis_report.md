@@ -367,7 +367,11 @@ DAG-Med 在 bc_en_med 上的结果令人惊讶：**6.1%（3/49）< DAG 12.0%（6
 **HLE 的规律（Planning 对多步推理有优势）：**
 - DAG **24.0%** > FlashSearcher 22.0% > SWALM 14.0%
 - 3路 case 分析（50条）：all3=3，DAG+FS=4，DAG+SW=2，FS+SW=0，DAG-only=**3**，FS-only=4，SW-only=2，none=32
-- **SWALM 在 HLE 最弱**：never outperforms DAG+FS（FS+SW-only=0），说明 SWALM 知识深度不足
+- **SWALM 在 HLE 最弱（14%）**：never outperforms DAG+FS（FS+SW-only=0），SWALM 仅在 Biology/Medicine 基础题上有少量正确
+- SWALM 在HLE失败原因：依赖表面知识关联，无结构化推理
+  - `Q: 哪种动物能听到人类肌肉收缩声？ A.狗 B.蝙蝠 C.鲱鱼 D.鲸鱼`
+    - SWALM: B（蝙蝠，surface关联：肌肉声→高频→蝙蝠）
+    - Correct: **D（鲸鱼**，infrasonic muscle vibrations → whale hearing range）
 - **DAG-only 案例均为多步化学/临床推理**（Planning 提供解题结构）：
   - E2 消除反应立体化学：(1S,2R)-1-bromo-2-methylcyclohexane + KOtBu → 3-methylcyclohex-1-ene（DAG ✓，FS ✗ 给出1-methylcyclohexene）
   - 心导管术后并发症（cardiac catheterization complication）：临床推理选 G（DAG ✓，FS 选 F）
