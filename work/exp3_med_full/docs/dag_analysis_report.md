@@ -352,6 +352,14 @@ DAG-Med 在 bc_en_med 上的结果令人惊讶：**6.1%（3/49）< DAG 12.0%（6
   - **数据计算错误**：QS 排名差值，DAG 搜到错误排名（43→36≠10），FS 正确（+10）
   - **计划路径错误**：北京烤鸭 ← DAG 走向"胡饼"（面饼），FS 直接命中
 
+**bc_en_med 的规律（Planning 有帮助）：**
+- DAG **12.0%** > FlashSearcher 6.0% > SWALM 4.0%
+- Case 分析（50条共同样本）：both=2，FS only=1，DAG only=**4**，both wrong=43
+- DAG 优势原因：极难搜索题，计划提供了系统性的研究框架
+  - `Q: Recipe developer's condition discovered at age 11-12` → DAG:lactose intolerance ✓, FS:uncertain answer
+  - `Q: Religious order's small pharmacy` → DAG:Officina Profumo-Farmaceutica ✓, FS:wrong focus
+  - 说明：bc_en 本质是"多跳精确搜索"，Plan 能给 LLM 提供正确的搜索骨架
+
 **DRB 的意外发现：**
 - FlashSearcher = DAG = **98.0%** > SWALM 94.0%
 - DRB（文档检索/判断）无需规划，ARK 搜索能力已经足够
