@@ -10,14 +10,14 @@
 
 本报告分析了 4 个推理框架（SWALM / FlashSearcher / DAG / DAG-Med）在 8 个医学子集 Benchmark 上的完整评测结果，基于 **case-level 对比**得出以下核心结论：
 
-### 关键数字（截至 2026-02-19，dag_med hle/drb2/xbench 仍在推理中）
+### 关键数字（截至 2026-02-19，dag_med drb2/xbench 仍在推理中）
 
 | | bc_en | bc_zh | dsq(F1) | drb | gaia | hle | drb2 | xbench |
 |--|-------|-------|---------|-----|------|-----|------|--------|
 | SWALM | 4.0% | 33.3% | 43.4% | 94.0% | 22.0% | 14.0% | — | 58.0% |
 | FlashSearcher | 6.0% | 26.7% | 34.4% | **98.0%** | 40.0% | 22.0% | 1.2% | **76.0%** |
 | DAG | **12.0%** | 36.7% | 36.9% | **98.0%** | 36.0% | **24.0%** | **1.4%** | 64.0% |
-| DAG-Med | 6.0%↓ | **40.0%**↑ | **45.6%**↑↑ | **98.0%**= | **42.0%**↑↑ | 进行中 | 进行中 | 进行中 |
+| DAG-Med | 6.0%↓ | **40.0%**↑ | **45.6%**↑↑ | **98.0%**= | **42.0%**↑↑ | **28.0%**↑↑ | 进行中 | 进行中 |
 
 ### 最重要的 3 个发现
 
@@ -509,11 +509,12 @@ DAG 通过**逐步推理**得出正确答案，DAG-Med 的 aggressive prompt 导
 - DAG-Med gaia: ✅ **42.0%**（已完成，**出乎意料**：DAG-Med > FS 40.0% > DAG 36.0%！）
   - 预测错误：原以为固定计划+医学偏置会双重限制 GAIA，但实际 DAG-Med 表现最好
   - 分析：医学 prompt 的 EXACT query 策略在 GAIA 中同样有效，aggressive search 比 planning 锁定的危害更小
-- DAG-Med hle/drb2/xbench → 仍在推理中
+- DAG-Med hle: ✅ **28.0%**（已完成，**再次超越预期**：DAG-Med > DAG 24% > FS 22%，医学专业 prompt 对医学教育题目有显著帮助）
+  - gaia 和 hle 均显示：EXACT query + aggressive final answer 策略在医学相关任务上通用有效
+- DAG-Med drb2/xbench → 仍在推理中
 - **预测**（更新）：
-  - hle_med: DAG-Med 可能 > DAG（医学专业知识应有帮助，gaia 已验证医学 prompt 不一定有害）
-  - drb2_med: DAG-Med ≈ DAG ≈ 1%（超出框架能力上限）
-  - xbench_med: DAG-Med 可能 > DAG（考虑到 gaia/bc_zh/dsq 的积极结果，预测偏向乐观）
+  - drb2_med: DAG-Med ≈ DAG ≈ 1%（超出框架能力上限，无论 prompt 如何）
+  - xbench_med: DAG-Med 可能 > DAG（基于 bc_zh/dsq/gaia/hle 四个任务的积极结果，预测较乐观）
 
 ---
 
@@ -526,7 +527,7 @@ DAG 通过**逐步推理**得出正确答案，DAG-Med 的 aggressive prompt 导
 **Planning 有效的任务**（DAG > FlashSearcher）：
 - `bc_en_med`（DAG **12%** vs FS 6%，+6%）：极难的宽泛搜索，plan 提供搜索骨架；case 分析验证（both=2，DAG only=4，FS only=1）
 - `bc_zh_med`（DAG **36.7%** vs FS 26.7%，+10%）：中文 BrowseComp，plan 减少无效搜索
-- `hle_med`（DAG **24%** vs FS 22%，+2%）：医学教育多跳推理，plan 提供解题结构；case 分析：DAG Chemistry/Biology题更好
+- `hle_med`（DAG **24%** vs FS 22%，+2%；DAG-Med **28.0%** 更进一步）：医学教育多跳推理，medical EXACT query 对专业概念问题最有帮助；case 分析：DAG Chemistry/Biology题更好
 
 **Planning 有害的任务**（FlashSearcher > DAG）：
 - `gaia_med`（FS **40.0%** vs DAG 36.0%，-4.0%；但 DAG-Med **42.0%** 反超 FS！）：DAG Planning "认知锁定"限制了适应性；但 DAG-Med 的 EXACT query+aggressive 策略弥补了这一缺陷；case 分析验证（FS only=5，DAG only=3）
@@ -546,7 +547,8 @@ DAG 通过**逐步推理**得出正确答案，DAG-Med 的 aggressive prompt 导
   - 回归机制：对需要计算/推理验证的题目，aggressive prompt 导致跳过验证步骤
 - drb_med（+0.0%，= DAG/FS）：DRB 任务搜索已触及上限，医学 prompt 无额外收益
 - gaia_med（**+6.0% vs DAG，+2.0% vs FS**）：出乎意料的正收益！EXACT query 策略在 GAIA 中有效
-- hle/drb2/xbench：待 dag_med 推理完成后验证
+- hle_med（**+4.0% vs DAG，+6.0% vs FS**）：医学教育题目中 EXACT query + aggressive final answer 效果显著
+- drb2/xbench：待 dag_med 推理完成后验证
 
 #### 结论 4：DRB2 深度研究类任务是当前框架的天花板
 

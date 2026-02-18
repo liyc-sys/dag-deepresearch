@@ -388,7 +388,13 @@ def score_file(framework, bench_key):
 
 
 def compute_summary(scored_data, metric, framework, bench_key):
-    """计算汇总指标"""
+    """计算汇总指标（先按 task_id 去重，避免重复追加导致统计偏差）"""
+    # 按 task_id 去重，保留最后一条（task_id 可能不存在时退化为 question）
+    seen = {}
+    for item in scored_data:
+        key = item.get("task_id") or item.get("question", "")
+        seen[key] = item
+    scored_data = list(seen.values())
     total = len(scored_data)
     if total == 0:
         return {"framework": framework, "bench": bench_key, "total": 0}
