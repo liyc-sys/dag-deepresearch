@@ -323,7 +323,27 @@ DAG-Med 在 bc_en_med 上的结果令人惊讶：**6.1%（3/49）< DAG 12.0%（6
 **GAIA 的意外发现（最重要）：**
 - FlashSearcher **40.8%** > DAG 36.0% > SWALM 22.0%
 - Planning 在 GAIA 上**降低了性能**（-4.8%）
-- 假设：GAIA 需要动态适应多步推理，固定的 Goal/Path 计划约束了搜索灵活性
+- **根本原因（case 分析验证）**：Plan 约束创造了"认知锁定"
+
+**Case 级别分析（50条共同样本）：**
+- Both correct: 15，FS only: **5**，DAG only: 3，Both wrong: 27
+- FS 多赢5条，DAG 多赢3条
+
+**FS-exclusive 胜出的典型案例**：
+
+1. `Q: 文件中 Seahorse Island 住宿，哪家适合喜欢游泳的家庭？`
+   - FS: 正确找到 "Shelley's place"（灵活探索文件）
+   - DAG: "cannot determine because the attached file is not accessible"（Plan 要求附件，找不到则放弃）
+
+2. `Q: 用 Biopython 解析 PDB ID 5wb7，平均B-factor是多少？`
+   - FS: 正确计算 **1.456**（自由探索 RCSB PDB API）
+   - DAG: "Failed to retrieve PDB file despite multiple attempts"（Plan 设定了固定检索路径，失败后放弃）
+
+3. `Q: 2018年1-5月 H. pylori + acne vulgaris 临床试验的实际招募人数？`
+   - FS: 正确找到 90（尝试 ClinicalTrials.gov）
+   - DAG: "No clinical trial found with these criteria"（Plan 关键词不匹配则报失败）
+
+**核心机制**：DAG 的 Plan 预设了"如果 X 找不到，则 Path 失败" 的语义，导致遇到资源访问问题时，模型倾向于汇报失败。FlashSearcher 没有 Plan 约束，更倾向于尝试替代策略。
 
 **DRB 的意外发现：**
 - FlashSearcher = DAG = **98.0%** > SWALM 94.0%
