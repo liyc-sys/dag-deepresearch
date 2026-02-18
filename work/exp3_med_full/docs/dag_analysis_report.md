@@ -344,6 +344,14 @@ DAG-Med 在 bc_en_med 上的结果令人惊讶：**6.1%（3/49）< DAG 12.0%（6
 
 **核心机制**：DAG 的 Plan 预设了"如果 X 找不到，则 Path 失败" 的语义，导致遇到资源访问问题时，模型倾向于汇报失败。FlashSearcher 没有 Plan 约束，更倾向于尝试替代策略。
 
+**XBench 的规律：**
+- FlashSearcher **76.0%** > DAG 64.0% > SWALM 58.0%
+- Case 分析（50条共同样本）：both=28，FS only=**10**，DAG only=4，both wrong=8
+- DAG 劣势原因（与 GAIA 类似）：
+  - **认知锁定**：Billie Eilish 问题，DAG "未找到符合条件歌手"，FS 正确识别
+  - **数据计算错误**：QS 排名差值，DAG 搜到错误排名（43→36≠10），FS 正确（+10）
+  - **计划路径错误**：北京烤鸭 ← DAG 走向"胡饼"（面饼），FS 直接命中
+
 **DRB 的意外发现：**
 - FlashSearcher = DAG = **98.0%** > SWALM 94.0%
 - DRB（文档检索/判断）无需规划，ARK 搜索能力已经足够
