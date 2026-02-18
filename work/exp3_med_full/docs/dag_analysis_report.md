@@ -478,16 +478,16 @@ DAG 通过**逐步推理**得出正确答案，DAG-Med 的 aggressive prompt 导
 
 ### 8.1 核心结论
 
-#### 结论 1：DAG Planning 对不同任务类型有差异化效果
+#### 结论 1：DAG Planning 对不同任务类型有差异化效果（全部已验证）
 
 **Planning 有效的任务**（DAG > FlashSearcher）：
-- `bc_en_med`（+6%）：极难的宽泛搜索，plan 提供搜索骨架
-- `bc_zh_med`（+10%）：中文 BrowseComp，plan 减少无效搜索
-- `hle_med`（+2%）：医学教育多跳推理，plan 提供解题结构
+- `bc_en_med`（DAG **12%** vs FS 6%，+6%）：极难的宽泛搜索，plan 提供搜索骨架；case 分析验证（both=2，DAG only=4，FS only=1）
+- `bc_zh_med`（DAG **36.7%** vs FS 26.7%，+10%）：中文 BrowseComp，plan 减少无效搜索
+- `hle_med`（DAG **24%** vs FS 22%，+2%）：医学教育多跳推理，plan 提供解题结构；case 分析：DAG Chemistry/Biology题更好
 
 **Planning 有害的任务**（FlashSearcher > DAG）：
-- `gaia_med`（-4.8%）：GAIA 需要动态多步，固定 Goal/Path 限制了适应性
-- `xbench_med`（推测，待验证）：宽泛知识检索，planning overhead 大于收益
+- `gaia_med`（FS **40.0%** vs DAG 36.0%，-4.0%）：GAIA 需要动态多步，Plan "认知锁定"限制了适应性；case 分析验证（FS only=5，DAG only=3）
+- `xbench_med`（FS **76.0%** vs DAG 64.0%，-12.0%）：宽泛知识检索，plan 计算错误+认知锁定；case 分析验证（FS only=10，DAG only=4）
 
 #### 结论 2：ARK 搜索 + Seed1.6 对基础检索任务已经足够强
 
@@ -512,14 +512,15 @@ DAG 通过**逐步推理**得出正确答案，DAG-Med 的 aggressive prompt 导
 
 基于实验发现，以下方向值得探索：
 
-| 方向 | 问题 | 建议改进 |
-|------|------|---------|
-| **Plan 质量** | Path 描述模糊 | 强制 EXACT query（已实现，效果待验证） |
-| **Goal 数量** | 默认 5 个过多 | 根据问题复杂度自适应（1-3 个） |
-| **Domain 适配** | 通用 vs 医学 | 问题分类器 → 选择 prompts 类型 |
-| **Step 效率** | FlashSearcher 平均 26.6 步，DAG 21.7 步，但 planning 占 27s | 减少 planning 时间（streaming/pre-generated） |
-| **Summary 改进** | Summary 没有有效提炼已知值 | 结构化 key_facts 提取（已实现，效果待验证） |
-| **Final Answer** | 过度保守 | 从 partial evidence 推理（已实现，效果待验证） |
+| 方向 | 问题 | 建议改进 | 实验结果 |
+|------|------|---------|---------|
+| **Plan 质量** | Path 描述模糊 | 强制 EXACT query | DSQ +8.7% ✓，bc_en -5.9% ✗ |
+| **Goal 数量** | 默认 5 个过多 | max_goals=3（已实现） | 步数下降(4.4→2.8 goals)，但每步更长，总步数略增 |
+| **Domain 适配** | 通用 vs 医学 | 问题分类器 → 选择 prompts 类型 | 待实现；bc_en 混合域有害，医学/研究域有益 |
+| **Step 效率** | Planning 占 27s，DAG-Med 占 37s | 减少 planning 时间 | 医学 prompt 复杂度增加 planning 10s |
+| **Summary 改进** | 重复搜索已知值 | 结构化 key_facts 提取（已实现） | 待充分验证（DSQ有帮助） |
+| **Final Answer** | 过度保守放弃 | aggressive final answer（已实现） | DSQ +8.7% ✓，bc_en -5.9% ✗（计算类有害） |
+| **Planning 锁定** | **Plan 失败 → 整体失败** | **Fallback 策略**：Plan 找不到资源时切换 FS 模式 | 未实现，GAIA 和 XBench 的最大问题来源 |
 
 ### 8.3 实用建议
 
