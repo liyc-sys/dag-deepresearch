@@ -219,29 +219,28 @@ Summary prompt 要求：
 
 关键对比：**DAG-Med vs DAG**（相同模型 + 相同数据，仅 prompt 不同）
 
-### 5.3 实验结果（截至 2026-02-19 00:45）
+### 5.3 实验结果（截至 2026-02-19 02:40）
 
-**注：dag drb2/xbench 和 dag_med 多数 benchmark 仍在推理中**
+**注：dag_med drb/gaia/hle/drb2/xbench 仍在推理中**
 
 | | bc_en_med | bc_zh_med | dsq_med(F1) | drb_med | gaia_med | hle_med | drb2_med | xbench_med |
 |--|-----------|-----------|-------------|---------|----------|---------|----------|------------|
-| **SWALM** | 4.0% | 33.3% | **43.4%** | 94.0% | 22.0% | 14.0% | — | 58.0% |
+| **SWALM** | 4.0% | 33.3% | 43.4% | 94.0% | 22.0% | 14.0% | — | 58.0% |
 | **FlashSearcher** | 6.0% | 26.7% | 34.4% | **98.0%** | **40.8%** | 22.0% | 1.2% | **76.0%** |
 | **DAG** | **12.0%** | 36.7% | 36.9% | **98.0%** | 36.0% | **24.0%** | 1.4% | 64.0% |
-| **DAG-Med** | 6.1%↓ | **40.0%**↑ | 进行中 | 进行中 | 进行中 | 进行中 | 进行中 | 进行中 |
+| **DAG-Med** | 6.1%↓ | **40.0%**↑ | **45.6%**↑↑ | 进行中 | 进行中 | 进行中 | 进行中 | 进行中 |
 
-注：DAG xbench 已完成 64%；DAG-Med 其余 benchmark 仍在推理中（dsq 约 29/50）
-粗体 = 当前最高分；`↓` = 相比 DAG 下降；`↑` = 相比 DAG 提升
+粗体 = 当前最高分；`↑↑` = 相比 DAG 提升>5%；`↑` = 相比 DAG 提升；`↓` = 相比 DAG 下降
 
-**已有关键发现**（按重要性排序）：
+**关键发现**（按重要性排序）：
 
-1. **FlashSearcher GAIA 最高（+18.8% vs SWALM）**：自由探索优于固定 Goal/Path，planning 约束了 GAIA 的动态推理
-2. **FlashSearcher xbench 最高（+18% vs SWALM，+12% vs DAG）**：知识宽度类任务，FlashSearcher 无 planning overhead 更高效
-3. **DAG bc_en 优于 FlashSearcher（+6%）**：极难搜索，planning 提供结构化方向，减少无效游走
-4. **DAG 在 HLE/bc_zh/bc_en/dsq 上均优于 FlashSearcher**：planning 对"有明确检索目标"的任务有帮助
-5. **DAG xbench = 64%（介于 FS 76% 和 SWALM 58% 之间）**：planning 对 xbench 有小幅帮助但不如自由探索
+1. **DAG-Med DSQ 最高（45.6% vs SWALM 43.4%）**：aggressive answer prompt 减少无谓放弃，超越所有基线
+2. **FlashSearcher GAIA 最高（40.8%，+18.8% vs SWALM）**：planning 的"认知锁定"约束了 GAIA 的动态推理，FS 的自由探索更有效
+3. **FlashSearcher xbench 最高（76.0%，+12% vs DAG）**：知识宽度类任务，FS 无 planning overhead 更高效
+4. **DAG bc_en 优于 FlashSearcher（+6%）**：极难搜索，planning 提供结构化方向，减少无效游走
+5. **DAG HLE 最高（24%，+2% vs FS）**：医学多跳推理，planning 提供解题结构
 6. **DRB2 所有框架均失败**：FlashSearcher 1.2%、DAG 1.4%，深度研究远超当前框架能力
-7. **DAG-Med bc_zh +3.3%**（40.0% vs 36.7%）：中文医学机构类题目受益于医学 prompts
+7. **DAG-Med bc_zh +3.3%**（40.0% vs 36.7%）：医学/历史推断类题目受益于 aggressive answer + 医学知识
 8. **DAG-Med bc_en -5.9%**（6.1% vs 12.0%）：混合域 BrowseComp 受害于医学 prompts 的来源偏向
 
 ---
@@ -435,7 +434,7 @@ DAG 通过**逐步推理**得出正确答案，DAG-Med 的 aggressive prompt 导
 - 但对**需要计算/推理验证**的题有害（鼓励猜测而非验证）
 - DSQ 题目中约 50% 属于"能搜到就能答"，20% 需要计算/交叉验证
 
-### 7.5 框架综合规律（截至 2026-02-19 02:30）
+### 7.7 框架综合规律（截至 2026-02-19 02:30）
 
 | Benchmark 类型 | 最优框架 | 核心原因 |
 |---------------|---------|---------|
@@ -447,7 +446,7 @@ DAG 通过**逐步推理**得出正确答案，DAG-Med 的 aggressive prompt 导
 | XBench 知识宽度 | **FlashSearcher** | 数量多，FS 效率高于带 planning 开销的 DAG |
 | DRB2 深度研究 | **全部极差** | 深度研究超出所有框架当前能力 |
 
-### 7.7 待补充（推理进行中）
+### 7.8 待补充（推理进行中）
 
 - DAG-Med: drb/gaia/hle/drb2/xbench → 关键假设验证（医学优化对 GAIA 多步推理、HLE 医学教育、XBench 知识宽度的效果）
 - **预测**：
