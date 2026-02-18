@@ -10,14 +10,14 @@
 
 本报告分析了 4 个推理框架（SWALM / FlashSearcher / DAG / DAG-Med）在 8 个医学子集 Benchmark 上的完整评测结果，基于 **case-level 对比**得出以下核心结论：
 
-### 关键数字（截至 2026-02-19，dag_med gaia/hle/drb2/xbench 仍在推理中）
+### 关键数字（截至 2026-02-19，dag_med hle/drb2/xbench 仍在推理中）
 
 | | bc_en | bc_zh | dsq(F1) | drb | gaia | hle | drb2 | xbench |
 |--|-------|-------|---------|-----|------|-----|------|--------|
 | SWALM | 4.0% | 33.3% | 43.4% | 94.0% | 22.0% | 14.0% | — | 58.0% |
-| FlashSearcher | 6.0% | 26.7% | 34.4% | **98.0%** | **40.0%** | 22.0% | 1.2% | **76.0%** |
+| FlashSearcher | 6.0% | 26.7% | 34.4% | **98.0%** | 40.0% | 22.0% | 1.2% | **76.0%** |
 | DAG | **12.0%** | 36.7% | 36.9% | **98.0%** | 36.0% | **24.0%** | **1.4%** | 64.0% |
-| DAG-Med | 6.0%↓ | **40.0%**↑ | **45.6%**↑↑ | **98.0%**= | 进行中 | 进行中 | 进行中 | 进行中 |
+| DAG-Med | 6.0%↓ | **40.0%**↑ | **45.6%**↑↑ | **98.0%**= | **42.0%**↑↑ | 进行中 | 进行中 | 进行中 |
 
 ### 最重要的 3 个发现
 
@@ -506,12 +506,14 @@ DAG 通过**逐步推理**得出正确答案，DAG-Med 的 aggressive prompt 导
 ### 7.8 待补充（推理进行中）
 
 - DAG-Med drb: ✅ **98.0%**（已完成，与 DAG/FS 持平，DRB 是上限，符合预测）
-- DAG-Med gaia/hle/drb2/xbench → 关键假设验证（仍在推理中）
-- **预测**：
-  - gaia_med: DAG-Med 可能 < DAG（固定计划 + 医学偏置 在多步推理任务上双重限制）
-  - hle_med: DAG-Med 可能 > DAG（医学专业知识应有帮助）
+- DAG-Med gaia: ✅ **42.0%**（已完成，**出乎意料**：DAG-Med > FS 40.0% > DAG 36.0%！）
+  - 预测错误：原以为固定计划+医学偏置会双重限制 GAIA，但实际 DAG-Med 表现最好
+  - 分析：医学 prompt 的 EXACT query 策略在 GAIA 中同样有效，aggressive search 比 planning 锁定的危害更小
+- DAG-Med hle/drb2/xbench → 仍在推理中
+- **预测**（更新）：
+  - hle_med: DAG-Med 可能 > DAG（医学专业知识应有帮助，gaia 已验证医学 prompt 不一定有害）
   - drb2_med: DAG-Med ≈ DAG ≈ 1%（超出框架能力上限）
-  - xbench_med: 待定（医学知识宽度任务）
+  - xbench_med: DAG-Med 可能 > DAG（考虑到 gaia/bc_zh/dsq 的积极结果，预测偏向乐观）
 
 ---
 
@@ -527,7 +529,7 @@ DAG 通过**逐步推理**得出正确答案，DAG-Med 的 aggressive prompt 导
 - `hle_med`（DAG **24%** vs FS 22%，+2%）：医学教育多跳推理，plan 提供解题结构；case 分析：DAG Chemistry/Biology题更好
 
 **Planning 有害的任务**（FlashSearcher > DAG）：
-- `gaia_med`（FS **40.0%** vs DAG 36.0%，-4.0%）：GAIA 需要动态多步，Plan "认知锁定"限制了适应性；case 分析验证（FS only=5，DAG only=3）
+- `gaia_med`（FS **40.0%** vs DAG 36.0%，-4.0%；但 DAG-Med **42.0%** 反超 FS！）：DAG Planning "认知锁定"限制了适应性；但 DAG-Med 的 EXACT query+aggressive 策略弥补了这一缺陷；case 分析验证（FS only=5，DAG only=3）
 - `xbench_med`（FS **76.0%** vs DAG 64.0%，-12.0%）：宽泛知识检索，plan 计算错误+认知锁定；case 分析验证（FS only=10，DAG only=4）
 
 #### 结论 2：ARK 搜索 + Seed1.6 对基础检索任务已经足够强
@@ -542,7 +544,9 @@ DAG 通过**逐步推理**得出正确答案，DAG-Med 的 aggressive prompt 导
 - **dsq_med**（+8.7% vs DAG，+2.2% vs SWALM）：**最大收益**，aggressive final answer 策略显著帮助数据报告提取类题目
   - 改善机制：避免保守"Unable to determine"，推动基于 partial evidence 生成答案
   - 回归机制：对需要计算/推理验证的题目，aggressive prompt 导致跳过验证步骤
-- drb/gaia/hle/drb2/xbench：待 dag_med 推理完成后验证
+- drb_med（+0.0%，= DAG/FS）：DRB 任务搜索已触及上限，医学 prompt 无额外收益
+- gaia_med（**+6.0% vs DAG，+2.0% vs FS**）：出乎意料的正收益！EXACT query 策略在 GAIA 中有效
+- hle/drb2/xbench：待 dag_med 推理完成后验证
 
 #### 结论 4：DRB2 深度研究类任务是当前框架的天花板
 
