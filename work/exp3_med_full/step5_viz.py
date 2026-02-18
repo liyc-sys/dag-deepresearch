@@ -27,8 +27,8 @@ OUTPUT_HTML = os.path.join(EXP_DIR, "assets/output/exp3_med_full.html")
 FRAMEWORKS = [
     ("swalm",        "SWALM+Seed16"),
     ("flashsearcher", "FlashSearcher+Seed16"),
+    ("dag_med",       "DAG-Med+Seed16"),  # dag_med 必须在 dag 前面，否则 dag 会匹配到 dag_med 的文件
     ("dag",           "DAG+Seed16"),
-    ("dag_med",       "DAG-Med+Seed16"),
 ]
 
 BENCHMARKS_ORDER = [
