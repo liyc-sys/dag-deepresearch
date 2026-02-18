@@ -364,6 +364,15 @@ DAG-Med 在 bc_en_med 上的结果令人惊讶：**6.1%（3/49）< DAG 12.0%（6
 - FlashSearcher = DAG = **98.0%** > SWALM 94.0%
 - DRB（文档检索/判断）无需规划，ARK 搜索能力已经足够
 
+**HLE 的规律（Planning 对多步推理有优势）：**
+- DAG **24.0%** > FlashSearcher 22.0% > SWALM 14.0%
+- 3路 case 分析（50条）：all3=3，DAG+FS=4，DAG+SW=2，FS+SW=0，DAG-only=**3**，FS-only=4，SW-only=2，none=32
+- **SWALM 在 HLE 最弱**：never outperforms DAG+FS（FS+SW-only=0），说明 SWALM 知识深度不足
+- **DAG-only 案例均为多步化学/临床推理**（Planning 提供解题结构）：
+  - E2 消除反应立体化学：(1S,2R)-1-bromo-2-methylcyclohexane + KOtBu → 3-methylcyclohex-1-ene（DAG ✓，FS ✗ 给出1-methylcyclohexene）
+  - 心导管术后并发症（cardiac catheterization complication）：临床推理选 G（DAG ✓，FS 选 F）
+  - 化学合成实验室程序分析（lab synthesis）：识别产物 F（DAG ✓，FS 选 C）
+
 **DSQ 的规律：**
 - DAG-Med(45.6%) > SWALM(43.4%) > DAG(36.9%) > FlashSearcher(34.4%)
 - 医学 prompts 的 aggressive final answer 策略显著帮助 DSQ 的"数据报告提取"类题目
