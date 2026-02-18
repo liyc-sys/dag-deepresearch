@@ -1,0 +1,992 @@
+[Wed 18 Feb 2026 09:48:44 PM CST] 开始综合监控...
+[Wed 18 Feb 2026 09:48:44 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_dsq_med_med:28/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 flashsearcher_drb_med_med:0/50 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:0/50 flashsearcher_dsq_med_med:40/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:0/50 dag_drb_med_med:0/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 09:50:44 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_dsq_med_med:29/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 flashsearcher_drb_med_med:0/50 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:0/50 flashsearcher_dsq_med_med:42/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:0/50 dag_drb_med_med:0/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 09:52:44 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_dsq_med_med:30/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 flashsearcher_drb_med_med:0/50 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:0/50 flashsearcher_dsq_med_med:43/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:0/50 dag_drb_med_med:0/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 09:54:45 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_dsq_med_med:31/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 flashsearcher_drb_med_med:0/50 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:1/50 flashsearcher_dsq_med_med:46/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:0/50 dag_drb_med_med:0/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 09:56:45 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_dsq_med_med:33/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 flashsearcher_drb_med_med:0/50 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:3/50 flashsearcher_dsq_med_med:46/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:0/50 dag_drb_med_med:0/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 09:58:45 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_dsq_med_med:35/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 flashsearcher_drb_med_med:0/50 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:3/50 flashsearcher_dsq_med_med:48/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:0/50 dag_drb_med_med:0/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 10:00:45 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_dsq_med_med:35/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 flashsearcher_drb_med_med:0/50 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:3/50 flashsearcher_dsq_med_med:49/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:0/50 dag_drb_med_med:0/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 10:02:45 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_dsq_med_med:36/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 flashsearcher_drb_med_med:0/50 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:4/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:0/50 dag_drb_med_med:0/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 10:04:46 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_dsq_med_med:36/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 flashsearcher_drb_med_med:2/50 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:6/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:0/50 dag_drb_med_med:0/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 10:06:46 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_dsq_med_med:37/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 flashsearcher_drb_med_med:6/50 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:7/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:0/50 dag_drb_med_med:0/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 10:08:46 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_dsq_med_med:40/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 flashsearcher_drb_med_med:9/50 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:8/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:0/50 dag_drb_med_med:0/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 10:10:46 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_dsq_med_med:40/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 flashsearcher_drb_med_med:12/50 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:9/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:0/50 dag_drb_med_med:0/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 10:12:46 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_dsq_med_med:41/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 flashsearcher_drb_med_med:13/50 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:10/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:0/50 dag_drb_med_med:0/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 10:14:47 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_dsq_med_med:44/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 flashsearcher_drb_med_med:15/50 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:10/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:0/50 dag_drb_med_med:0/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 10:16:47 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_dsq_med_med:44/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 flashsearcher_drb_med_med:16/50 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:10/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:0/50 dag_drb_med_med:0/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 10:18:47 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_dsq_med_med:45/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 flashsearcher_drb_med_med:17/50 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:11/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:0/50 dag_drb_med_med:0/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 10:20:47 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_dsq_med_med:46/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 flashsearcher_drb_med_med:21/50 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:14/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:0/50 dag_drb_med_med:0/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 10:22:48 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_dsq_med_med:48/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 flashsearcher_drb_med_med:22/50 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:14/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:0/50 dag_drb_med_med:0/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 10:24:48 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_dsq_med_med:48/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 flashsearcher_drb_med_med:25/50 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:16/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:0/50 dag_drb_med_med:0/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 10:26:48 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 flashsearcher_drb_med_med:26/50 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:16/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:0/50 dag_drb_med_med:0/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 10:28:48 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 flashsearcher_drb_med_med:31/50 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:16/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:0/50 dag_drb_med_med:0/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 10:30:49 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 flashsearcher_drb_med_med:33/50 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:19/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:0/50 dag_drb_med_med:2/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 10:32:49 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 flashsearcher_drb_med_med:35/50 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:21/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:0/50 dag_drb_med_med:4/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 10:34:49 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 flashsearcher_drb_med_med:37/50 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:22/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:0/50 dag_drb_med_med:7/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 10:36:50 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 flashsearcher_drb_med_med:38/50 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:22/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:0/50 dag_drb_med_med:8/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 10:38:50 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 flashsearcher_drb_med_med:40/50 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:23/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:0/50 dag_drb_med_med:10/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 10:40:51 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 flashsearcher_drb_med_med:43/50 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:24/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:0/50 dag_drb_med_med:12/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 10:42:51 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 flashsearcher_drb_med_med:46/50 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:25/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:0/50 dag_drb_med_med:13/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 10:44:51 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 flashsearcher_drb_med_med:47/50 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:25/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:0/50 dag_drb_med_med:14/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 10:46:51 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 flashsearcher_drb_med_med:48/50 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:25/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:0/50 dag_drb_med_med:14/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 10:48:52 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 flashsearcher_drb_med_med:49/50 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:26/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:0/50 dag_drb_med_med:17/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 10:50:52 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:28/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:0/50 dag_drb_med_med:20/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 10:52:52 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:28/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:0/50 dag_drb_med_med:21/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 10:54:53 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:29/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:2/50 dag_drb_med_med:23/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 10:56:53 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:31/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:5/50 dag_drb_med_med:26/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 10:58:53 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:32/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:10/50 dag_drb_med_med:28/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 11:00:53 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:33/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:16/50 dag_drb_med_med:30/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 11:02:54 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:35/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:18/50 dag_drb_med_med:31/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 11:04:54 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:35/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:22/50 dag_drb_med_med:34/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 11:06:54 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:36/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:26/50 dag_drb_med_med:34/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 11:08:55 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:38/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:30/50 dag_drb_med_med:37/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 11:10:55 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:38/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:33/50 dag_drb_med_med:38/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 11:12:55 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:38/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:39/50 dag_drb_med_med:40/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 11:14:56 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:40/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:42/50 dag_drb_med_med:44/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 11:16:56 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:41/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:43/50 dag_drb_med_med:45/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 11:18:56 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:42/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:44/50 dag_drb_med_med:46/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 11:20:57 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:43/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:48/50 dag_drb_med_med:46/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 11:22:57 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:43/50 flashsearcher_xbench_med_med:0/50 flashsearcher_gaia_med_med:49/50 dag_drb_med_med:49/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:0/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 11:24:57 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:43/50 flashsearcher_xbench_med_med:0/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:2/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 11:26:58 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:43/50 flashsearcher_xbench_med_med:0/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:7/50 dag_gaia_med_med:0/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 11:28:58 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:45/50 flashsearcher_xbench_med_med:0/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:12/50 dag_gaia_med_med:1/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 11:30:58 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:46/50 flashsearcher_xbench_med_med:0/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:17/50 dag_gaia_med_med:2/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 11:32:59 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:48/50 flashsearcher_xbench_med_med:0/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:22/50 dag_gaia_med_med:6/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 11:34:59 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:49/50 flashsearcher_xbench_med_med:0/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:27/50 dag_gaia_med_med:11/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 11:36:59 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:49/50 flashsearcher_xbench_med_med:0/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:31/50 dag_gaia_med_med:13/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 11:38:59 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:49/50 flashsearcher_xbench_med_med:0/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:38/50 dag_gaia_med_med:15/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 11:41:00 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:49/50 flashsearcher_xbench_med_med:0/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:44/50 dag_gaia_med_med:18/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 11:43:00 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:49/50 flashsearcher_xbench_med_med:0/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:45/50 dag_gaia_med_med:24/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 11:45:00 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:49/50 flashsearcher_xbench_med_med:0/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:46/50 dag_gaia_med_med:24/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 11:47:01 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:49/50 flashsearcher_xbench_med_med:0/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 flashsearcher_hle_med_med:49/50 dag_gaia_med_med:25/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 11:49:01 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:49/50 flashsearcher_xbench_med_med:0/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 dag_gaia_med_med:29/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 11:51:01 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:0/12 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:49/50 flashsearcher_xbench_med_med:0/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 dag_gaia_med_med:32/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 11:53:02 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:2/12 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:49/50 flashsearcher_xbench_med_med:0/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 dag_gaia_med_med:37/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 11:54:38 PM CST] 启动改进版监控...
+[Wed 18 Feb 2026 11:54:38 PM CST] 触发评分: flashsearcher x bc_zh_med_med (30条)
+Traceback (most recent call last):
+  File "/mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/step4_score.py", line 450, in <module>
+    main()
+    ~~~~^^
+  File "/mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/step4_score.py", line 434, in main
+    s = score_file(framework, bench_key)
+  File "/mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/step4_score.py", line 332, in score_file
+    metric  = BENCHMARKS[bench_key]
+              ~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'bc_zh_med_med'
+[Wed 18 Feb 2026 11:54:40 PM CST] 触发评分: dag x dsq_med_med (50条)
+Traceback (most recent call last):
+  File "/mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/step4_score.py", line 450, in <module>
+    main()
+    ~~~~^^
+  File "/mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/step4_score.py", line 434, in main
+    s = score_file(framework, bench_key)
+  File "/mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/step4_score.py", line 332, in score_file
+    metric  = BENCHMARKS[bench_key]
+              ~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'dsq_med_med'
+[Wed 18 Feb 2026 11:54:41 PM CST] 触发评分: dag x bc_en_med_med (50条)
+Traceback (most recent call last):
+  File "/mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/step4_score.py", line 450, in <module>
+    main()
+    ~~~~^^
+  File "/mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/step4_score.py", line 434, in main
+    s = score_file(framework, bench_key)
+  File "/mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/step4_score.py", line 332, in score_file
+    metric  = BENCHMARKS[bench_key]
+              ~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'bc_en_med_med'
+[Wed 18 Feb 2026 11:54:43 PM CST] 触发评分: flashsearcher x drb_med_med (50条)
+Traceback (most recent call last):
+  File "/mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/step4_score.py", line 450, in <module>
+    main()
+    ~~~~^^
+  File "/mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/step4_score.py", line 434, in main
+    s = score_file(framework, bench_key)
+  File "/mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/step4_score.py", line 332, in score_file
+    metric  = BENCHMARKS[bench_key]
+              ~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'drb_med_med'
+[Wed 18 Feb 2026 11:54:44 PM CST] 触发评分: dag x bc_zh_med_med (30条)
+Traceback (most recent call last):
+  File "/mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/step4_score.py", line 450, in <module>
+    main()
+    ~~~~^^
+  File "/mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/step4_score.py", line 434, in main
+    s = score_file(framework, bench_key)
+  File "/mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/step4_score.py", line 332, in score_file
+    metric  = BENCHMARKS[bench_key]
+              ~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'bc_zh_med_med'
+[Wed 18 Feb 2026 11:54:45 PM CST] 触发评分: flashsearcher x dsq_med_med (50条)
+Traceback (most recent call last):
+  File "/mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/step4_score.py", line 450, in <module>
+    main()
+    ~~~~^^
+  File "/mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/step4_score.py", line 434, in main
+    s = score_file(framework, bench_key)
+  File "/mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/step4_score.py", line 332, in score_file
+    metric  = BENCHMARKS[bench_key]
+              ~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'dsq_med_med'
+[Wed 18 Feb 2026 11:54:46 PM CST] 触发评分: flashsearcher x gaia_med_med (50条)
+Traceback (most recent call last):
+  File "/mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/step4_score.py", line 450, in <module>
+    main()
+    ~~~~^^
+  File "/mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/step4_score.py", line 434, in main
+    s = score_file(framework, bench_key)
+  File "/mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/step4_score.py", line 332, in score_file
+    metric  = BENCHMARKS[bench_key]
+              ~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'gaia_med_med'
+[Wed 18 Feb 2026 11:54:48 PM CST] 触发评分: dag x drb_med_med (50条)
+Traceback (most recent call last):
+  File "/mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/step4_score.py", line 450, in <module>
+    main()
+    ~~~~^^
+  File "/mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/step4_score.py", line 434, in main
+    s = score_file(framework, bench_key)
+  File "/mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/step4_score.py", line 332, in score_file
+    metric  = BENCHMARKS[bench_key]
+              ~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'drb_med_med'
+[Wed 18 Feb 2026 11:54:49 PM CST] 触发评分: flashsearcher x bc_en_med_med (50条)
+Traceback (most recent call last):
+  File "/mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/step4_score.py", line 450, in <module>
+    main()
+    ~~~~^^
+  File "/mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/step4_score.py", line 434, in main
+    s = score_file(framework, bench_key)
+  File "/mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/step4_score.py", line 332, in score_file
+    metric  = BENCHMARKS[bench_key]
+              ~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'bc_en_med_med'
+[Wed 18 Feb 2026 11:54:50 PM CST] 触发评分: flashsearcher x hle_med_med (50条)
+Traceback (most recent call last):
+  File "/mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/step4_score.py", line 450, in <module>
+    main()
+    ~~~~^^
+  File "/mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/step4_score.py", line 434, in main
+    s = score_file(framework, bench_key)
+  File "/mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/step4_score.py", line 332, in score_file
+    metric  = BENCHMARKS[bench_key]
+              ~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'hle_med_med'
+[Wed 18 Feb 2026 11:54:51 PM CST] 进行中: dag_med_gaia_med_med:0/50 dag_hle_med_med:0/50 dag_med_xbench_med_med:0/50 flashsearcher_drb2_med_med:5/12 dag_med_hle_med_med:0/50 dag_xbench_med_med:0/50 dag_med_drb2_med_med:0/12 dag_med_bc_en_med_med:49/50 flashsearcher_xbench_med_med:0/50 dag_med_drb_med_med:0/50 dag_med_dsq_med_med:0/50 dag_med_bc_zh_med_med:0/30 dag_gaia_med_med:40/50 dag_drb2_med_med:0/12
+[Wed 18 Feb 2026 11:55:26 PM CST] 启动 monitor_v3...
+[Wed 18 Feb 2026 11:55:26 PM CST] 进行中: dag×drb2_med:0/12 dag×hle_med:0/50 dag_med×xbench_med:0/50 dag_med×dsq_med:0/50 dag_med×hle_med:0/50 dag_med×bc_zh_med:0/30 flashsearcher×drb2_med:7/12 dag_med×bc_en_med:49/50 dag_med×gaia_med:0/50 dag×gaia_med:41/50 dag_med×drb2_med:0/12 flashsearcher×xbench_med:0/50 dag×xbench_med:0/50 dag_med×drb_med:0/50
+[Wed 18 Feb 2026 11:57:27 PM CST] 进行中: dag×drb2_med:0/12 dag×hle_med:0/50 dag_med×xbench_med:0/50 dag_med×dsq_med:0/50 dag_med×hle_med:0/50 dag_med×bc_zh_med:0/30 flashsearcher×drb2_med:8/12 dag_med×bc_en_med:49/50 dag_med×gaia_med:0/50 dag×gaia_med:42/50 dag_med×drb2_med:0/12 flashsearcher×xbench_med:0/50 dag×xbench_med:0/50 dag_med×drb_med:0/50
+[Wed 18 Feb 2026 11:59:27 PM CST] 进行中: dag×drb2_med:0/12 dag×hle_med:0/50 dag_med×xbench_med:0/50 dag_med×dsq_med:0/50 dag_med×hle_med:0/50 dag_med×bc_zh_med:0/30 flashsearcher×drb2_med:8/12 dag_med×bc_en_med:49/50 dag_med×gaia_med:0/50 dag×gaia_med:43/50 dag_med×drb2_med:0/12 flashsearcher×xbench_med:0/50 dag×xbench_med:0/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 12:01:28 AM CST] 进行中: dag×drb2_med:0/12 dag×hle_med:0/50 dag_med×xbench_med:0/50 dag_med×dsq_med:0/50 dag_med×hle_med:0/50 dag_med×bc_zh_med:0/30 flashsearcher×drb2_med:8/12 dag_med×bc_en_med:49/50 dag_med×gaia_med:0/50 dag×gaia_med:45/50 dag_med×drb2_med:0/12 flashsearcher×xbench_med:0/50 dag×xbench_med:0/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 12:03:28 AM CST] 进行中: dag×drb2_med:0/12 dag×hle_med:0/50 dag_med×xbench_med:0/50 dag_med×dsq_med:0/50 dag_med×hle_med:0/50 dag_med×bc_zh_med:0/30 flashsearcher×drb2_med:9/12 dag_med×bc_en_med:49/50 dag_med×gaia_med:0/50 dag×gaia_med:47/50 dag_med×drb2_med:0/12 flashsearcher×xbench_med:0/50 dag×xbench_med:0/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 12:05:29 AM CST] 触发评分: flashsearcher x drb2_med (12条)
+2026-02-19 00:05:30,885 INFO [flashsearcher×drb2_med] 总=12, 已评=0, 待评=12
+Scoring flashsearcher×drb2_med:   0%|          | 0/12 [00:00<?, ?it/s]2026-02-19 00:05:55,848 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+2026-02-19 00:06:03,307 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×drb2_med:   8%|▊         | 1/12 [00:32<05:57, 32.50s/it]2026-02-19 00:06:13,053 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+2026-02-19 00:06:20,450 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×drb2_med:  17%|█▋        | 2/12 [00:49<03:54, 23.44s/it]2026-02-19 00:07:00,393 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+2026-02-19 00:07:07,839 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×drb2_med:  25%|██▌       | 3/12 [01:37<05:09, 34.40s/it]2026-02-19 00:07:34,863 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+2026-02-19 00:07:42,972 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×drb2_med:  33%|███▎      | 4/12 [02:12<04:37, 34.68s/it]2026-02-19 00:07:49,139 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+2026-02-19 00:07:55,624 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×drb2_med:  42%|████▏     | 5/12 [02:24<03:07, 26.73s/it]2026-02-19 00:08:02,329 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+2026-02-19 00:08:10,071 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×drb2_med:  50%|█████     | 6/12 [02:39<02:15, 22.57s/it]2026-02-19 00:08:34,632 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×drb2_med:  58%|█████▊    | 7/12 [03:03<01:56, 23.21s/it]2026-02-19 00:08:42,454 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+2026-02-19 00:08:50,432 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×drb2_med:  67%|██████▋   | 8/12 [03:19<01:23, 20.85s/it]2026-02-19 00:08:59,504 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+2026-02-19 00:09:06,921 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+2026-02-19 00:09:12,847 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×drb2_med:  75%|███████▌  | 9/12 [03:42<01:04, 21.34s/it]2026-02-19 00:09:20,353 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+2026-02-19 00:09:27,322 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+2026-02-19 00:09:31,871 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×drb2_med:  83%|████████▎ | 10/12 [04:01<00:41, 20.62s/it]2026-02-19 00:09:40,691 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+2026-02-19 00:09:48,747 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×drb2_med:  92%|█████████▏| 11/12 [04:17<00:19, 19.48s/it]2026-02-19 00:09:56,191 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+2026-02-19 00:10:06,614 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×drb2_med: 100%|██████████| 12/12 [04:35<00:00, 18.99s/it]Scoring flashsearcher×drb2_med: 100%|██████████| 12/12 [04:35<00:00, 22.98s/it]
+2026-02-19 00:10:06,701 INFO   汇总: {'framework': 'flashsearcher', 'bench': 'drb2_med', 'total': 12, 'avg_pass_rate': 0.0121}
+2026-02-19 00:10:06,771 INFO 
+总汇总已保存: /mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/assets/output/scored/all_summaries.json
+
+===== 评分汇总 =====
+{"framework": "flashsearcher", "bench": "drb2_med", "total": 12, "avg_pass_rate": 0.0121}
+[Thu 19 Feb 2026 12:10:07 AM CST] 评分完成: flashsearcher x drb2_med = 0.0121
+
+===== 数据汇总 =====
+SWALM+Seed16: bc_en_med=4.0%, bc_zh_med=33.3%, dsq_med=43.4%, drb_med=94.0%, gaia_med=22.0%, hle_med=14.0%, drb2_med=N/A%, xbench_med=58.0%
+FlashSearcher+Seed16: bc_en_med=6.0%, bc_zh_med=26.7%, dsq_med=34.4%, drb_med=98.0%, gaia_med=40.8%, hle_med=22.0%, drb2_med=1.2%, xbench_med=N/A%
+DAG+Seed16: bc_en_med=12.0%, bc_zh_med=36.7%, dsq_med=36.9%, drb_med=98.0%, gaia_med=N/A%, hle_med=N/A%, drb2_med=N/A%, xbench_med=N/A%
+DAG-Med+Seed16: bc_en_med=N/A%, bc_zh_med=N/A%, dsq_med=N/A%, drb_med=N/A%, gaia_med=N/A%, hle_med=N/A%, drb2_med=N/A%, xbench_med=N/A%
+
+HTML 已生成: /mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/assets/output/exp3_med_full.html
+show 命令成功: 已复制到可视化目录
+https://data-edu.bytedance.net/proxy/gradio/host/[2605:340:cd51:602:6099:a9bf:69e2:3767]:10028/exp3_med_full.html
+[Thu 19 Feb 2026 12:10:09 AM CST] 可视化已更新
+[Thu 19 Feb 2026 12:10:09 AM CST] 进行中: dag×drb2_med:0/12 dag×hle_med:0/50 dag_med×xbench_med:0/50 dag_med×dsq_med:0/50 dag_med×hle_med:0/50 dag_med×bc_zh_med:0/30 dag_med×bc_en_med:49/50 dag_med×gaia_med:0/50 dag×gaia_med:49/50 dag_med×drb2_med:0/12 flashsearcher×xbench_med:15/50 dag×xbench_med:0/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 12:12:10 AM CST] 触发评分: dag x gaia_med (50条)
+2026-02-19 00:12:11,678 INFO [dag×gaia_med] 总=50, 已评=36, 待评=14
+Scoring dag×gaia_med:   0%|          | 0/14 [00:00<?, ?it/s]2026-02-19 00:12:13,562 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×gaia_med:   7%|▋         | 1/14 [00:01<00:24,  1.92s/it]2026-02-19 00:12:15,362 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×gaia_med:  14%|█▍        | 2/14 [00:03<00:22,  1.87s/it]2026-02-19 00:12:17,329 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×gaia_med:  21%|██▏       | 3/14 [00:05<00:20,  1.90s/it]2026-02-19 00:12:20,391 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×gaia_med:  29%|██▊       | 4/14 [00:08<00:23,  2.36s/it]2026-02-19 00:12:22,088 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×gaia_med:  36%|███▌      | 5/14 [00:10<00:19,  2.13s/it]2026-02-19 00:12:23,582 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×gaia_med:  43%|████▎     | 6/14 [00:11<00:15,  1.90s/it]2026-02-19 00:12:25,073 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×gaia_med:  50%|█████     | 7/14 [00:13<00:12,  1.77s/it]2026-02-19 00:12:26,726 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×gaia_med:  57%|█████▋    | 8/14 [00:15<00:10,  1.73s/it]2026-02-19 00:12:28,364 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×gaia_med:  64%|██████▍   | 9/14 [00:16<00:08,  1.72s/it]2026-02-19 00:17:23,662 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×gaia_med:  71%|███████▏  | 10/14 [05:12<06:09, 92.35s/it]2026-02-19 00:17:29,083 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×gaia_med:  79%|███████▊  | 11/14 [05:17<03:17, 65.74s/it]2026-02-19 00:17:30,461 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×gaia_med:  86%|████████▌ | 12/14 [05:18<01:32, 46.15s/it]2026-02-19 00:17:32,821 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×gaia_med:  93%|█████████▎| 13/14 [05:21<00:32, 32.89s/it]2026-02-19 00:17:34,329 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×gaia_med: 100%|██████████| 14/14 [05:22<00:00, 23.42s/it]Scoring dag×gaia_med: 100%|██████████| 14/14 [05:22<00:00, 23.05s/it]
+2026-02-19 00:17:34,438 INFO   汇总: {'framework': 'dag', 'bench': 'gaia_med', 'total': 50, 'correct': 18, 'accuracy': 0.36}
+2026-02-19 00:17:34,473 INFO 
+总汇总已保存: /mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/assets/output/scored/all_summaries.json
+
+===== 评分汇总 =====
+{"framework": "dag", "bench": "gaia_med", "total": 50, "correct": 18, "accuracy": 0.36}
+[Thu 19 Feb 2026 12:17:34 AM CST] 评分完成: dag x gaia_med = 0.3600
+
+===== 数据汇总 =====
+SWALM+Seed16: bc_en_med=4.0%, bc_zh_med=33.3%, dsq_med=43.4%, drb_med=94.0%, gaia_med=22.0%, hle_med=14.0%, drb2_med=N/A%, xbench_med=58.0%
+FlashSearcher+Seed16: bc_en_med=6.0%, bc_zh_med=26.7%, dsq_med=34.4%, drb_med=98.0%, gaia_med=40.8%, hle_med=22.0%, drb2_med=1.2%, xbench_med=N/A%
+DAG+Seed16: bc_en_med=12.0%, bc_zh_med=36.7%, dsq_med=36.9%, drb_med=98.0%, gaia_med=36.0%, hle_med=N/A%, drb2_med=N/A%, xbench_med=N/A%
+DAG-Med+Seed16: bc_en_med=N/A%, bc_zh_med=N/A%, dsq_med=N/A%, drb_med=N/A%, gaia_med=N/A%, hle_med=N/A%, drb2_med=N/A%, xbench_med=N/A%
+
+HTML 已生成: /mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/assets/output/exp3_med_full.html
+show 命令成功: 已复制到可视化目录
+https://data-edu.bytedance.net/proxy/gradio/host/[2605:340:cd51:602:6099:a9bf:69e2:3767]:10028/exp3_med_full.html
+[Thu 19 Feb 2026 12:17:36 AM CST] 可视化已更新
+[Thu 19 Feb 2026 12:17:36 AM CST] 进行中: dag×drb2_med:0/12 dag×hle_med:1/50 dag_med×xbench_med:0/50 dag_med×dsq_med:0/50 dag_med×hle_med:0/50 dag_med×bc_zh_med:0/30 dag_med×bc_en_med:49/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 flashsearcher×xbench_med:27/50 dag×xbench_med:0/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 12:19:37 AM CST] 进行中: dag×drb2_med:0/12 dag×hle_med:15/50 dag_med×xbench_med:0/50 dag_med×dsq_med:0/50 dag_med×hle_med:0/50 dag_med×bc_zh_med:0/30 dag_med×bc_en_med:49/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 flashsearcher×xbench_med:29/50 dag×xbench_med:0/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 12:21:38 AM CST] 进行中: dag×drb2_med:0/12 dag×hle_med:16/50 dag_med×xbench_med:0/50 dag_med×dsq_med:0/50 dag_med×hle_med:0/50 dag_med×bc_zh_med:0/30 dag_med×bc_en_med:49/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 flashsearcher×xbench_med:33/50 dag×xbench_med:0/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 12:23:39 AM CST] 进行中: dag×drb2_med:0/12 dag×hle_med:18/50 dag_med×xbench_med:0/50 dag_med×dsq_med:0/50 dag_med×hle_med:0/50 dag_med×bc_zh_med:0/30 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 flashsearcher×xbench_med:35/50 dag×xbench_med:0/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 12:25:39 AM CST] 进行中: dag×drb2_med:0/12 dag×hle_med:20/50 dag_med×xbench_med:0/50 dag_med×dsq_med:0/50 dag_med×hle_med:0/50 dag_med×bc_zh_med:0/30 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 flashsearcher×xbench_med:39/50 dag×xbench_med:0/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 12:27:40 AM CST] 进行中: dag×drb2_med:0/12 dag×hle_med:22/50 dag_med×xbench_med:0/50 dag_med×dsq_med:0/50 dag_med×hle_med:0/50 dag_med×bc_zh_med:5/30 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 flashsearcher×xbench_med:42/50 dag×xbench_med:0/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 12:29:41 AM CST] 进行中: dag×drb2_med:0/12 dag×hle_med:27/50 dag_med×xbench_med:0/50 dag_med×dsq_med:0/50 dag_med×hle_med:0/50 dag_med×bc_zh_med:6/30 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 flashsearcher×xbench_med:48/50 dag×xbench_med:0/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 12:31:42 AM CST] 进行中: dag×drb2_med:0/12 dag×hle_med:30/50 dag_med×xbench_med:0/50 dag_med×dsq_med:0/50 dag_med×hle_med:0/50 dag_med×bc_zh_med:9/30 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 flashsearcher×xbench_med:48/50 dag×xbench_med:0/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 12:33:42 AM CST] 触发评分: flashsearcher x xbench_med (50条)
+2026-02-19 00:33:44,405 INFO [flashsearcher×xbench_med] 总=50, 已评=0, 待评=50
+Scoring flashsearcher×xbench_med:   0%|          | 0/50 [00:00<?, ?it/s]2026-02-19 00:33:46,374 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:   2%|▏         | 1/50 [00:02<01:38,  2.00s/it]2026-02-19 00:33:48,589 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:   4%|▍         | 2/50 [00:04<01:43,  2.17s/it]2026-02-19 00:33:50,588 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:   6%|▌         | 3/50 [00:06<01:37,  2.07s/it]2026-02-19 00:33:52,381 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:   8%|▊         | 4/50 [00:08<01:29,  1.95s/it]2026-02-19 00:33:54,324 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  10%|█         | 5/50 [00:09<01:27,  1.95s/it]2026-02-19 00:34:00,612 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  12%|█▏        | 6/50 [00:16<02:30,  3.43s/it]2026-02-19 00:34:02,145 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  14%|█▍        | 7/50 [00:17<02:01,  2.82s/it]2026-02-19 00:34:05,023 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  16%|█▌        | 8/50 [00:20<01:58,  2.83s/it]2026-02-19 00:34:07,418 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  18%|█▊        | 9/50 [00:23<01:50,  2.69s/it]2026-02-19 00:34:10,391 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  20%|██        | 10/50 [00:26<01:51,  2.79s/it]2026-02-19 00:34:12,146 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  22%|██▏       | 11/50 [00:27<01:35,  2.46s/it]2026-02-19 00:34:13,960 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  24%|██▍       | 12/50 [00:29<01:25,  2.26s/it]2026-02-19 00:34:16,108 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  26%|██▌       | 13/50 [00:31<01:22,  2.23s/it]2026-02-19 00:34:17,787 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  28%|██▊       | 14/50 [00:33<01:14,  2.06s/it]2026-02-19 00:34:19,948 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  30%|███       | 15/50 [00:35<01:13,  2.10s/it]2026-02-19 00:34:21,631 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  32%|███▏      | 16/50 [00:37<01:07,  1.97s/it]2026-02-19 00:34:24,238 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  34%|███▍      | 17/50 [00:39<01:11,  2.16s/it]2026-02-19 00:34:25,898 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  36%|███▌      | 18/50 [00:41<01:04,  2.01s/it]2026-02-19 00:34:27,573 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  38%|███▊      | 19/50 [00:43<00:59,  1.91s/it]2026-02-19 00:34:29,921 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  40%|████      | 20/50 [00:45<01:01,  2.04s/it]2026-02-19 00:34:31,899 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  42%|████▏     | 21/50 [00:47<00:58,  2.02s/it]2026-02-19 00:34:37,470 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  44%|████▍     | 22/50 [00:53<01:26,  3.10s/it]2026-02-19 00:34:41,195 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  46%|████▌     | 23/50 [00:56<01:28,  3.28s/it]2026-02-19 00:34:43,439 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  48%|████▊     | 24/50 [00:59<01:17,  2.97s/it]2026-02-19 00:34:45,336 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  50%|█████     | 25/50 [01:00<01:06,  2.64s/it]2026-02-19 00:34:47,499 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  52%|█████▏    | 26/50 [01:03<00:59,  2.50s/it]2026-02-19 00:34:49,578 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  54%|█████▍    | 27/50 [01:05<00:54,  2.37s/it]2026-02-19 00:34:52,111 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  56%|█████▌    | 28/50 [01:07<00:53,  2.42s/it]2026-02-19 00:34:53,655 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  58%|█████▊    | 29/50 [01:09<00:45,  2.16s/it]2026-02-19 00:34:55,270 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  60%|██████    | 30/50 [01:10<00:39,  1.99s/it]2026-02-19 00:34:57,313 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  62%|██████▏   | 31/50 [01:12<00:38,  2.01s/it]2026-02-19 00:34:58,398 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  64%|██████▍   | 32/50 [01:14<00:31,  1.74s/it]2026-02-19 00:34:59,794 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  66%|██████▌   | 33/50 [01:15<00:27,  1.63s/it]2026-02-19 00:35:01,786 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  68%|██████▊   | 34/50 [01:17<00:27,  1.74s/it]2026-02-19 00:35:04,321 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  70%|███████   | 35/50 [01:19<00:29,  1.99s/it]2026-02-19 00:35:05,560 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  72%|███████▏  | 36/50 [01:21<00:24,  1.76s/it]2026-02-19 00:35:07,172 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  74%|███████▍  | 37/50 [01:22<00:22,  1.71s/it]2026-02-19 00:35:09,940 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  76%|███████▌  | 38/50 [01:25<00:24,  2.02s/it]2026-02-19 00:35:13,161 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  78%|███████▊  | 39/50 [01:28<00:26,  2.38s/it]2026-02-19 00:35:15,351 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  80%|████████  | 40/50 [01:30<00:23,  2.32s/it]2026-02-19 00:35:17,120 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  82%|████████▏ | 41/50 [01:32<00:19,  2.16s/it]2026-02-19 00:35:18,476 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  84%|████████▍ | 42/50 [01:34<00:15,  1.93s/it]2026-02-19 00:35:21,124 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  86%|████████▌ | 43/50 [01:36<00:14,  2.14s/it]2026-02-19 00:35:23,526 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  88%|████████▊ | 44/50 [01:39<00:13,  2.21s/it]2026-02-19 00:35:25,243 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  90%|█████████ | 45/50 [01:40<00:10,  2.09s/it]2026-02-19 00:35:27,339 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  92%|█████████▏| 46/50 [01:43<00:08,  2.08s/it]2026-02-19 00:35:29,308 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  94%|█████████▍| 47/50 [01:44<00:06,  2.04s/it]2026-02-19 00:35:31,406 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  96%|█████████▌| 48/50 [01:47<00:04,  2.06s/it]2026-02-19 00:35:35,005 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med:  98%|█████████▊| 49/50 [01:50<00:02,  2.51s/it]2026-02-19 00:35:36,700 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring flashsearcher×xbench_med: 100%|██████████| 50/50 [01:52<00:00,  2.27s/it]Scoring flashsearcher×xbench_med: 100%|██████████| 50/50 [01:52<00:00,  2.25s/it]
+2026-02-19 00:35:36,801 INFO   汇总: {'framework': 'flashsearcher', 'bench': 'xbench_med', 'total': 50, 'correct': 38, 'accuracy': 0.76}
+2026-02-19 00:35:36,878 INFO 
+总汇总已保存: /mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/assets/output/scored/all_summaries.json
+
+===== 评分汇总 =====
+{"framework": "flashsearcher", "bench": "xbench_med", "total": 50, "correct": 38, "accuracy": 0.76}
+[Thu 19 Feb 2026 12:35:37 AM CST] 评分完成: flashsearcher x xbench_med = 0.7600
+
+===== 数据汇总 =====
+SWALM+Seed16: bc_en_med=4.0%, bc_zh_med=33.3%, dsq_med=43.4%, drb_med=94.0%, gaia_med=22.0%, hle_med=14.0%, drb2_med=N/A%, xbench_med=58.0%
+FlashSearcher+Seed16: bc_en_med=6.0%, bc_zh_med=26.7%, dsq_med=34.4%, drb_med=98.0%, gaia_med=40.8%, hle_med=22.0%, drb2_med=1.2%, xbench_med=76.0%
+DAG-Med+Seed16: bc_en_med=6.0%, bc_zh_med=N/A%, dsq_med=N/A%, drb_med=N/A%, gaia_med=N/A%, hle_med=N/A%, drb2_med=N/A%, xbench_med=N/A%
+DAG+Seed16: bc_en_med=12.0%, bc_zh_med=36.7%, dsq_med=36.9%, drb_med=98.0%, gaia_med=36.0%, hle_med=N/A%, drb2_med=N/A%, xbench_med=N/A%
+
+HTML 已生成: /mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/assets/output/exp3_med_full.html
+show 命令成功: 已复制到可视化目录
+https://data-edu.bytedance.net/proxy/gradio/host/[2605:340:cd51:602:6099:a9bf:69e2:3767]:10028/exp3_med_full.html
+[Thu 19 Feb 2026 12:35:38 AM CST] 可视化已更新
+[Thu 19 Feb 2026 12:35:38 AM CST] 进行中: dag×drb2_med:0/12 dag×hle_med:35/50 dag_med×xbench_med:0/50 dag_med×dsq_med:0/50 dag_med×hle_med:0/50 dag_med×bc_zh_med:11/30 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag×xbench_med:0/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 12:37:39 AM CST] 进行中: dag×drb2_med:0/12 dag×hle_med:41/50 dag_med×xbench_med:0/50 dag_med×dsq_med:0/50 dag_med×hle_med:0/50 dag_med×bc_zh_med:12/30 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag×xbench_med:0/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 12:39:40 AM CST] 进行中: dag×drb2_med:0/12 dag×hle_med:46/50 dag_med×xbench_med:0/50 dag_med×dsq_med:0/50 dag_med×hle_med:0/50 dag_med×bc_zh_med:16/30 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag×xbench_med:0/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 12:41:40 AM CST] 进行中: dag×drb2_med:0/12 dag×hle_med:48/50 dag_med×xbench_med:0/50 dag_med×dsq_med:0/50 dag_med×hle_med:0/50 dag_med×bc_zh_med:18/30 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag×xbench_med:0/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 12:43:41 AM CST] 触发评分: dag x hle_med (50条)
+2026-02-19 00:43:42,447 INFO [dag×hle_med] 总=50, 已评=14, 待评=36
+Scoring dag×hle_med:   0%|          | 0/36 [00:00<?, ?it/s]2026-02-19 00:43:43,733 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×hle_med:   3%|▎         | 1/36 [00:01<00:46,  1.33s/it]2026-02-19 00:43:45,069 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×hle_med:   6%|▌         | 2/36 [00:02<00:46,  1.36s/it]2026-02-19 00:43:47,096 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×hle_med:   8%|▊         | 3/36 [00:04<00:53,  1.64s/it]2026-02-19 00:43:48,991 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×hle_med:  11%|█         | 4/36 [00:06<00:55,  1.75s/it]2026-02-19 00:43:50,863 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×hle_med:  14%|█▍        | 5/36 [00:08<00:55,  1.79s/it]2026-02-19 00:43:53,173 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×hle_med:  17%|█▋        | 6/36 [00:10<00:58,  1.96s/it]2026-02-19 00:43:55,941 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×hle_med:  19%|█▉        | 7/36 [00:13<01:04,  2.23s/it]2026-02-19 00:43:57,926 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×hle_med:  22%|██▏       | 8/36 [00:15<01:00,  2.15s/it]2026-02-19 00:43:59,185 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×hle_med:  25%|██▌       | 9/36 [00:16<00:50,  1.89s/it]2026-02-19 00:44:00,996 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×hle_med:  28%|██▊       | 10/36 [00:18<00:47,  1.85s/it]2026-02-19 00:44:03,105 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×hle_med:  31%|███       | 11/36 [00:20<00:48,  1.93s/it]2026-02-19 00:44:05,865 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×hle_med:  33%|███▎      | 12/36 [00:23<00:52,  2.18s/it]2026-02-19 00:44:08,852 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×hle_med:  36%|███▌      | 13/36 [00:26<00:55,  2.43s/it]2026-02-19 00:44:14,851 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×hle_med:  39%|███▉      | 14/36 [00:32<01:17,  3.51s/it]2026-02-19 00:44:18,202 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×hle_med:  42%|████▏     | 15/36 [00:35<01:12,  3.46s/it]2026-02-19 00:44:21,461 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×hle_med:  44%|████▍     | 16/36 [00:39<01:07,  3.40s/it]2026-02-19 00:44:23,461 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×hle_med:  47%|████▋     | 17/36 [00:41<00:56,  2.98s/it]2026-02-19 00:44:25,390 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×hle_med:  50%|█████     | 18/36 [00:42<00:47,  2.66s/it]2026-02-19 00:44:27,127 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×hle_med:  53%|█████▎    | 19/36 [00:44<00:40,  2.38s/it]2026-02-19 00:44:28,897 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×hle_med:  56%|█████▌    | 20/36 [00:46<00:35,  2.21s/it]2026-02-19 00:44:30,983 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×hle_med:  58%|█████▊    | 21/36 [00:48<00:32,  2.16s/it]2026-02-19 00:44:32,627 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×hle_med:  61%|██████    | 22/36 [00:50<00:28,  2.02s/it]2026-02-19 00:44:34,535 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×hle_med:  64%|██████▍   | 23/36 [00:52<00:25,  1.98s/it]2026-02-19 00:44:36,074 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×hle_med:  67%|██████▋   | 24/36 [00:53<00:22,  1.84s/it]2026-02-19 00:44:38,878 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×hle_med:  69%|██████▉   | 25/36 [00:56<00:23,  2.13s/it]2026-02-19 00:44:41,623 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×hle_med:  72%|███████▏  | 26/36 [00:59<00:23,  2.33s/it]2026-02-19 00:44:43,967 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×hle_med:  75%|███████▌  | 27/36 [01:01<00:20,  2.32s/it]2026-02-19 00:44:45,801 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×hle_med:  78%|███████▊  | 28/36 [01:03<00:17,  2.19s/it]2026-02-19 00:44:47,994 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×hle_med:  81%|████████  | 29/36 [01:05<00:15,  2.18s/it]2026-02-19 00:44:51,055 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×hle_med:  83%|████████▎ | 30/36 [01:08<00:14,  2.44s/it]2026-02-19 00:44:53,037 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×hle_med:  86%|████████▌ | 31/36 [01:10<00:11,  2.30s/it]2026-02-19 00:44:54,726 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×hle_med:  89%|████████▉ | 32/36 [01:12<00:08,  2.12s/it]2026-02-19 00:44:56,339 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×hle_med:  92%|█████████▏| 33/36 [01:13<00:05,  1.97s/it]2026-02-19 00:44:58,319 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×hle_med:  94%|█████████▍| 34/36 [01:15<00:03,  1.98s/it]2026-02-19 00:45:00,525 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×hle_med:  97%|█████████▋| 35/36 [01:18<00:02,  2.04s/it]2026-02-19 00:45:02,201 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×hle_med: 100%|██████████| 36/36 [01:19<00:00,  1.93s/it]Scoring dag×hle_med: 100%|██████████| 36/36 [01:19<00:00,  2.22s/it]
+2026-02-19 00:45:02,250 INFO   汇总: {'framework': 'dag', 'bench': 'hle_med', 'total': 50, 'correct': 12, 'accuracy': 0.24}
+2026-02-19 00:45:02,295 INFO 
+总汇总已保存: /mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/assets/output/scored/all_summaries.json
+
+===== 评分汇总 =====
+{"framework": "dag", "bench": "hle_med", "total": 50, "correct": 12, "accuracy": 0.24}
+[Thu 19 Feb 2026 12:45:02 AM CST] 评分完成: dag x hle_med = 0.2400
+
+===== 数据汇总 =====
+SWALM+Seed16: bc_en_med=4.0%, bc_zh_med=33.3%, dsq_med=43.4%, drb_med=94.0%, gaia_med=22.0%, hle_med=14.0%, drb2_med=N/A%, xbench_med=58.0%
+FlashSearcher+Seed16: bc_en_med=6.0%, bc_zh_med=26.7%, dsq_med=34.4%, drb_med=98.0%, gaia_med=40.8%, hle_med=22.0%, drb2_med=1.2%, xbench_med=76.0%
+DAG-Med+Seed16: bc_en_med=6.0%, bc_zh_med=N/A%, dsq_med=N/A%, drb_med=N/A%, gaia_med=N/A%, hle_med=N/A%, drb2_med=N/A%, xbench_med=N/A%
+DAG+Seed16: bc_en_med=12.0%, bc_zh_med=36.7%, dsq_med=36.9%, drb_med=98.0%, gaia_med=36.0%, hle_med=24.0%, drb2_med=N/A%, xbench_med=N/A%
+
+HTML 已生成: /mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/assets/output/exp3_med_full.html
+show 命令成功: 已复制到可视化目录
+https://data-edu.bytedance.net/proxy/gradio/host/[2605:340:cd51:602:6099:a9bf:69e2:3767]:10028/exp3_med_full.html
+[Thu 19 Feb 2026 12:45:04 AM CST] 可视化已更新
+[Thu 19 Feb 2026 12:45:04 AM CST] 进行中: dag×drb2_med:0/12 dag_med×xbench_med:0/50 dag_med×dsq_med:0/50 dag_med×hle_med:0/50 dag_med×bc_zh_med:21/30 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag×xbench_med:0/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 12:47:05 AM CST] 进行中: dag×drb2_med:1/12 dag_med×xbench_med:0/50 dag_med×dsq_med:0/50 dag_med×hle_med:0/50 dag_med×bc_zh_med:23/30 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag×xbench_med:0/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 12:49:05 AM CST] 进行中: dag×drb2_med:3/12 dag_med×xbench_med:0/50 dag_med×dsq_med:0/50 dag_med×hle_med:0/50 dag_med×bc_zh_med:24/30 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag×xbench_med:0/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 12:51:06 AM CST] 进行中: dag×drb2_med:5/12 dag_med×xbench_med:0/50 dag_med×dsq_med:0/50 dag_med×hle_med:0/50 dag_med×bc_zh_med:29/30 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag×xbench_med:0/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 12:53:07 AM CST] 进行中: dag×drb2_med:7/12 dag_med×xbench_med:0/50 dag_med×dsq_med:0/50 dag_med×hle_med:0/50 dag_med×bc_zh_med:29/30 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag×xbench_med:0/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 12:55:08 AM CST] 进行中: dag×drb2_med:9/12 dag_med×xbench_med:0/50 dag_med×dsq_med:0/50 dag_med×hle_med:0/50 dag_med×bc_zh_med:29/30 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag×xbench_med:0/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 12:57:08 AM CST] 进行中: dag×drb2_med:11/12 dag_med×xbench_med:0/50 dag_med×dsq_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag×xbench_med:0/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 12:59:08 AM CST] 触发评分: dag x drb2_med (12条)
+2026-02-19 00:59:09,959 INFO [dag×drb2_med] 总=12, 已评=5, 待评=7
+Scoring dag×drb2_med:   0%|          | 0/7 [00:00<?, ?it/s]2026-02-19 00:59:16,129 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×drb2_med:  14%|█▍        | 1/7 [00:06<00:37,  6.21s/it]2026-02-19 00:59:22,661 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+2026-02-19 00:59:29,716 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+2026-02-19 00:59:36,380 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×drb2_med:  29%|██▊       | 2/7 [00:26<01:12, 14.46s/it]2026-02-19 00:59:44,379 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+2026-02-19 00:59:50,936 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×drb2_med:  43%|████▎     | 3/7 [00:41<00:58, 14.51s/it]2026-02-19 01:00:11,592 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+2026-02-19 01:00:18,029 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×drb2_med:  57%|█████▋    | 4/7 [01:08<00:58, 19.48s/it]2026-02-19 01:00:24,146 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+2026-02-19 01:00:30,339 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×drb2_med:  71%|███████▏  | 5/7 [01:20<00:33, 16.89s/it]2026-02-19 01:00:36,404 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+2026-02-19 01:00:46,961 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+2026-02-19 01:00:54,712 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×drb2_med:  86%|████████▌ | 6/7 [01:44<00:19, 19.44s/it]2026-02-19 01:02:12,625 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+2026-02-19 01:02:19,789 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×drb2_med: 100%|██████████| 7/7 [03:09<00:00, 40.90s/it]Scoring dag×drb2_med: 100%|██████████| 7/7 [03:09<00:00, 27.13s/it]
+2026-02-19 01:02:19,888 INFO   汇总: {'framework': 'dag', 'bench': 'drb2_med', 'total': 12, 'avg_pass_rate': 0.014}
+2026-02-19 01:02:19,938 INFO 
+总汇总已保存: /mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/assets/output/scored/all_summaries.json
+
+===== 评分汇总 =====
+{"framework": "dag", "bench": "drb2_med", "total": 12, "avg_pass_rate": 0.014}
+[Thu 19 Feb 2026 01:02:20 AM CST] 评分完成: dag x drb2_med = 0.0140
+
+===== 数据汇总 =====
+SWALM+Seed16: bc_en_med=4.0%, bc_zh_med=33.3%, dsq_med=43.4%, drb_med=94.0%, gaia_med=22.0%, hle_med=14.0%, drb2_med=N/A%, xbench_med=58.0%
+FlashSearcher+Seed16: bc_en_med=6.0%, bc_zh_med=26.7%, dsq_med=34.4%, drb_med=98.0%, gaia_med=40.8%, hle_med=22.0%, drb2_med=1.2%, xbench_med=76.0%
+DAG-Med+Seed16: bc_en_med=6.0%, bc_zh_med=40.0%, dsq_med=N/A%, drb_med=N/A%, gaia_med=N/A%, hle_med=N/A%, drb2_med=N/A%, xbench_med=N/A%
+DAG+Seed16: bc_en_med=12.0%, bc_zh_med=36.7%, dsq_med=36.9%, drb_med=98.0%, gaia_med=36.0%, hle_med=24.0%, drb2_med=1.4%, xbench_med=N/A%
+
+HTML 已生成: /mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/assets/output/exp3_med_full.html
+show 命令成功: 已复制到可视化目录
+https://data-edu.bytedance.net/proxy/gradio/host/[2605:340:cd51:602:6099:a9bf:69e2:3767]:10028/exp3_med_full.html
+[Thu 19 Feb 2026 01:02:22 AM CST] 可视化已更新
+[Thu 19 Feb 2026 01:02:22 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×dsq_med:3/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag×xbench_med:4/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 01:04:23 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×dsq_med:4/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag×xbench_med:8/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 01:06:23 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×dsq_med:4/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag×xbench_med:13/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 01:08:24 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×dsq_med:5/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag×xbench_med:16/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 01:10:25 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×dsq_med:6/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag×xbench_med:18/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 01:12:26 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×dsq_med:7/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag×xbench_med:22/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 01:14:27 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×dsq_med:9/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag×xbench_med:24/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 01:16:28 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×dsq_med:10/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag×xbench_med:27/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 01:18:29 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×dsq_med:11/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag×xbench_med:30/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 01:20:30 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×dsq_med:11/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag×xbench_med:35/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 01:22:31 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×dsq_med:14/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag×xbench_med:38/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 01:24:32 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×dsq_med:16/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag×xbench_med:39/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 01:26:33 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×dsq_med:18/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag×xbench_med:44/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 01:28:34 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×dsq_med:18/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag×xbench_med:46/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 01:30:35 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×dsq_med:22/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag×xbench_med:47/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 01:32:35 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×dsq_med:25/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag×xbench_med:48/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 01:34:36 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×dsq_med:25/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag×xbench_med:48/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 01:36:37 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×dsq_med:25/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag×xbench_med:49/50 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 01:38:38 AM CST] 触发评分: dag x xbench_med (50条)
+2026-02-19 01:38:39,488 INFO [dag×xbench_med] 总=50, 已评=27, 待评=23
+Scoring dag×xbench_med:   0%|          | 0/23 [00:00<?, ?it/s]2026-02-19 01:38:41,456 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×xbench_med:   4%|▍         | 1/23 [00:01<00:43,  1.99s/it]2026-02-19 01:38:43,332 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×xbench_med:   9%|▊         | 2/23 [00:03<00:40,  1.93s/it]2026-02-19 01:38:45,255 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×xbench_med:  13%|█▎        | 3/23 [00:05<00:38,  1.92s/it]2026-02-19 01:38:46,860 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×xbench_med:  17%|█▋        | 4/23 [00:07<00:34,  1.81s/it]2026-02-19 01:38:48,743 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×xbench_med:  22%|██▏       | 5/23 [00:09<00:32,  1.83s/it]2026-02-19 01:38:50,212 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×xbench_med:  26%|██▌       | 6/23 [00:10<00:29,  1.72s/it]2026-02-19 01:38:52,026 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×xbench_med:  30%|███       | 7/23 [00:12<00:27,  1.74s/it]2026-02-19 01:38:55,210 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×xbench_med:  35%|███▍      | 8/23 [00:15<00:32,  2.19s/it]2026-02-19 01:38:57,599 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×xbench_med:  39%|███▉      | 9/23 [00:18<00:31,  2.26s/it]2026-02-19 01:38:59,270 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×xbench_med:  43%|████▎     | 10/23 [00:19<00:26,  2.07s/it]2026-02-19 01:39:00,672 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×xbench_med:  48%|████▊     | 11/23 [00:21<00:22,  1.88s/it]2026-02-19 01:39:07,476 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×xbench_med:  52%|█████▏    | 12/23 [00:28<00:37,  3.37s/it]2026-02-19 01:39:08,966 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×xbench_med:  57%|█████▋    | 13/23 [00:29<00:28,  2.81s/it]2026-02-19 01:39:10,651 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×xbench_med:  61%|██████    | 14/23 [00:31<00:22,  2.47s/it]2026-02-19 01:39:14,489 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×xbench_med:  65%|██████▌   | 15/23 [00:35<00:23,  2.88s/it]2026-02-19 01:39:16,367 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×xbench_med:  70%|██████▉   | 16/23 [00:36<00:18,  2.58s/it]2026-02-19 01:39:18,876 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×xbench_med:  74%|███████▍  | 17/23 [00:39<00:15,  2.55s/it]2026-02-19 01:39:20,916 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×xbench_med:  78%|███████▊  | 18/23 [00:41<00:12,  2.40s/it]2026-02-19 01:39:22,187 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×xbench_med:  83%|████████▎ | 19/23 [00:42<00:08,  2.06s/it]2026-02-19 01:39:23,793 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×xbench_med:  87%|████████▋ | 20/23 [00:44<00:05,  1.92s/it]2026-02-19 01:39:25,268 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×xbench_med:  91%|█████████▏| 21/23 [00:45<00:03,  1.78s/it]2026-02-19 01:39:27,399 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×xbench_med:  96%|█████████▌| 22/23 [00:47<00:01,  1.90s/it]2026-02-19 01:39:28,632 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag×xbench_med: 100%|██████████| 23/23 [00:49<00:00,  1.69s/it]Scoring dag×xbench_med: 100%|██████████| 23/23 [00:49<00:00,  2.14s/it]
+2026-02-19 01:39:28,697 INFO   汇总: {'framework': 'dag', 'bench': 'xbench_med', 'total': 50, 'correct': 32, 'accuracy': 0.64}
+2026-02-19 01:39:28,726 INFO 
+总汇总已保存: /mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/assets/output/scored/all_summaries.json
+
+===== 评分汇总 =====
+{"framework": "dag", "bench": "xbench_med", "total": 50, "correct": 32, "accuracy": 0.64}
+[Thu 19 Feb 2026 01:39:28 AM CST] 评分完成: dag x xbench_med = 0.6400
+
+===== 数据汇总 =====
+SWALM+Seed16: bc_en_med=4.0%, bc_zh_med=33.3%, dsq_med=43.4%, drb_med=94.0%, gaia_med=22.0%, hle_med=14.0%, drb2_med=N/A%, xbench_med=58.0%
+FlashSearcher+Seed16: bc_en_med=6.0%, bc_zh_med=26.7%, dsq_med=34.4%, drb_med=98.0%, gaia_med=40.8%, hle_med=22.0%, drb2_med=1.2%, xbench_med=76.0%
+DAG-Med+Seed16: bc_en_med=6.0%, bc_zh_med=40.0%, dsq_med=N/A%, drb_med=N/A%, gaia_med=N/A%, hle_med=N/A%, drb2_med=N/A%, xbench_med=N/A%
+DAG+Seed16: bc_en_med=12.0%, bc_zh_med=36.7%, dsq_med=36.9%, drb_med=98.0%, gaia_med=36.0%, hle_med=24.0%, drb2_med=1.4%, xbench_med=64.0%
+
+HTML 已生成: /mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/assets/output/exp3_med_full.html
+show 命令成功: 已复制到可视化目录
+https://data-edu.bytedance.net/proxy/gradio/host/[2605:340:cd51:602:6099:a9bf:69e2:3767]:10028/exp3_med_full.html
+[Thu 19 Feb 2026 01:39:29 AM CST] 可视化已更新
+[Thu 19 Feb 2026 01:39:29 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×dsq_med:29/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 01:41:30 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×dsq_med:29/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 01:43:31 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×dsq_med:31/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 01:45:32 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×dsq_med:34/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 01:47:33 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×dsq_med:35/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 01:49:33 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×dsq_med:36/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 01:51:34 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×dsq_med:37/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 01:53:35 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×dsq_med:38/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 01:55:36 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×dsq_med:39/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 01:57:37 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×dsq_med:40/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 01:59:38 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×dsq_med:44/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 02:01:38 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×dsq_med:45/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 02:03:39 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×dsq_med:46/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 02:05:40 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×dsq_med:48/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 02:07:40 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×dsq_med:49/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 02:09:41 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×dsq_med:49/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 02:11:41 AM CST] 触发评分: dag_med x dsq_med (50条)
+2026-02-19 02:11:43,154 INFO [dag_med×dsq_med] 总=50, 已评=7, 待评=43
+Scoring dag_med×dsq_med:   0%|          | 0/43 [00:00<?, ?it/s]2026-02-19 02:11:46,756 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:   2%|▏         | 1/43 [00:03<02:33,  3.65s/it]2026-02-19 02:11:50,469 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:   5%|▍         | 2/43 [00:07<02:30,  3.68s/it]2026-02-19 02:11:52,338 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:   7%|▋         | 3/43 [00:09<01:54,  2.85s/it]2026-02-19 02:11:54,106 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:   9%|▉         | 4/43 [00:10<01:34,  2.42s/it]2026-02-19 02:11:56,052 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  12%|█▏        | 5/43 [00:12<01:26,  2.27s/it]2026-02-19 02:11:59,170 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  14%|█▍        | 6/43 [00:16<01:34,  2.54s/it]2026-02-19 02:12:00,851 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  16%|█▋        | 7/43 [00:17<01:21,  2.26s/it]2026-02-19 02:12:03,077 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  19%|█▊        | 8/43 [00:19<01:18,  2.25s/it]2026-02-19 02:12:05,293 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  21%|██        | 9/43 [00:22<01:16,  2.25s/it]2026-02-19 02:12:07,272 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  23%|██▎       | 10/43 [00:24<01:11,  2.16s/it]2026-02-19 02:12:09,388 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  26%|██▌       | 11/43 [00:26<01:09,  2.16s/it]2026-02-19 02:12:11,320 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  28%|██▊       | 12/43 [00:28<01:04,  2.08s/it]2026-02-19 02:12:12,762 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  30%|███       | 13/43 [00:29<00:56,  1.88s/it]2026-02-19 02:12:14,741 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  33%|███▎      | 14/43 [00:31<00:55,  1.91s/it]2026-02-19 02:12:16,397 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  35%|███▍      | 15/43 [00:33<00:51,  1.83s/it]2026-02-19 02:12:18,163 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  37%|███▋      | 16/43 [00:35<00:48,  1.81s/it]2026-02-19 02:12:20,288 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  40%|███▉      | 17/43 [00:37<00:49,  1.91s/it]2026-02-19 02:12:22,101 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  42%|████▏     | 18/43 [00:38<00:46,  1.88s/it]2026-02-19 02:12:23,613 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  44%|████▍     | 19/43 [00:40<00:42,  1.77s/it]2026-02-19 02:12:27,455 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  47%|████▋     | 20/43 [00:44<00:54,  2.39s/it]2026-02-19 02:12:28,877 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  49%|████▉     | 21/43 [00:45<00:46,  2.11s/it]2026-02-19 02:12:31,044 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  51%|█████     | 22/43 [00:48<00:45,  2.18s/it]2026-02-19 02:12:33,155 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  53%|█████▎    | 23/43 [00:50<00:41,  2.10s/it]2026-02-19 02:12:35,649 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  56%|█████▌    | 24/43 [00:52<00:42,  2.21s/it]2026-02-19 02:12:38,079 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  58%|█████▊    | 25/43 [00:55<00:41,  2.30s/it]2026-02-19 02:12:39,626 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  60%|██████    | 26/43 [00:56<00:35,  2.06s/it]2026-02-19 02:12:41,290 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  63%|██████▎   | 27/43 [00:58<00:31,  1.95s/it]2026-02-19 02:12:43,516 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  65%|██████▌   | 28/43 [01:00<00:30,  2.02s/it]2026-02-19 02:12:45,685 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  67%|██████▋   | 29/43 [01:02<00:28,  2.06s/it]2026-02-19 02:12:49,123 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  70%|██████▉   | 30/43 [01:06<00:32,  2.48s/it]2026-02-19 02:12:51,308 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  72%|███████▏  | 31/43 [01:08<00:28,  2.39s/it]2026-02-19 02:12:52,824 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  74%|███████▍  | 32/43 [01:09<00:23,  2.13s/it]2026-02-19 02:12:54,550 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  77%|███████▋  | 33/43 [01:11<00:20,  2.00s/it]2026-02-19 02:12:56,091 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  79%|███████▉  | 34/43 [01:13<00:16,  1.88s/it]2026-02-19 02:12:58,475 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  81%|████████▏ | 35/43 [01:15<00:16,  2.03s/it]2026-02-19 02:13:00,310 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  84%|████████▎ | 36/43 [01:17<00:13,  1.96s/it]2026-02-19 02:13:02,590 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  86%|████████▌ | 37/43 [01:19<00:12,  2.05s/it]2026-02-19 02:13:05,286 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  88%|████████▊ | 38/43 [01:22<00:11,  2.26s/it]2026-02-19 02:13:07,963 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  91%|█████████ | 39/43 [01:24<00:09,  2.38s/it]2026-02-19 02:13:10,232 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  93%|█████████▎| 40/43 [01:27<00:07,  2.34s/it]2026-02-19 02:13:12,397 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  95%|█████████▌| 41/43 [01:29<00:04,  2.29s/it]2026-02-19 02:13:13,954 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med:  98%|█████████▊| 42/43 [01:30<00:02,  2.07s/it]2026-02-19 02:13:18,505 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×dsq_med: 100%|██████████| 43/43 [01:35<00:00,  2.81s/it]Scoring dag_med×dsq_med: 100%|██████████| 43/43 [01:35<00:00,  2.22s/it]
+2026-02-19 02:13:18,569 INFO   汇总: {'framework': 'dag_med', 'bench': 'dsq_med', 'total': 50, 'avg_f1': 0.4561, 'avg_precision': 0.498, 'avg_recall': 0.4534}
+2026-02-19 02:13:18,604 INFO 
+总汇总已保存: /mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/assets/output/scored/all_summaries.json
+
+===== 评分汇总 =====
+{"framework": "dag_med", "bench": "dsq_med", "total": 50, "avg_f1": 0.4561, "avg_precision": 0.498, "avg_recall": 0.4534}
+[Thu 19 Feb 2026 02:13:18 AM CST] 评分完成: dag_med x dsq_med = 0.4561
+
+===== 数据汇总 =====
+SWALM+Seed16: bc_en_med=4.0%, bc_zh_med=33.3%, dsq_med=43.4%, drb_med=94.0%, gaia_med=22.0%, hle_med=14.0%, drb2_med=N/A%, xbench_med=58.0%
+FlashSearcher+Seed16: bc_en_med=6.0%, bc_zh_med=26.7%, dsq_med=34.4%, drb_med=98.0%, gaia_med=40.8%, hle_med=22.0%, drb2_med=1.2%, xbench_med=76.0%
+DAG-Med+Seed16: bc_en_med=6.0%, bc_zh_med=40.0%, dsq_med=45.6%, drb_med=N/A%, gaia_med=N/A%, hle_med=N/A%, drb2_med=N/A%, xbench_med=N/A%
+DAG+Seed16: bc_en_med=12.0%, bc_zh_med=36.7%, dsq_med=36.9%, drb_med=98.0%, gaia_med=36.0%, hle_med=24.0%, drb2_med=1.4%, xbench_med=64.6%
+
+HTML 已生成: /mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/assets/output/exp3_med_full.html
+show 命令成功: 已复制到可视化目录
+https://data-edu.bytedance.net/proxy/gradio/host/[2605:340:cd51:602:6099:a9bf:69e2:3767]:10028/exp3_med_full.html
+[Thu 19 Feb 2026 02:13:20 AM CST] 可视化已更新
+[Thu 19 Feb 2026 02:13:20 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:0/50
+[Thu 19 Feb 2026 02:15:20 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:2/50
+[Thu 19 Feb 2026 02:17:21 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:2/50
+[Thu 19 Feb 2026 02:19:23 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:5/50
+[Thu 19 Feb 2026 02:21:24 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:9/50
+[Thu 19 Feb 2026 02:23:25 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:10/50
+[Thu 19 Feb 2026 02:25:26 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:11/50
+[Thu 19 Feb 2026 02:27:26 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:14/50
+[Thu 19 Feb 2026 02:29:28 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:17/50
+[Thu 19 Feb 2026 02:31:30 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:17/50
+[Thu 19 Feb 2026 02:33:31 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:20/50
+[Thu 19 Feb 2026 02:35:32 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:20/50
+[Thu 19 Feb 2026 02:37:33 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:21/50
+[Thu 19 Feb 2026 02:39:34 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:21/50
+[Thu 19 Feb 2026 02:41:35 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:25/50
+[Thu 19 Feb 2026 02:43:36 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:26/50
+[Thu 19 Feb 2026 02:45:37 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:27/50
+[Thu 19 Feb 2026 02:47:38 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:27/50
+[Thu 19 Feb 2026 02:49:38 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:30/50
+[Thu 19 Feb 2026 02:51:39 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:33/50
+[Thu 19 Feb 2026 02:53:40 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:35/50
+[Thu 19 Feb 2026 02:55:41 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:35/50
+[Thu 19 Feb 2026 02:57:41 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:37/50
+[Thu 19 Feb 2026 02:59:42 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:40/50
+[Thu 19 Feb 2026 03:01:44 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:40/50
+[Thu 19 Feb 2026 03:03:45 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:41/50
+[Thu 19 Feb 2026 03:05:45 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:43/50
+[Thu 19 Feb 2026 03:07:46 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:45/50
+[Thu 19 Feb 2026 03:09:47 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:46/50
+[Thu 19 Feb 2026 03:11:48 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:47/50
+[Thu 19 Feb 2026 03:13:49 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:49/50
+[Thu 19 Feb 2026 03:15:50 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:49/50
+[Thu 19 Feb 2026 03:17:50 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:49/50
+[Thu 19 Feb 2026 03:19:52 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:49/50
+[Thu 19 Feb 2026 03:21:53 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:49/50
+[Thu 19 Feb 2026 03:23:54 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:49/50
+[Thu 19 Feb 2026 03:25:55 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:49/50
+[Thu 19 Feb 2026 03:27:55 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:49/50
+[Thu 19 Feb 2026 03:29:58 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12 dag_med×drb_med:49/50
+[Thu 19 Feb 2026 03:31:59 AM CST] 触发评分: dag_med x drb_med (50条)
+2026-02-19 03:32:01,074 INFO [dag_med×drb_med] 总=50, 已评=0, 待评=50
+Scoring dag_med×drb_med:   0%|          | 0/50 [00:00<?, ?it/s]2026-02-19 03:32:04,775 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:   2%|▏         | 1/50 [00:03<03:03,  3.74s/it]2026-02-19 03:32:07,543 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:   4%|▍         | 2/50 [00:06<02:32,  3.18s/it]2026-02-19 03:32:10,558 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:   6%|▌         | 3/50 [00:09<02:25,  3.09s/it]2026-02-19 03:32:13,910 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:   8%|▊         | 4/50 [00:12<02:27,  3.20s/it]2026-02-19 03:32:16,958 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  10%|█         | 5/50 [00:15<02:21,  3.14s/it]2026-02-19 03:32:20,372 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  12%|█▏        | 6/50 [00:19<02:22,  3.24s/it]2026-02-19 03:32:23,786 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  14%|█▍        | 7/50 [00:22<02:21,  3.30s/it]2026-02-19 03:32:29,522 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  16%|█▌        | 8/50 [00:28<02:51,  4.07s/it]2026-02-19 03:32:31,229 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  18%|█▊        | 9/50 [00:30<02:16,  3.33s/it]2026-02-19 03:32:33,814 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  20%|██        | 10/50 [00:32<02:03,  3.10s/it]2026-02-19 03:32:39,110 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  22%|██▏       | 11/50 [00:38<02:27,  3.78s/it]2026-02-19 03:32:41,832 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  24%|██▍       | 12/50 [00:40<02:11,  3.45s/it]2026-02-19 03:32:44,133 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  26%|██▌       | 13/50 [00:43<01:55,  3.12s/it]2026-02-19 03:32:48,925 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  28%|██▊       | 14/50 [00:47<02:09,  3.61s/it]2026-02-19 03:32:53,320 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  30%|███       | 15/50 [00:52<02:14,  3.85s/it]2026-02-19 03:32:56,781 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  32%|███▏      | 16/50 [00:55<02:06,  3.73s/it]2026-02-19 03:32:59,311 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  34%|███▍      | 17/50 [00:58<01:51,  3.37s/it]2026-02-19 03:33:02,863 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  36%|███▌      | 18/50 [01:01<01:49,  3.43s/it]2026-02-19 03:33:06,109 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  38%|███▊      | 19/50 [01:05<01:44,  3.37s/it]2026-02-19 03:33:09,235 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  40%|████      | 20/50 [01:08<01:38,  3.30s/it]2026-02-19 03:33:12,625 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  42%|████▏     | 21/50 [01:11<01:36,  3.32s/it]2026-02-19 03:33:16,701 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  44%|████▍     | 22/50 [01:15<01:39,  3.55s/it]2026-02-19 03:33:19,225 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  46%|████▌     | 23/50 [01:18<01:27,  3.25s/it]2026-02-19 03:33:22,919 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  48%|████▊     | 24/50 [01:21<01:27,  3.37s/it]2026-02-19 03:33:26,773 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  50%|█████     | 25/50 [01:25<01:27,  3.52s/it]2026-02-19 03:33:30,210 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  52%|█████▏    | 26/50 [01:29<01:23,  3.50s/it]2026-02-19 03:33:32,566 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  54%|█████▍    | 27/50 [01:31<01:12,  3.15s/it]2026-02-19 03:33:35,501 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  56%|█████▌    | 28/50 [01:34<01:08,  3.10s/it]2026-02-19 03:33:38,995 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  58%|█████▊    | 29/50 [01:37<01:07,  3.21s/it]2026-02-19 03:33:42,790 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  60%|██████    | 30/50 [01:41<01:07,  3.39s/it]2026-02-19 03:33:45,676 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  62%|██████▏   | 31/50 [01:44<01:01,  3.23s/it]2026-02-19 03:33:48,061 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  64%|██████▍   | 32/50 [01:47<00:53,  2.98s/it]2026-02-19 03:33:52,209 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  66%|██████▌   | 33/50 [01:51<00:56,  3.33s/it]2026-02-19 03:33:56,958 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  68%|██████▊   | 34/50 [01:55<01:00,  3.76s/it]2026-02-19 03:34:01,306 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  70%|███████   | 35/50 [02:00<00:58,  3.93s/it]2026-02-19 03:34:10,008 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  72%|███████▏  | 36/50 [02:08<01:15,  5.37s/it]2026-02-19 03:34:13,513 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  74%|███████▍  | 37/50 [02:12<01:02,  4.81s/it]2026-02-19 03:34:16,248 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  76%|███████▌  | 38/50 [02:15<00:50,  4.18s/it]2026-02-19 03:34:18,498 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  78%|███████▊  | 39/50 [02:17<00:39,  3.62s/it]2026-02-19 03:34:22,692 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  80%|████████  | 40/50 [02:21<00:37,  3.78s/it]2026-02-19 03:34:25,495 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  82%|████████▏ | 41/50 [02:24<00:31,  3.48s/it]2026-02-19 03:34:28,423 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  84%|████████▍ | 42/50 [02:27<00:26,  3.32s/it]2026-02-19 03:34:31,222 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  86%|████████▌ | 43/50 [02:30<00:22,  3.16s/it]2026-02-19 03:34:33,785 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  88%|████████▊ | 44/50 [02:32<00:17,  2.98s/it]2026-02-19 03:34:37,254 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  90%|█████████ | 45/50 [02:36<00:15,  3.13s/it]2026-02-19 03:34:39,499 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  92%|█████████▏| 46/50 [02:38<00:11,  2.88s/it]2026-02-19 03:34:43,399 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  94%|█████████▍| 47/50 [02:42<00:09,  3.17s/it]2026-02-19 03:34:46,371 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  96%|█████████▌| 48/50 [02:45<00:06,  3.11s/it]2026-02-19 03:34:48,636 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med:  98%|█████████▊| 49/50 [02:47<00:02,  2.85s/it]2026-02-19 03:34:50,963 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb_med: 100%|██████████| 50/50 [02:50<00:00,  2.76s/it]Scoring dag_med×drb_med: 100%|██████████| 50/50 [02:50<00:00,  3.40s/it]
+2026-02-19 03:34:51,243 INFO   汇总: {'framework': 'dag_med', 'bench': 'drb_med', 'total': 50, 'correct': 49, 'accuracy': 0.98}
+2026-02-19 03:34:51,276 INFO 
+总汇总已保存: /mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/assets/output/scored/all_summaries.json
+
+===== 评分汇总 =====
+{"framework": "dag_med", "bench": "drb_med", "total": 50, "correct": 49, "accuracy": 0.98}
+[Thu 19 Feb 2026 03:34:51 AM CST] 评分完成: dag_med x drb_med = 0.9800
+
+===== 数据汇总 =====
+SWALM+Seed16: bc_en_med=4.0%, bc_zh_med=33.3%, dsq_med=43.4%, drb_med=94.0%, gaia_med=22.0%, hle_med=14.0%, drb2_med=N/A%, xbench_med=58.0%
+FlashSearcher+Seed16: bc_en_med=6.0%, bc_zh_med=26.7%, dsq_med=34.4%, drb_med=98.0%, gaia_med=40.0%, hle_med=22.0%, drb2_med=1.2%, xbench_med=76.0%
+DAG-Med+Seed16: bc_en_med=6.0%, bc_zh_med=40.0%, dsq_med=45.6%, drb_med=98.0%, gaia_med=N/A%, hle_med=N/A%, drb2_med=N/A%, xbench_med=N/A%
+DAG+Seed16: bc_en_med=12.0%, bc_zh_med=36.7%, dsq_med=36.9%, drb_med=98.0%, gaia_med=36.0%, hle_med=24.0%, drb2_med=1.4%, xbench_med=64.0%
+
+HTML 已生成: /mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/assets/output/exp3_med_full.html
+show 命令成功: 已复制到可视化目录
+https://data-edu.bytedance.net/proxy/gradio/host/[2605:340:cd51:602:6099:a9bf:69e2:3767]:10028/exp3_med_full.html
+[Thu 19 Feb 2026 03:34:52 AM CST] 可视化已更新
+[Thu 19 Feb 2026 03:34:52 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:0/50 dag_med×drb2_med:0/12
+[Thu 19 Feb 2026 03:36:55 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:4/50 dag_med×drb2_med:0/12
+[Thu 19 Feb 2026 03:38:56 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:8/50 dag_med×drb2_med:0/12
+[Thu 19 Feb 2026 03:40:57 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:13/50 dag_med×drb2_med:0/12
+[Thu 19 Feb 2026 03:42:58 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:14/50 dag_med×drb2_med:0/12
+[Thu 19 Feb 2026 03:44:59 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:16/50 dag_med×drb2_med:0/12
+[Thu 19 Feb 2026 03:46:59 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:19/50 dag_med×drb2_med:0/12
+[Thu 19 Feb 2026 03:49:00 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:21/50 dag_med×drb2_med:0/12
+[Thu 19 Feb 2026 03:51:01 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:27/50 dag_med×drb2_med:0/12
+[Thu 19 Feb 2026 03:53:02 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:30/50 dag_med×drb2_med:0/12
+[Thu 19 Feb 2026 03:55:04 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:32/50 dag_med×drb2_med:0/12
+[Thu 19 Feb 2026 03:57:05 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:37/50 dag_med×drb2_med:0/12
+[Thu 19 Feb 2026 03:59:06 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:39/50 dag_med×drb2_med:0/12
+[Thu 19 Feb 2026 04:01:07 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:41/50 dag_med×drb2_med:0/12
+[Thu 19 Feb 2026 04:03:08 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:44/50 dag_med×drb2_med:0/12
+[Thu 19 Feb 2026 04:05:09 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:47/50 dag_med×drb2_med:0/12
+[Thu 19 Feb 2026 04:07:10 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:48/50 dag_med×drb2_med:0/12
+[Thu 19 Feb 2026 04:09:11 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:0/50 dag_med×gaia_med:49/50 dag_med×drb2_med:0/12
+[Thu 19 Feb 2026 04:11:11 AM CST] 触发评分: dag_med x gaia_med (50条)
+2026-02-19 04:11:12,904 INFO [dag_med×gaia_med] 总=50, 已评=16, 待评=34
+Scoring dag_med×gaia_med:   0%|          | 0/34 [00:00<?, ?it/s]2026-02-19 04:11:17,056 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×gaia_med:   3%|▎         | 1/34 [00:04<02:18,  4.20s/it]2026-02-19 04:11:19,031 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×gaia_med:   6%|▌         | 2/34 [00:06<01:32,  2.89s/it]2026-02-19 04:11:20,248 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×gaia_med:   9%|▉         | 3/34 [00:07<01:06,  2.15s/it]2026-02-19 04:11:21,805 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×gaia_med:  12%|█▏        | 4/34 [00:08<00:57,  1.90s/it]2026-02-19 04:11:24,010 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×gaia_med:  15%|█▍        | 5/34 [00:11<00:58,  2.00s/it]2026-02-19 04:11:25,268 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×gaia_med:  18%|█▊        | 6/34 [00:12<00:48,  1.75s/it]2026-02-19 04:11:28,021 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×gaia_med:  21%|██        | 7/34 [00:15<00:56,  2.08s/it]2026-02-19 04:11:29,608 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×gaia_med:  24%|██▎       | 8/34 [00:16<00:49,  1.92s/it]2026-02-19 04:11:30,904 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×gaia_med:  26%|██▋       | 9/34 [00:18<00:43,  1.73s/it]2026-02-19 04:11:33,258 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×gaia_med:  29%|██▉       | 10/34 [00:20<00:46,  1.93s/it]2026-02-19 04:11:34,944 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×gaia_med:  32%|███▏      | 11/34 [00:22<00:42,  1.84s/it]2026-02-19 04:11:37,799 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×gaia_med:  35%|███▌      | 12/34 [00:24<00:47,  2.16s/it]2026-02-19 04:11:38,917 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×gaia_med:  38%|███▊      | 13/34 [00:26<00:38,  1.84s/it]2026-02-19 04:11:40,568 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×gaia_med:  41%|████      | 14/34 [00:27<00:35,  1.78s/it]2026-02-19 04:11:42,407 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×gaia_med:  44%|████▍     | 15/34 [00:29<00:34,  1.79s/it]2026-02-19 04:11:43,659 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×gaia_med:  47%|████▋     | 16/34 [00:30<00:29,  1.66s/it]2026-02-19 04:11:46,720 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×gaia_med:  50%|█████     | 17/34 [00:33<00:35,  2.07s/it]2026-02-19 04:11:50,183 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×gaia_med:  53%|█████▎    | 18/34 [00:37<00:39,  2.48s/it]2026-02-19 04:11:51,537 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×gaia_med:  56%|█████▌    | 19/34 [00:38<00:32,  2.14s/it]2026-02-19 04:11:52,987 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×gaia_med:  59%|█████▉    | 20/34 [00:40<00:27,  1.93s/it]2026-02-19 04:11:54,283 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×gaia_med:  62%|██████▏   | 21/34 [00:41<00:22,  1.74s/it]2026-02-19 04:11:55,481 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×gaia_med:  65%|██████▍   | 22/34 [00:42<00:18,  1.57s/it]2026-02-19 04:11:56,830 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×gaia_med:  68%|██████▊   | 23/34 [00:43<00:16,  1.50s/it]2026-02-19 04:11:57,888 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×gaia_med:  71%|███████   | 24/34 [00:45<00:13,  1.37s/it]2026-02-19 04:11:59,139 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×gaia_med:  74%|███████▎  | 25/34 [00:46<00:12,  1.35s/it]2026-02-19 04:12:00,553 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×gaia_med:  76%|███████▋  | 26/34 [00:47<00:10,  1.35s/it]2026-02-19 04:12:02,280 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×gaia_med:  79%|███████▉  | 27/34 [00:49<00:10,  1.47s/it]2026-02-19 04:12:08,070 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×gaia_med:  82%|████████▏ | 28/34 [00:55<00:16,  2.77s/it]2026-02-19 04:12:09,363 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×gaia_med:  85%|████████▌ | 29/34 [00:56<00:11,  2.32s/it]2026-02-19 04:12:11,156 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×gaia_med:  88%|████████▊ | 30/34 [00:58<00:08,  2.16s/it]2026-02-19 04:12:13,989 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×gaia_med:  91%|█████████ | 31/34 [01:01<00:07,  2.37s/it]2026-02-19 04:12:15,769 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×gaia_med:  94%|█████████▍| 32/34 [01:02<00:04,  2.19s/it]2026-02-19 04:12:16,964 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×gaia_med:  97%|█████████▋| 33/34 [01:04<00:01,  1.89s/it]2026-02-19 04:12:18,213 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×gaia_med: 100%|██████████| 34/34 [01:05<00:00,  1.70s/it]Scoring dag_med×gaia_med: 100%|██████████| 34/34 [01:05<00:00,  1.92s/it]
+2026-02-19 04:12:18,276 INFO   汇总: {'framework': 'dag_med', 'bench': 'gaia_med', 'total': 50, 'correct': 21, 'accuracy': 0.42}
+2026-02-19 04:12:18,313 INFO 
+总汇总已保存: /mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/assets/output/scored/all_summaries.json
+
+===== 评分汇总 =====
+{"framework": "dag_med", "bench": "gaia_med", "total": 50, "correct": 21, "accuracy": 0.42}
+[Thu 19 Feb 2026 04:12:18 AM CST] 评分完成: dag_med x gaia_med = 0.4200
+
+===== 数据汇总 =====
+SWALM+Seed16: bc_en_med=4.0%, bc_zh_med=33.3%, dsq_med=43.4%, drb_med=94.0%, gaia_med=22.0%, hle_med=14.0%, drb2_med=N/A%, xbench_med=58.0%
+FlashSearcher+Seed16: bc_en_med=6.0%, bc_zh_med=26.7%, dsq_med=34.4%, drb_med=98.0%, gaia_med=40.0%, hle_med=22.0%, drb2_med=1.2%, xbench_med=76.0%
+DAG-Med+Seed16: bc_en_med=6.0%, bc_zh_med=40.0%, dsq_med=45.6%, drb_med=98.0%, gaia_med=42.0%, hle_med=N/A%, drb2_med=N/A%, xbench_med=N/A%
+DAG+Seed16: bc_en_med=12.0%, bc_zh_med=36.7%, dsq_med=36.9%, drb_med=98.0%, gaia_med=36.0%, hle_med=24.0%, drb2_med=1.4%, xbench_med=64.0%
+
+HTML 已生成: /mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/assets/output/exp3_med_full.html
+show 命令成功: 已复制到可视化目录
+https://data-edu.bytedance.net/proxy/gradio/host/[2605:340:cd51:602:6099:a9bf:69e2:3767]:10028/exp3_med_full.html
+[Thu 19 Feb 2026 04:12:19 AM CST] 可视化已更新
+[Thu 19 Feb 2026 04:12:19 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:1/50 dag_med×drb2_med:0/12
+[Thu 19 Feb 2026 04:14:20 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:6/50 dag_med×drb2_med:0/12
+[Thu 19 Feb 2026 04:16:21 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:11/50 dag_med×drb2_med:0/12
+[Thu 19 Feb 2026 04:18:22 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:13/50 dag_med×drb2_med:0/12
+[Thu 19 Feb 2026 04:20:23 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:17/50 dag_med×drb2_med:0/12
+[Thu 19 Feb 2026 04:22:24 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:24/50 dag_med×drb2_med:0/12
+[Thu 19 Feb 2026 04:24:25 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:26/50 dag_med×drb2_med:0/12
+[Thu 19 Feb 2026 04:26:27 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:28/50 dag_med×drb2_med:0/12
+[Thu 19 Feb 2026 04:28:28 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:30/50 dag_med×drb2_med:0/12
+[Thu 19 Feb 2026 04:30:29 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:35/50 dag_med×drb2_med:0/12
+[Thu 19 Feb 2026 04:32:30 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:35/50 dag_med×drb2_med:0/12
+[Thu 19 Feb 2026 04:34:31 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:41/50 dag_med×drb2_med:0/12
+[Thu 19 Feb 2026 04:36:32 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:43/50 dag_med×drb2_med:0/12
+[Thu 19 Feb 2026 04:38:33 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:46/50 dag_med×drb2_med:0/12
+[Thu 19 Feb 2026 04:40:34 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×hle_med:49/50 dag_med×drb2_med:0/12
+[Thu 19 Feb 2026 04:42:34 AM CST] 触发评分: dag_med x hle_med (50条)
+2026-02-19 04:42:35,587 INFO [dag_med×hle_med] 总=50, 已评=6, 待评=44
+Scoring dag_med×hle_med:   0%|          | 0/44 [00:00<?, ?it/s]2026-02-19 04:42:38,240 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:   2%|▏         | 1/44 [00:02<01:55,  2.68s/it]2026-02-19 04:42:40,211 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:   5%|▍         | 2/44 [00:04<01:35,  2.26s/it]2026-02-19 04:42:42,711 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:   7%|▋         | 3/44 [00:07<01:38,  2.39s/it]2026-02-19 04:42:44,220 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:   9%|▉         | 4/44 [00:08<01:21,  2.03s/it]2026-02-19 04:42:46,494 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  11%|█▏        | 5/44 [00:10<01:22,  2.12s/it]2026-02-19 04:42:48,697 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  14%|█▎        | 6/44 [00:13<01:21,  2.15s/it]2026-02-19 04:42:51,595 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  16%|█▌        | 7/44 [00:16<01:28,  2.38s/it]2026-02-19 04:42:53,362 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  18%|█▊        | 8/44 [00:17<01:18,  2.19s/it]2026-02-19 04:42:54,470 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  20%|██        | 9/44 [00:18<01:05,  1.86s/it]2026-02-19 04:42:56,997 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  23%|██▎       | 10/44 [00:21<01:09,  2.06s/it]2026-02-19 04:42:58,597 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  25%|██▌       | 11/44 [00:23<01:03,  1.92s/it]2026-02-19 04:43:00,667 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  27%|██▋       | 12/44 [00:25<01:02,  1.96s/it]2026-02-19 04:43:02,662 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  30%|██▉       | 13/44 [00:27<01:01,  1.97s/it]2026-02-19 04:43:04,898 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  32%|███▏      | 14/44 [00:29<01:01,  2.06s/it]2026-02-19 04:43:10,425 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  34%|███▍      | 15/44 [00:34<01:29,  3.10s/it]2026-02-19 04:43:12,458 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  36%|███▋      | 16/44 [00:36<01:17,  2.78s/it]2026-02-19 04:43:13,841 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  39%|███▊      | 17/44 [00:38<01:03,  2.36s/it]2026-02-19 04:43:15,421 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  41%|████      | 18/44 [00:39<00:55,  2.13s/it]2026-02-19 04:43:17,534 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  43%|████▎     | 19/44 [00:41<00:52,  2.12s/it]2026-02-19 04:43:20,134 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  45%|████▌     | 20/44 [00:44<00:54,  2.27s/it]2026-02-19 04:43:21,534 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  48%|████▊     | 21/44 [00:45<00:46,  2.00s/it]2026-02-19 04:43:24,059 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  50%|█████     | 22/44 [00:48<00:47,  2.17s/it]2026-02-19 04:43:26,167 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  52%|█████▏    | 23/44 [00:50<00:44,  2.14s/it]2026-02-19 04:43:28,523 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  55%|█████▍    | 24/44 [00:52<00:44,  2.21s/it]2026-02-19 04:43:30,958 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  57%|█████▋    | 25/44 [00:55<00:43,  2.28s/it]2026-02-19 04:43:32,440 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  59%|█████▉    | 26/44 [00:56<00:36,  2.04s/it]2026-02-19 04:43:33,419 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  61%|██████▏   | 27/44 [00:57<00:29,  1.73s/it]2026-02-19 04:43:34,833 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  64%|██████▎   | 28/44 [00:59<00:26,  1.63s/it]2026-02-19 04:43:37,798 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  66%|██████▌   | 29/44 [01:02<00:30,  2.03s/it]2026-02-19 04:43:39,524 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  68%|██████▊   | 30/44 [01:03<00:27,  1.93s/it]2026-02-19 04:43:40,832 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  70%|███████   | 31/44 [01:05<00:22,  1.74s/it]2026-02-19 04:43:42,958 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  73%|███████▎  | 32/44 [01:07<00:22,  1.86s/it]2026-02-19 04:43:44,988 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  75%|███████▌  | 33/44 [01:09<00:21,  1.91s/it]2026-02-19 04:43:47,545 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  77%|███████▋  | 34/44 [01:12<00:21,  2.11s/it]2026-02-19 04:43:49,075 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  80%|███████▉  | 35/44 [01:13<00:17,  1.94s/it]2026-02-19 04:43:50,949 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  82%|████████▏ | 36/44 [01:15<00:15,  1.92s/it]2026-02-19 04:43:52,861 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  84%|████████▍ | 37/44 [01:17<00:13,  1.92s/it]2026-02-19 04:43:56,748 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  86%|████████▋ | 38/44 [01:21<00:15,  2.51s/it]2026-02-19 04:43:59,486 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  89%|████████▊ | 39/44 [01:23<00:12,  2.58s/it]2026-02-19 04:44:01,525 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  91%|█████████ | 40/44 [01:25<00:09,  2.41s/it]2026-02-19 04:44:03,589 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  93%|█████████▎| 41/44 [01:28<00:06,  2.31s/it]2026-02-19 04:44:05,552 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  95%|█████████▌| 42/44 [01:29<00:04,  2.20s/it]2026-02-19 04:44:07,118 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med:  98%|█████████▊| 43/44 [01:31<00:02,  2.01s/it]2026-02-19 04:44:08,778 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×hle_med: 100%|██████████| 44/44 [01:33<00:00,  1.91s/it]Scoring dag_med×hle_med: 100%|██████████| 44/44 [01:33<00:00,  2.12s/it]
+2026-02-19 04:44:08,870 INFO   汇总: {'framework': 'dag_med', 'bench': 'hle_med', 'total': 50, 'correct': 14, 'accuracy': 0.28}
+2026-02-19 04:44:08,925 INFO 
+总汇总已保存: /mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/assets/output/scored/all_summaries.json
+
+===== 评分汇总 =====
+{"framework": "dag_med", "bench": "hle_med", "total": 50, "correct": 14, "accuracy": 0.28}
+[Thu 19 Feb 2026 04:44:09 AM CST] 评分完成: dag_med x hle_med = 0.2800
+
+===== 数据汇总 =====
+SWALM+Seed16: bc_en_med=4.0%, bc_zh_med=33.3%, dsq_med=43.4%, drb_med=94.0%, gaia_med=22.0%, hle_med=14.0%, drb2_med=N/A%, xbench_med=58.0%
+FlashSearcher+Seed16: bc_en_med=6.0%, bc_zh_med=26.7%, dsq_med=34.4%, drb_med=98.0%, gaia_med=40.0%, hle_med=22.0%, drb2_med=1.2%, xbench_med=76.0%
+DAG-Med+Seed16: bc_en_med=6.0%, bc_zh_med=40.0%, dsq_med=45.6%, drb_med=98.0%, gaia_med=42.0%, hle_med=28.0%, drb2_med=N/A%, xbench_med=N/A%
+DAG+Seed16: bc_en_med=12.0%, bc_zh_med=36.7%, dsq_med=36.9%, drb_med=98.0%, gaia_med=36.0%, hle_med=24.0%, drb2_med=1.4%, xbench_med=64.0%
+
+HTML 已生成: /mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/assets/output/exp3_med_full.html
+show 命令成功: 已复制到可视化目录
+https://data-edu.bytedance.net/proxy/gradio/host/[2605:340:cd51:602:6099:a9bf:69e2:3767]:10028/exp3_med_full.html
+[Thu 19 Feb 2026 04:44:12 AM CST] 可视化已更新
+[Thu 19 Feb 2026 04:44:12 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×drb2_med:0/12
+[Thu 19 Feb 2026 04:46:13 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×drb2_med:0/12
+[Thu 19 Feb 2026 04:48:14 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×drb2_med:1/12
+[Thu 19 Feb 2026 04:50:15 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×drb2_med:2/12
+[Thu 19 Feb 2026 04:52:16 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×drb2_med:5/12
+[Thu 19 Feb 2026 04:54:17 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×drb2_med:6/12
+[Thu 19 Feb 2026 04:56:18 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×drb2_med:9/12
+[Thu 19 Feb 2026 04:58:19 AM CST] 进行中: dag_med×xbench_med:0/50 dag_med×drb2_med:10/12
+[Thu 19 Feb 2026 05:00:20 AM CST] 触发评分: dag_med x drb2_med (12条)
+2026-02-19 05:00:21,592 INFO [dag_med×drb2_med] 总=12, 已评=0, 待评=12
+Scoring dag_med×drb2_med:   0%|          | 0/12 [00:00<?, ?it/s]2026-02-19 05:00:28,470 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+2026-02-19 05:00:35,877 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb2_med:   8%|▊         | 1/12 [00:14<02:37, 14.32s/it]2026-02-19 05:00:43,578 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+2026-02-19 05:00:50,852 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb2_med:  17%|█▋        | 2/12 [00:29<02:27, 14.70s/it]2026-02-19 05:00:57,463 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+2026-02-19 05:01:05,093 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb2_med:  25%|██▌       | 3/12 [00:43<02:10, 14.49s/it]2026-02-19 05:01:12,714 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+2026-02-19 05:01:19,896 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb2_med:  33%|███▎      | 4/12 [00:58<01:56, 14.62s/it]2026-02-19 05:01:26,221 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+2026-02-19 05:01:57,519 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb2_med:  42%|████▏     | 5/12 [01:35<02:40, 22.92s/it]2026-02-19 05:02:05,363 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+2026-02-19 05:02:12,299 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb2_med:  50%|█████     | 6/12 [01:50<02:00, 20.15s/it]2026-02-19 05:02:18,635 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+2026-02-19 05:02:25,688 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb2_med:  58%|█████▊    | 7/12 [02:04<01:29, 17.94s/it]2026-02-19 05:02:43,149 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb2_med:  67%|██████▋   | 8/12 [02:21<01:11, 17.81s/it]2026-02-19 05:02:49,530 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+2026-02-19 05:02:55,423 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+2026-02-19 05:03:00,791 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb2_med:  75%|███████▌  | 9/12 [02:39<00:53, 17.73s/it]2026-02-19 05:03:07,104 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+2026-02-19 05:03:13,862 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb2_med:  83%|████████▎ | 10/12 [02:52<00:32, 16.30s/it]2026-02-19 05:03:20,860 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+2026-02-19 05:03:26,206 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+2026-02-19 05:03:32,890 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb2_med:  92%|█████████▏| 11/12 [03:11<00:17, 17.12s/it]2026-02-19 05:03:39,180 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+2026-02-19 05:03:45,957 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×drb2_med: 100%|██████████| 12/12 [03:24<00:00, 15.91s/it]Scoring dag_med×drb2_med: 100%|██████████| 12/12 [03:24<00:00, 17.04s/it]
+2026-02-19 05:03:46,092 INFO   汇总: {'framework': 'dag_med', 'bench': 'drb2_med', 'total': 12, 'avg_pass_rate': 0.0112}
+2026-02-19 05:03:46,125 INFO 
+总汇总已保存: /mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/assets/output/scored/all_summaries.json
+
+===== 评分汇总 =====
+{"framework": "dag_med", "bench": "drb2_med", "total": 12, "avg_pass_rate": 0.0112}
+[Thu 19 Feb 2026 05:03:46 AM CST] 评分完成: dag_med x drb2_med = 0.0112
+
+===== 数据汇总 =====
+SWALM+Seed16: bc_en_med=4.0%, bc_zh_med=33.3%, dsq_med=43.4%, drb_med=94.0%, gaia_med=22.0%, hle_med=14.0%, drb2_med=N/A%, xbench_med=58.0%
+FlashSearcher+Seed16: bc_en_med=6.0%, bc_zh_med=26.7%, dsq_med=34.4%, drb_med=98.0%, gaia_med=40.0%, hle_med=22.0%, drb2_med=1.2%, xbench_med=76.0%
+DAG-Med+Seed16: bc_en_med=6.0%, bc_zh_med=40.0%, dsq_med=45.6%, drb_med=98.0%, gaia_med=42.0%, hle_med=28.0%, drb2_med=1.1%, xbench_med=N/A%
+DAG+Seed16: bc_en_med=12.0%, bc_zh_med=36.7%, dsq_med=36.9%, drb_med=98.0%, gaia_med=36.0%, hle_med=24.0%, drb2_med=1.4%, xbench_med=64.0%
+
+HTML 已生成: /mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/assets/output/exp3_med_full.html
+show 命令成功: 已复制到可视化目录
+https://data-edu.bytedance.net/proxy/gradio/host/[2605:340:cd51:602:6099:a9bf:69e2:3767]:10028/exp3_med_full.html
+[Thu 19 Feb 2026 05:03:47 AM CST] 可视化已更新
+[Thu 19 Feb 2026 05:03:47 AM CST] 进行中: dag_med×xbench_med:0/50
+[Thu 19 Feb 2026 05:05:49 AM CST] 进行中: dag_med×xbench_med:10/50
+[Thu 19 Feb 2026 05:07:50 AM CST] 进行中: dag_med×xbench_med:14/50
+[Thu 19 Feb 2026 05:09:51 AM CST] 进行中: dag_med×xbench_med:19/50
+[Thu 19 Feb 2026 05:11:52 AM CST] 进行中: dag_med×xbench_med:19/50
+[Thu 19 Feb 2026 05:13:54 AM CST] 进行中: dag_med×xbench_med:21/50
+[Thu 19 Feb 2026 05:15:55 AM CST] 进行中: dag_med×xbench_med:24/50
+[Thu 19 Feb 2026 05:17:56 AM CST] 进行中: dag_med×xbench_med:29/50
+[Thu 19 Feb 2026 05:19:57 AM CST] 进行中: dag_med×xbench_med:32/50
+[Thu 19 Feb 2026 05:21:58 AM CST] 进行中: dag_med×xbench_med:33/50
+[Thu 19 Feb 2026 05:24:00 AM CST] 进行中: dag_med×xbench_med:37/50
+[Thu 19 Feb 2026 05:26:01 AM CST] 进行中: dag_med×xbench_med:44/50
+[Thu 19 Feb 2026 05:28:02 AM CST] 进行中: dag_med×xbench_med:48/50
+[Thu 19 Feb 2026 05:30:02 AM CST] 触发评分: dag_med x xbench_med (50条)
+2026-02-19 05:30:04,366 INFO [dag_med×xbench_med] 总=50, 已评=0, 待评=50
+Scoring dag_med×xbench_med:   0%|          | 0/50 [00:00<?, ?it/s]2026-02-19 05:30:05,846 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:   2%|▏         | 1/50 [00:01<01:14,  1.52s/it]2026-02-19 05:30:09,125 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:   4%|▍         | 2/50 [00:04<02:02,  2.55s/it]2026-02-19 05:30:11,564 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:   6%|▌         | 3/50 [00:07<01:57,  2.50s/it]2026-02-19 05:30:12,805 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:   8%|▊         | 4/50 [00:08<01:32,  2.02s/it]2026-02-19 05:30:14,700 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  10%|█         | 5/50 [00:10<01:28,  1.97s/it]2026-02-19 05:30:16,428 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  12%|█▏        | 6/50 [00:12<01:22,  1.89s/it]2026-02-19 05:30:17,945 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  14%|█▍        | 7/50 [00:13<01:15,  1.76s/it]2026-02-19 05:30:19,124 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  16%|█▌        | 8/50 [00:14<01:06,  1.57s/it]2026-02-19 05:30:20,598 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  18%|█▊        | 9/50 [00:16<01:03,  1.54s/it]2026-02-19 05:30:21,890 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  20%|██        | 10/50 [00:17<00:59,  1.48s/it]2026-02-19 05:30:23,508 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  22%|██▏       | 11/50 [00:19<00:59,  1.52s/it]2026-02-19 05:30:25,572 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  24%|██▍       | 12/50 [00:21<01:04,  1.70s/it]2026-02-19 05:30:27,593 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  26%|██▌       | 13/50 [00:23<01:05,  1.78s/it]2026-02-19 05:30:28,903 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  28%|██▊       | 14/50 [00:24<00:58,  1.63s/it]2026-02-19 05:30:30,395 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  30%|███       | 15/50 [00:26<00:55,  1.59s/it]2026-02-19 05:30:32,311 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  32%|███▏      | 16/50 [00:28<00:57,  1.70s/it]2026-02-19 05:30:33,757 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  34%|███▍      | 17/50 [00:29<00:53,  1.61s/it]2026-02-19 05:30:35,026 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  36%|███▌      | 18/50 [00:30<00:48,  1.51s/it]2026-02-19 05:30:36,629 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  38%|███▊      | 19/50 [00:32<00:47,  1.53s/it]2026-02-19 05:30:38,608 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  40%|████      | 20/50 [00:34<00:50,  1.67s/it]2026-02-19 05:30:39,735 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  42%|████▏     | 21/50 [00:35<00:44,  1.52s/it]2026-02-19 05:30:40,813 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  44%|████▍     | 22/50 [00:36<00:38,  1.37s/it]2026-02-19 05:30:41,901 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  46%|████▌     | 23/50 [00:37<00:34,  1.29s/it]2026-02-19 05:30:43,510 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  48%|████▊     | 24/50 [00:39<00:35,  1.38s/it]2026-02-19 05:30:45,105 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  50%|█████     | 25/50 [00:40<00:36,  1.45s/it]2026-02-19 05:30:46,382 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  52%|█████▏    | 26/50 [00:42<00:33,  1.40s/it]2026-02-19 05:30:48,450 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  54%|█████▍    | 27/50 [00:44<00:36,  1.61s/it]2026-02-19 05:30:49,848 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  56%|█████▌    | 28/50 [00:45<00:33,  1.53s/it]2026-02-19 05:30:52,234 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  58%|█████▊    | 29/50 [00:47<00:37,  1.80s/it]2026-02-19 05:30:53,442 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  60%|██████    | 30/50 [00:49<00:32,  1.61s/it]2026-02-19 05:30:55,004 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  62%|██████▏   | 31/50 [00:50<00:30,  1.61s/it]2026-02-19 05:30:57,732 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  64%|██████▍   | 32/50 [00:53<00:34,  1.93s/it]2026-02-19 05:30:59,608 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  66%|██████▌   | 33/50 [00:55<00:32,  1.92s/it]2026-02-19 05:31:01,147 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  68%|██████▊   | 34/50 [00:56<00:28,  1.80s/it]2026-02-19 05:31:02,492 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  70%|███████   | 35/50 [00:58<00:24,  1.67s/it]2026-02-19 05:31:04,371 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  72%|███████▏  | 36/50 [01:00<00:24,  1.75s/it]2026-02-19 05:31:05,707 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  74%|███████▍  | 37/50 [01:01<00:20,  1.61s/it]2026-02-19 05:31:07,774 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  76%|███████▌  | 38/50 [01:03<00:20,  1.75s/it]2026-02-19 05:31:09,150 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  78%|███████▊  | 39/50 [01:04<00:17,  1.63s/it]2026-02-19 05:31:10,957 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  80%|████████  | 40/50 [01:06<00:16,  1.70s/it]2026-02-19 05:31:13,128 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  82%|████████▏ | 41/50 [01:08<00:16,  1.83s/it]2026-02-19 05:31:14,580 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  84%|████████▍ | 42/50 [01:10<00:13,  1.72s/it]2026-02-19 05:31:16,383 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  86%|████████▌ | 43/50 [01:12<00:12,  1.75s/it]2026-02-19 05:31:17,928 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  88%|████████▊ | 44/50 [01:13<00:10,  1.68s/it]2026-02-19 05:31:19,382 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  90%|█████████ | 45/50 [01:15<00:08,  1.62s/it]2026-02-19 05:31:20,971 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  92%|█████████▏| 46/50 [01:16<00:06,  1.60s/it]2026-02-19 05:31:22,431 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  94%|█████████▍| 47/50 [01:18<00:04,  1.56s/it]2026-02-19 05:31:23,871 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  96%|█████████▌| 48/50 [01:19<00:03,  1.54s/it]2026-02-19 05:31:25,217 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med:  98%|█████████▊| 49/50 [01:20<00:01,  1.47s/it]2026-02-19 05:31:27,127 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
+Scoring dag_med×xbench_med: 100%|██████████| 50/50 [01:22<00:00,  1.60s/it]Scoring dag_med×xbench_med: 100%|██████████| 50/50 [01:22<00:00,  1.66s/it]
+2026-02-19 05:31:27,203 INFO   汇总: {'framework': 'dag_med', 'bench': 'xbench_med', 'total': 50, 'correct': 39, 'accuracy': 0.78}
+2026-02-19 05:31:27,237 INFO 
+总汇总已保存: /mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/assets/output/scored/all_summaries.json
+
+===== 评分汇总 =====
+{"framework": "dag_med", "bench": "xbench_med", "total": 50, "correct": 39, "accuracy": 0.78}
+[Thu 19 Feb 2026 05:31:27 AM CST] 评分完成: dag_med x xbench_med = 0.7800
+
+===== 数据汇总 =====
+SWALM+Seed16: bc_en_med=4.0%, bc_zh_med=33.3%, dsq_med=43.4%, drb_med=94.0%, gaia_med=22.0%, hle_med=14.0%, drb2_med=N/A%, xbench_med=58.0%
+FlashSearcher+Seed16: bc_en_med=6.0%, bc_zh_med=26.7%, dsq_med=34.4%, drb_med=98.0%, gaia_med=40.0%, hle_med=22.0%, drb2_med=1.2%, xbench_med=76.0%
+DAG-Med+Seed16: bc_en_med=6.0%, bc_zh_med=40.0%, dsq_med=45.6%, drb_med=98.0%, gaia_med=42.0%, hle_med=28.0%, drb2_med=1.1%, xbench_med=78.0%
+DAG+Seed16: bc_en_med=12.0%, bc_zh_med=36.7%, dsq_med=36.9%, drb_med=98.0%, gaia_med=36.0%, hle_med=24.0%, drb2_med=1.4%, xbench_med=64.0%
+
+HTML 已生成: /mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/assets/output/exp3_med_full.html
+show 命令成功: 已复制到可视化目录
+https://data-edu.bytedance.net/proxy/gradio/host/[2605:340:cd51:602:6099:a9bf:69e2:3767]:10028/exp3_med_full.html
+[Thu 19 Feb 2026 05:31:30 AM CST] 可视化已更新
+[Thu 19 Feb 2026 05:31:30 AM CST] 进行中:
+[Thu 19 Feb 2026 05:31:30 AM CST] 全部完成！

@@ -1,0 +1,18 @@
+bc_en_med: 子集=50, 匹配=50, 未匹配=0
+  -> /mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/assets/output/swalm_bc_en_med_med.jsonl
+bc_zh_med: 子集=30, 匹配=30, 未匹配=0
+  -> /mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/assets/output/swalm_bc_zh_med_med.jsonl
+dsq_med: 子集=50, 匹配=50, 未匹配=0
+  -> /mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/assets/output/swalm_dsq_med_med.jsonl
+drb_med: 子集=50, 匹配=50, 未匹配=0
+  -> /mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/assets/output/swalm_drb_med_med.jsonl
+gaia_med: 子集=50, 匹配=50, 未匹配=0
+  -> /mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/assets/output/swalm_gaia_med_med.jsonl
+hle_med: 子集=50, 匹配=50, 未匹配=0
+  -> /mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/assets/output/swalm_hle_med_med.jsonl
+researchqa_med: 子集=50, 匹配=50, 未匹配=0
+  -> /mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/assets/output/swalm_researchqa_med_med.jsonl
+xbench_med: 子集=50, 匹配=50, 未匹配=0
+  -> /mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/assets/output/swalm_xbench_med_med.jsonl
+
+[完成] SWALM 结果收集完毕
