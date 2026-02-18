@@ -10,14 +10,14 @@
 
 本报告分析了 4 个推理框架（SWALM / FlashSearcher / DAG / DAG-Med）在 8 个医学子集 Benchmark 上的完整评测结果，基于 **case-level 对比**得出以下核心结论：
 
-### 关键数字（截至 2026-02-19，dag_med drb2/xbench 仍在推理中）
+### 关键数字（截至 2026-02-19，dag_med xbench 仍在推理中）
 
 | | bc_en | bc_zh | dsq(F1) | drb | gaia | hle | drb2 | xbench |
 |--|-------|-------|---------|-----|------|-----|------|--------|
 | SWALM | 4.0% | 33.3% | 43.4% | 94.0% | 22.0% | 14.0% | — | 58.0% |
 | FlashSearcher | 6.0% | 26.7% | 34.4% | **98.0%** | 40.0% | 22.0% | 1.2% | **76.0%** |
 | DAG | **12.0%** | 36.7% | 36.9% | **98.0%** | 36.0% | **24.0%** | **1.4%** | 64.0% |
-| DAG-Med | 6.0%↓ | **40.0%**↑ | **45.6%**↑↑ | **98.0%**= | **42.0%**↑↑ | **28.0%**↑↑ | 进行中 | 进行中 |
+| DAG-Med | 6.0%↓ | **40.0%**↑ | **45.6%**↑↑ | **98.0%**= | **42.0%**↑↑ | **28.0%**↑↑ | 1.2%= | 进行中 |
 
 ### 最重要的 3 个发现
 
@@ -511,10 +511,10 @@ DAG 通过**逐步推理**得出正确答案，DAG-Med 的 aggressive prompt 导
   - 分析：医学 prompt 的 EXACT query 策略在 GAIA 中同样有效，aggressive search 比 planning 锁定的危害更小
 - DAG-Med hle: ✅ **28.0%**（已完成，**再次超越预期**：DAG-Med > DAG 24% > FS 22%，医学专业 prompt 对医学教育题目有显著帮助）
   - gaia 和 hle 均显示：EXACT query + aggressive final answer 策略在医学相关任务上通用有效
-- DAG-Med drb2/xbench → 仍在推理中
+- DAG-Med drb2: ✅ **1.2%**（avg_pass_rate=1.21%，与 FS 1.2% 持平，≈ DAG 1.4%，符合预测：DRB2 超出所有框架能力上限）
+- DAG-Med xbench → 仍在推理中（已开始）
 - **预测**（更新）：
-  - drb2_med: DAG-Med ≈ DAG ≈ 1%（超出框架能力上限，无论 prompt 如何）
-  - xbench_med: DAG-Med 可能 > DAG（基于 bc_zh/dsq/gaia/hle 四个任务的积极结果，预测较乐观）
+  - xbench_med: 乐观预测 DAG-Med > DAG（bc_zh/dsq/gaia/hle 均正收益，期待延续此趋势）
 
 ---
 
