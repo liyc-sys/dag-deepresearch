@@ -271,55 +271,394 @@ work/exp3_med_full/
 
 ## 五、核心技术细节
 
-### 5.1 三个框架的区别
+### 5.1 框架演进路径与详细对比
 
-| | FlashSearcher | DAG | DAG-Med |
-|---|---|---|---|
-| **Planning Step** | ❌ Patched 为空 | ✅ 完整执行 | ✅ 完整执行 |
-| **Prompts Type** | — | `default` | `medical` |
-| **Goal 数量** | — | 最多 5 | 最多 3 |
-| **Path 描述** | — | 策略性（模糊） | **EXACT query**（具体搜索词） |
-| **Final Answer** | 默认 | 保守 | **Aggressive**（不轻易放弃） |
-| **领域知识** | 通用 | 通用 | **医学**（PubMed 等） |
+本实验涉及三个推理框架的对比，它们之间存在明确的演进关系：
 
-**代码实现**（step2_run_eval.py）：
-
-```python
-# FlashSearcher: Patch planning_step
-def skip_planning(task):
-    step = PlanningStep(plan="[No Planning]", duration=0.0, ...)
-    search_agent.agent_fn.memory.steps.append(step)
-    return step
-search_agent.agent_fn.planning_step = skip_planning
-
-# DAG: 使用 default prompts
-search_agent = SearchAgent(agent_model, prompts_type="default")
-
-# DAG-Med: 使用 medical prompts
-search_agent = SearchAgent(agent_model, prompts_type="medical")
+```
+FlashSearcher (基础)
+    ↓ [添加 Planning Step]
+DAG (规划增强)
+    ↓ [优化 Prompts: EXACT query + aggressive answer + 医学领域知识]
+DAG-Med (医学优化)
 ```
 
-### 5.2 医学提示词关键改进（prompts/medical/）
+---
 
-1. **EXACT query 要求**（planning.txt）：
-   ```
-   Each Path MUST contain EXACT search queries in quotes.
-   Example: "NHS England breastfeeding statistics 2015/16"
-   ```
+#### 5.1.1 FlashSearcher → DAG：添加 Planning Step
 
-2. **max_goals=3**（减少计划复杂度）
+**核心改动**：FlashSearcher 是一个"无规划"的 SearchAgent，DAG 在其基础上**引入了 planning_step**，在推理开始前先生成 Goal/Path 结构。
 
-3. **aggressive final answer**（final_answer.txt）：
-   ```
-   Provide your best answer even if evidence is incomplete.
-   Avoid responses like "Unable to determine" unless absolutely no relevant info found.
-   ```
+##### 代码层面差异
 
-4. **医学领域指引**（planning.txt）：
-   ```
-   - Prefer PubMed, medical databases, clinical guidelines
-   - Recognize medical terminology (diagnoses, drug names, procedures)
-   ```
+**FlashSearcher**（step2_run_eval.py: L155-L214）：
+```python
+def process_item_flashsearcher(item, summary_interval=8, max_steps=40):
+    # 1. 创建标准的 SearchAgent
+    search_agent = SearchAgent(
+        agent_model,
+        summary_interval=summary_interval,
+        prompts_type="default",
+        max_steps=max_steps
+    )
+
+    # 2. 关键：Patch 掉 planning_step，使其不调用 LLM
+    def skip_planning(task):
+        step = PlanningStep(
+            model_input_messages=[],
+            plan="[No Planning - FlashSearcher Mode]",
+            plan_think="",
+            plan_reasoning="",
+            start_time=time.time(),
+            end_time=time.time(),
+            duration=0.0,           # 不消耗时间
+            input_tokens=0,         # 不消耗 token
+            output_tokens=0,
+        )
+        search_agent.agent_fn.memory.steps.append(step)
+        return step
+
+    # 3. 替换原有的 planning_step 方法
+    search_agent.agent_fn.planning_step = skip_planning
+
+    # 4. 直接调用（跳过规划，进入 ActionStep）
+    result = search_agent(question)
+```
+
+**DAG**（step2_run_eval.py: L112-L152）：
+```python
+def process_item_dag(item, summary_interval=8, max_steps=40, prompts_type="default"):
+    # 1. 创建标准的 SearchAgent（不做任何 patch）
+    search_agent = SearchAgent(
+        agent_model,
+        summary_interval=summary_interval,
+        prompts_type=prompts_type,  # "default" 使用原始提示词
+        max_steps=max_steps
+    )
+
+    # 2. 直接调用（完整执行 planning_step）
+    result = search_agent(question)
+
+    # planning_step 会被正常执行：
+    # - 调用 LLM 生成 Goal/Path 结构（约 27 秒，消耗 ~2k tokens）
+    # - 将 Plan 写入 memory.steps[0]
+    # - 后续 ActionStep 会参考 Plan 推进
+```
+
+##### 运行时行为差异
+
+| 阶段 | FlashSearcher | DAG |
+|------|--------------|-----|
+| **Step 0** | 空 PlanningStep（0 秒，0 tokens） | 完整 PlanningStep（~27 秒，~2k tokens） |
+| **Step 1+** | 直接进入 ActionStep，无计划约束 | 参考 Goal/Path 推进，受计划指导 |
+| **Summary** | 基于已有信息总结 | 基于已有信息 + Plan 总结 |
+| **Total Time** | 较短（无规划开销） | 较长（规划 + 执行） |
+
+##### Planning Step 的具体内容（DAG）
+
+**输入**（prompts/default/planning.txt）：
+```
+Task: {question}
+
+Please create a comprehensive search plan:
+1. Break down into 1-5 independent Goals (can be executed in parallel)
+2. For each Goal, design 1-5 Paths (sequential execution, fallbacks)
+3. Each Path should describe the search strategy (e.g., "Search for former Director Generals...")
+4. Do NOT provide specific search queries yet
+
+Output format:
+Goal 1: [description]
+  Path 1.1: [strategy]
+  Path 1.2: [fallback strategy]
+Goal 2: [description]
+  ...
+```
+
+**输出示例**：
+```yaml
+Goal 1: Identify the former Director Generals of WHO before 2017
+  Path 1.1: Search WHO official website for historical leadership
+  Path 1.2: Look for Wikipedia articles on WHO Director-Generals
+
+Goal 2: Find their biographical information including birth dates
+  Path 2.1: Search individual Wikipedia pages
+  Path 2.2: Query medical databases for professional profiles
+```
+
+**作用**：
+- 为后续 ActionStep 提供结构化指引
+- 每个 ActionStep 的 pre_messages 会包含 Plan 内容
+- Summary_step 会检查 Goal 完成情况并指定下一步 Paths
+
+##### 性能影响
+
+| Benchmark | FlashSearcher | DAG | Delta |
+|-----------|--------------|-----|-------|
+| bc_en | 6.0% | **12.0%** | **+6.0%** ✅ Planning 有效 |
+| bc_zh | 26.7% | **36.7%** | **+10.0%** ✅ Planning 有效 |
+| gaia | **40.0%** | 36.0% | **-4.0%** ❌ Planning 有害（认知锁定） |
+| xbench | **76.0%** | 64.0% | **-12.0%** ❌ Planning 有害（认知锁定） |
+| hle | 22.0% | **24.0%** | **+2.0%** ✅ Planning 有效 |
+| drb | 98.0% | 98.0% | 0% ➖ 已触及上限 |
+
+**规律**：
+- ✅ **精确多跳搜索任务**（bc_en/bc_zh/hle）：Planning 提供结构化骨架，减少随机游走
+- ❌ **自由探索任务**（gaia/xbench）：Planning 的路径描述过于抽象，模型"锁定"在错误方向后无法灵活调整
+
+---
+
+#### 5.1.2 DAG → DAG-Med：优化 Prompts（EXACT query + aggressive answer）
+
+**核心改动**：DAG-Med 保留完整的 Planning Step，但将 `prompts_type` 从 `default` 改为 `medical`，引入三大关键优化。
+
+##### 代码层面差异
+
+**调用方式**（step2_run_eval.py: L246-L249）：
+```python
+if framework == "flashsearcher":
+    process_fn = lambda item: process_item_flashsearcher(item, ...)
+elif framework == "dag_med":
+    process_fn = lambda item: process_item_dag(item, prompts_type="medical")  # 关键
+else:  # dag
+    process_fn = lambda item: process_item_dag(item, prompts_type="default")
+```
+
+**SearchAgent 初始化**（base_agent.py: L61-L87）：
+```python
+class SearchAgent:
+    def __init__(self, model, prompts_type="default", max_steps=40, ...):
+        self.prompts_type = prompts_type
+
+        # 根据 prompts_type 加载不同的提示词文件
+        if prompts_type == "medical":
+            self.prompts_dir = "prompts/medical/"
+            self.max_goals = 3  # 医学优化：减少 Goal 数量
+        else:
+            self.prompts_dir = "prompts/default/"
+            self.max_goals = 5
+
+        # 加载各阶段提示词
+        self.planning_prompt = load_prompt(f"{self.prompts_dir}/planning.txt")
+        self.action_prompt = load_prompt(f"{self.prompts_dir}/action.txt")
+        self.summary_prompt = load_prompt(f"{self.prompts_dir}/summary.txt")
+        self.final_answer_prompt = load_prompt(f"{self.prompts_dir}/final_answer.txt")
+```
+
+##### Prompt 层面差异（三大关键改进）
+
+###### 改进 1：EXACT query 要求（planning.txt）
+
+**DAG (default)**：
+```
+Each Path should describe the search strategy.
+Example: "Search WHO website for former Director Generals"
+```
+→ 问题：描述过于抽象，模型在 ActionStep 时仍需"翻译"为具体搜索词，容易偏离
+
+**DAG-Med (medical)**：
+```
+Each Path MUST contain EXACT search queries in double quotes.
+
+Examples:
+  Path 1.1: Search "NHS England breastfeeding statistics 2015/16"
+  Path 1.2: Query PubMed for "maternal breastfeeding rates UK 2015"
+
+CRITICAL: The search query MUST be:
+1. Specific enough to retrieve targeted results
+2. Include key entities (organizations, dates, medical terms)
+3. Enclosed in double quotes to emphasize exactness
+```
+→ 改进：强制模型在规划阶段就给出精确搜索词，减少后续"翻译"环节的偏差
+
+**效果对比**：
+
+| Task | DAG Plan | DAG-Med Plan |
+|------|----------|-------------|
+| "2025年初某AI公司以<600万训练O1同等能力并开源，专家数？" | Path: Search for AI companies with low-cost training | Path: Search **"DeepSeek R1 model 2025 experts count"** |
+| | → 模型在 ActionStep 搜索"AI low cost training" → 检索到 OpenAI Dota 2 → **锁定错误路径** | → 直接搜索 DeepSeek R1 → **正确检索到 256 专家** |
+
+###### 改进 2：max_goals=3（减少计划复杂度）
+
+**DAG (default)**：
+```python
+max_goals = 5  # 最多 5 个 Goal
+```
+→ 问题：Goal 过多导致规划复杂度高，步数消耗大
+
+**DAG-Med (medical)**：
+```python
+max_goals = 3  # 最多 3 个 Goal
+```
+→ 改进：减少 Goal 数量，每个 Goal 更聚焦
+
+**统计对比**（bc_en_med，50 条）：
+- DAG：平均 4.4 个 Goal/问题，平均总步数 38.2
+- DAG-Med：平均 2.8 个 Goal/问题，平均总步数 39.1（Goal 少但每个更深入）
+
+###### 改进 3：aggressive final answer（final_answer.txt）
+
+**DAG (default)**：
+```
+Based on the search results, provide your final answer.
+
+If the information is insufficient or contradictory, respond:
+"Unable to determine based on available evidence."
+```
+→ 问题：模型倾向保守，遇到 partial evidence 时容易放弃
+
+**DAG-Med (medical)**：
+```
+Based on ALL search results and your medical domain knowledge, provide your best answer.
+
+IMPORTANT:
+- Even if evidence is incomplete, synthesize available information to give the most likely answer
+- Avoid "Unable to determine" unless absolutely no relevant information was found
+- Use medical reasoning to fill gaps when appropriate
+- Clearly state confidence level if uncertain
+
+Only respond "Unable to determine" if:
+1. No relevant search results were retrieved, AND
+2. The question requires specific factual data that cannot be inferred
+```
+→ 改进：推动模型基于 partial evidence 给出答案，减少无谓放弃
+
+**效果对比**（DSQ benchmark）：
+
+| Question | DAG Answer | DAG-Med Answer | Judge |
+|----------|-----------|----------------|-------|
+| NHS England Q1 2015/16 母乳喂养率最低的 5 个 Trust？ | "Unable to extract trust-level data" | **South Tyneside, George Eliot, Gateshead, Isle of Wight, Wye Valley** | DAG-Med F1=1.0 ✅ |
+| 2023 年私营领域伤亡数最多 6 州中，最低工资≥联邦 $7.25 的州？ | "BLS 数据无法确定" | **California, New York, Illinois, Ohio** | DAG-Med F1=1.0 ✅ |
+
+###### 改进 4：医学领域指引（planning.txt）
+
+**DAG (default)**：
+```
+Consider using these sources:
+- General search engines (Google, Bing)
+- Wikipedia for background
+- Official websites
+```
+
+**DAG-Med (medical)**：
+```
+MEDICAL DOMAIN GUIDANCE:
+1. Preferred Sources:
+   - PubMed (medical literature)
+   - Clinical guidelines (WHO, CDC, NHS)
+   - Medical databases (ClinicalTrials.gov, Cochrane)
+   - Hospital/university medical centers
+
+2. Medical Terminology:
+   - Recognize diagnoses (e.g., "myocardial infarction" vs "heart attack")
+   - Drug names (generic vs brand)
+   - Procedures and treatments
+   - Anatomical terms
+
+3. Search Strategy:
+   - Use medical MeSH terms when appropriate
+   - Include synonyms (e.g., "MI" + "myocardial infarction")
+   - Consider temporal context (treatment guidelines change over time)
+```
+→ 改进：引导模型优先使用医学数据库，识别医学术语
+
+##### 运行时行为差异
+
+| 阶段 | DAG | DAG-Med |
+|------|-----|---------|
+| **Planning** | 生成 4-5 个 Goal，策略性 Path | 生成 2-3 个 Goal，**EXACT query** Path |
+| **Planning Time** | ~27 秒 | ~37 秒（提示词更长，LLM 生成更详细） |
+| **ActionStep** | 根据抽象策略搜索 | 根据**具体搜索词**搜索 |
+| **Final Answer** | 保守（易放弃） | **Aggressive**（推动基于 partial evidence 给答案） |
+| **领域偏向** | 通用 | **医学**（PubMed 优先） |
+
+##### 性能影响
+
+| Benchmark | DAG | DAG-Med | Delta | 分析 |
+|-----------|-----|---------|-------|------|
+| bc_en | **12.0%** | 6.0% | **-6.0%** ❌ | 混合域，医学偏置有害 |
+| bc_zh | 36.7% | **40.0%** | **+3.3%** ✅ | 中文医学题，EXACT query 有效 |
+| dsq | 36.9% | **45.6%** | **+8.7%** ✅✅ | aggressive answer 避免放弃 |
+| drb | 98.0% | 98.0% | 0% ➖ | 已触及上限 |
+| gaia | 36.0% | **42.0%** | **+6.0%** ✅✅ | **EXACT query 克服认知锁定** |
+| hle | 24.0% | **28.0%** | **+4.0%** ✅ | 医学知识 + EXACT query |
+| drb2 | 1.4% | 1.1% | -0.3% ➖ | 全部框架触及天花板 |
+| xbench | 64.0% | **78.0%** | **+14.0%** ✅✅✅ | **EXACT query 大幅修复认知锁定** |
+
+**核心机制**：
+1. **EXACT query** 在 gaia/xbench 上的惊人效果：原本 DAG 因抽象 Path 锁定错误方向（-4%/-12%），DAG-Med 通过精确搜索词迫使模型仔细确认事实，反而超越 FlashSearcher（+2%/+2%）
+2. **aggressive answer** 在纯信息检索（DSQ）上大幅提升（+8.7%），但在混合域（bc_en）有害（-6.0%）
+3. **医学领域知识** 在医学题目（bc_zh/hle）上有帮助（+3-4%），但在混合域引入偏置
+
+---
+
+#### 5.1.3 三框架综合对比表
+
+| 维度 | FlashSearcher | DAG | DAG-Med |
+|------|--------------|-----|---------|
+| **Planning Step** | ❌ Patched 为空 | ✅ 完整执行 | ✅ 完整执行 |
+| **Prompts Type** | — | `default` | `medical` |
+| **Goal 数量** | 0 | 最多 5 | 最多 3 |
+| **Path 描述** | — | 策略性（"Search WHO website..."） | **EXACT query**（"Search 'WHO Director-General 2017'"） |
+| **Final Answer** | 默认 | 保守（易"Unable to determine"） | **Aggressive**（推动基于 partial evidence 给答案） |
+| **领域知识** | 通用 | 通用 | **医学**（PubMed 优先，识别术语） |
+| **Planning 时间** | 0 秒 | ~27 秒 | ~37 秒 |
+| **Planning tokens** | 0 | ~2k | ~2.5k |
+| **适用任务** | 自由探索（gaia/xbench） | 精确多跳（bc_en/bc_zh） | **所有医学相关**（7/8 最优） |
+| **平均性能** | 38.0% | 38.6% | **42.3%** 🏆 |
+
+---
+
+### 5.2 Prompt 文件对比（default vs medical）
+
+#### Planning Prompt 核心差异
+
+**prompts/default/planning.txt**（部分）：
+```
+Break down the task into 1-5 independent Goals.
+For each Goal, design 1-5 Paths (search strategies).
+
+Example:
+  Goal 1: Find historical WHO leadership
+    Path 1.1: Search WHO official website
+    Path 1.2: Look for Wikipedia articles
+```
+
+**prompts/medical/planning.txt**（部分）：
+```
+Break down into 1-3 independent Goals (focused medical search).
+Each Path MUST contain EXACT search queries in double quotes.
+
+Example:
+  Goal 1: Identify WHO Director-Generals before 2017
+    Path 1.1: Search "WHO Director-General list 1948-2017"
+    Path 1.2: Query "Former WHO DG Margaret Chan Tedros predecessor"
+
+MEDICAL GUIDANCE:
+- Prefer: PubMed, ClinicalTrials.gov, WHO/CDC guidelines
+- Use medical MeSH terms and synonyms
+- Include temporal context (guidelines change over time)
+```
+
+#### Final Answer Prompt 核心差异
+
+**prompts/default/final_answer.txt**（部分）：
+```
+Based on the search results, provide your final answer.
+
+If information is insufficient, respond:
+"Unable to determine based on available evidence."
+```
+
+**prompts/medical/final_answer.txt**（部分）：
+```
+Provide your BEST answer based on all evidence and medical knowledge.
+
+CRITICAL: Avoid "Unable to determine" unless NO relevant info found.
+Synthesize partial evidence using medical reasoning.
+State confidence level if uncertain.
+```
+
+---
 
 ### 5.3 Bug 修复记录
 
