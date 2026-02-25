@@ -2,3 +2,16 @@
 .env
 __pycache__/
 output/
+
+# Large files - work experiment outputs
+work/**/assets/logs/
+work/**/assets/output/
+work/**/assets/input/
+work/**/official_repos/
+work/**/downloads/
+work/**/*.html
+work/**/.monitor_pid
+
+# General
+*.pyc
+downloads/

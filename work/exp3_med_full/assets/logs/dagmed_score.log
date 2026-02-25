@@ -1,56 +1,0 @@
-[Wed 18 Feb 2026 09:51:35 PM CST] 等待 dag_med bc_en_med 完成...
-[Thu 19 Feb 2026 12:23:44 AM CST] dag_med bc_en_med 完成(50条)，开始评分...
-2026-02-19 00:23:45,781 INFO [dag_med×bc_en_med] 总=50, 已评=49, 待评=1
-Scoring dag_med×bc_en_med:   0%|          | 0/1 [00:00<?, ?it/s]2026-02-19 00:23:47,689 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
-Scoring dag_med×bc_en_med: 100%|██████████| 1/1 [00:01<00:00,  1.95s/it]Scoring dag_med×bc_en_med: 100%|██████████| 1/1 [00:01<00:00,  1.95s/it]
-2026-02-19 00:23:47,778 INFO   汇总: {'framework': 'dag_med', 'bench': 'bc_en_med', 'total': 50, 'correct': 3, 'accuracy': 0.06}
-2026-02-19 00:23:47,837 INFO 
-总汇总已保存: /mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/assets/output/scored/all_summaries.json
-
-===== 评分汇总 =====
-{"framework": "dag_med", "bench": "bc_en_med", "total": 50, "correct": 3, "accuracy": 0.06}
-[Thu 19 Feb 2026 12:23:47 AM CST] bc_en_med 评分完成
-[Thu 19 Feb 2026 12:23:48 AM CST] 等待 dag_med bc_zh_med 完成...
-[Thu 19 Feb 2026 12:55:49 AM CST] dag_med bc_zh_med 完成(30条)，开始评分...
-2026-02-19 00:55:50,432 INFO [dag_med×bc_zh_med] 总=30, 已评=9, 待评=21
-Scoring dag_med×bc_zh_med:   0%|          | 0/21 [00:00<?, ?it/s]2026-02-19 00:55:52,764 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
-Scoring dag_med×bc_zh_med:   5%|▍         | 1/21 [00:02<00:47,  2.37s/it]2026-02-19 00:55:54,676 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
-Scoring dag_med×bc_zh_med:  10%|▉         | 2/21 [00:04<00:40,  2.12s/it]2026-02-19 00:55:57,031 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
-Scoring dag_med×bc_zh_med:  14%|█▍        | 3/21 [00:06<00:39,  2.21s/it]2026-02-19 01:05:50,592 INFO Retrying request to /chat/completions in 0.486687 seconds
-2026-02-19 01:05:53,246 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
-Scoring dag_med×bc_zh_med:  19%|█▉        | 4/21 [10:02<1:07:04, 236.73s/it]2026-02-19 01:05:54,621 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
-Scoring dag_med×bc_zh_med:  24%|██▍       | 5/21 [10:04<40:29, 151.85s/it]  2026-02-19 01:05:56,093 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
-Scoring dag_med×bc_zh_med:  29%|██▊       | 6/21 [10:05<25:10, 100.73s/it]2026-02-19 01:05:57,507 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
-Scoring dag_med×bc_zh_med:  33%|███▎      | 7/21 [10:07<15:55, 68.25s/it] 2026-02-19 01:05:59,271 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
-Scoring dag_med×bc_zh_med:  38%|███▊      | 8/21 [10:08<10:12, 47.08s/it]2026-02-19 01:06:00,907 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
-Scoring dag_med×bc_zh_med:  43%|████▎     | 9/21 [10:10<06:34, 32.87s/it]2026-02-19 01:06:02,792 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
-Scoring dag_med×bc_zh_med:  48%|████▊     | 10/21 [10:12<04:16, 23.31s/it]2026-02-19 01:06:05,249 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
-Scoring dag_med×bc_zh_med:  52%|█████▏    | 11/21 [10:14<02:49, 16.93s/it]2026-02-19 01:06:06,418 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
-Scoring dag_med×bc_zh_med:  57%|█████▋    | 12/21 [10:16<01:49, 12.13s/it]2026-02-19 01:06:08,537 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
-Scoring dag_med×bc_zh_med:  62%|██████▏   | 13/21 [10:18<01:12,  9.10s/it]2026-02-19 01:06:10,049 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
-Scoring dag_med×bc_zh_med:  67%|██████▋   | 14/21 [10:19<00:47,  6.80s/it]2026-02-19 01:06:12,671 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
-Scoring dag_med×bc_zh_med:  71%|███████▏  | 15/21 [10:22<00:33,  5.55s/it]2026-02-19 01:06:14,094 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
-Scoring dag_med×bc_zh_med:  76%|███████▌  | 16/21 [10:23<00:21,  4.30s/it]2026-02-19 01:06:16,348 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
-Scoring dag_med×bc_zh_med:  81%|████████  | 17/21 [10:25<00:14,  3.69s/it]2026-02-19 01:06:17,477 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
-Scoring dag_med×bc_zh_med:  86%|████████▌ | 18/21 [10:27<00:08,  2.93s/it]2026-02-19 01:06:19,690 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
-Scoring dag_med×bc_zh_med:  90%|█████████ | 19/21 [10:29<00:05,  2.71s/it]2026-02-19 01:06:20,851 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
-Scoring dag_med×bc_zh_med:  95%|█████████▌| 20/21 [10:30<00:02,  2.25s/it]2026-02-19 01:06:24,094 INFO HTTP Request: POST https://search.bytedance.net/gpt/openapi/online/v2/crawl/openai/deployments/gpt-4.1-2025-04-14/chat/completions?api-version=2024-02-01 "HTTP/1.1 200 OK"
-Scoring dag_med×bc_zh_med: 100%|██████████| 21/21 [10:33<00:00,  2.54s/it]Scoring dag_med×bc_zh_med: 100%|██████████| 21/21 [10:33<00:00, 30.18s/it]
-2026-02-19 01:06:24,168 INFO   汇总: {'framework': 'dag_med', 'bench': 'bc_zh_med', 'total': 30, 'correct': 12, 'accuracy': 0.4}
-2026-02-19 01:06:24,211 INFO 
-总汇总已保存: /mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/assets/output/scored/all_summaries.json
-
-===== 评分汇总 =====
-{"framework": "dag_med", "bench": "bc_zh_med", "total": 30, "correct": 12, "accuracy": 0.4}
-[Thu 19 Feb 2026 01:06:24 AM CST] bc_zh_med 评分完成
-
-===== 数据汇总 =====
-SWALM+Seed16: bc_en_med=4.0%, bc_zh_med=33.3%, dsq_med=43.4%, drb_med=94.0%, gaia_med=22.0%, hle_med=14.0%, drb2_med=N/A%, xbench_med=58.0%
-FlashSearcher+Seed16: bc_en_med=6.0%, bc_zh_med=26.7%, dsq_med=34.4%, drb_med=98.0%, gaia_med=40.8%, hle_med=22.0%, drb2_med=1.2%, xbench_med=76.0%
-DAG-Med+Seed16: bc_en_med=6.0%, bc_zh_med=40.0%, dsq_med=N/A%, drb_med=N/A%, gaia_med=N/A%, hle_med=N/A%, drb2_med=N/A%, xbench_med=N/A%
-DAG+Seed16: bc_en_med=12.0%, bc_zh_med=36.7%, dsq_med=36.9%, drb_med=98.0%, gaia_med=36.0%, hle_med=24.0%, drb2_med=1.4%, xbench_med=N/A%
-
-HTML 已生成: /mnt/bn/med-mllm-lfv2/linjh/project/learn/2026_q1/eval/dag-deepresearch/work/exp3_med_full/assets/output/exp3_med_full.html
-show 命令成功: 已复制到可视化目录
-https://data-edu.bytedance.net/proxy/gradio/host/[2605:340:cd51:602:6099:a9bf:69e2:3767]:10028/exp3_med_full.html
-[Thu 19 Feb 2026 01:06:25 AM CST] 可视化已更新！

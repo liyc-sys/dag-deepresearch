@@ -2,19 +2,24 @@
 # -*- coding: utf-8 -*-
 """
 step2_run_eval.py
-使用 FlashSearcher（无 planning）和 DAG（有 planning）对8个医学 benchmark 进行推理。
+使用多种推理框架对8个医学 benchmark 进行推理评测。
+
+支持的框架：
+- flashsearcher：SearchAgent，无 planning step（patch 掉规划）
+- dag：SearchAgent，含 planning step（使用 default prompts）
+- dag_med：SearchAgent，含 planning step（使用 medical prompts）
+- report：ReportOrchestrator（两层DAG，生成结构化报告并提取答案）
 
 整体逻辑：
-- flashsearcher 模式：创建 SearchAgent，但 patch 掉 planning_step 使其不执行规划
-- dag 模式：使用原始 SearchAgent（含 planning 步骤），与 exp2 一致
 - 模型固定为 seed16（ARK API）
-- 并发=8，max_steps=40，断点续跑（基于 question 字段去重）
+- 并发=8，max_steps=40（report模式除外）
+- 断点续跑（基于 question 字段去重）
 - 输出：assets/output/{framework}_{bench_key}_med.jsonl
 
 用法：
   python3 step2_run_eval.py --framework flashsearcher --datasets bc_en_med
-  python3 step2_run_eval.py --framework dag --datasets bc_en_med dsq_med
-  python3 step2_run_eval.py --framework flashsearcher  # 跑全部8个benchmark
+  python3 step2_run_eval.py --framework report --datasets bc_zh_med --concurrency 2
+  python3 step2_run_eval.py --framework dag_med  # 跑全部8个benchmark
 """
 import os
 import sys
@@ -50,6 +55,8 @@ BENCHMARKS = {
     "hle_med":   {"desc": "HLE Medical",                   "metric": "accuracy", "file": "hle_med_med.jsonl"},
     "drb2_med":  {"desc": "DeepResearch-Bench-II Medical", "metric": "rubric",   "file": "drb2_med_med.jsonl"},
     "xbench_med":{"desc": "XBench Medical",                "metric": "accuracy", "file": "xbench_med_med.jsonl"},
+    "researchqa_med":      {"desc": "ResearchQA Medical",           "metric": "accuracy", "file": "researchqa_med_med.jsonl"},
+    "researchqa_med_test10": {"desc": "ResearchQA Medical Test10", "metric": "accuracy", "file": "researchqa_med_test10.jsonl"},
 }
 
 EXP_DIR    = os.path.dirname(__file__)
@@ -214,6 +221,148 @@ def process_item_flashsearcher(item, summary_interval=8, max_steps=40):
     }
 
 
+def process_item_report(item, depth="ultra-lite", summary_interval=6):
+    """
+    Report 模式：使用 ReportOrchestrator（两层DAG）生成研究报告，并从报告中提取最终答案。
+
+    核心思路：
+    1. 将问题转化为一个研究报告主题
+    2. 使用 ReportOrchestrator 生成结构化报告（Layer 1: 大纲, Layer 2: 各section调用SearchAgent）
+    3. 从报告末尾提取 "Final Answer" 或 "最终答案" 部分作为agent_result
+
+    深度模式：
+    - "full"（完整版，适合rubric评分）：max_section_steps=10, section_concurrency=3, 详细报告, 预计25-30分钟/题
+    - "lite"（精简版）：max_section_steps=5, section_concurrency=5, 简洁报告, 预计10-15分钟/题
+    - "ultra-lite"（超精简，适合accuracy/F1）：max_section_steps=3, section_concurrency=8, 核心要点, 预计5-8分钟/题
+    """
+    from FlashOAgents import OpenAIServerModel
+    from FlashOAgents.report_orchestrator import ReportOrchestrator
+    import re
+
+    agent_model = OpenAIServerModel(
+        SEED16_MODEL,
+        custom_role_conversions={"tool-call": "assistant", "tool-response": "user"},
+        max_completion_tokens=32768,
+        api_key=ARK_API_KEY,
+        api_base=ARK_API_BASE,
+    )
+
+    question = item["question"]
+    golden_answer = item["answer"]
+
+    # 根据深度模式调整参数
+    if depth == "full":
+        max_section_steps = 10
+        section_concurrency = 3
+        # 完整版：详细的研究报告提示
+        topic = f"""Research Question: {question}
+
+Please write a comprehensive research report that:
+1. Analyzes this question from multiple perspectives
+2. Gathers and evaluates relevant information through web search
+3. Presents clear reasoning and evidence
+4. Provides thorough verification of findings
+5. Concludes with a definitive answer
+
+IMPORTANT: Your report MUST end with a clearly marked "## Final Answer" section that contains your answer to the question. Format:
+
+## Final Answer
+[Your answer here]
+"""
+    elif depth == "lite":
+        max_section_steps = 5
+        section_concurrency = 5
+        # 精简版：聚焦核心要素的简洁提示
+        topic = f"""Research Question: {question}
+
+Please write a focused research report with 4-5 sections that:
+1. Identifies key information needed to answer the question
+2. Gathers evidence through targeted web search
+3. Provides clear reasoning
+4. Concludes with a definitive answer
+
+Keep the report concise and focused. IMPORTANT: Your report MUST end with a clearly marked "## Final Answer" section. Format:
+
+## Final Answer
+[Your answer here]
+"""
+    else:  # ultra-lite
+        max_section_steps = 3
+        section_concurrency = 8
+        # 超精简版：快速核心要点
+        topic = f"""Research Question: {question}
+
+Please write a concise research report with 3-4 sections maximum that:
+1. Identifies the most critical information needed
+2. Gathers key evidence through targeted search
+3. Provides direct reasoning
+4. Gives a clear, definitive answer
+
+Keep each section brief and focused on essential points only. IMPORTANT: Your report MUST end with a clearly marked "## Final Answer" section. Format:
+
+## Final Answer
+[Your answer here]
+"""
+
+    orchestrator = ReportOrchestrator(
+        model=agent_model,
+        max_section_steps=max_section_steps,
+        summary_interval=summary_interval,
+        section_concurrency=section_concurrency,
+        max_section_retries=2,
+        prompts_type="default",
+    )
+
+    try:
+        result = orchestrator.generate_report(topic)
+    except Exception as e:
+        logger.error(f"Report推理失败: {str(e)[:200]}")
+        return None
+
+    # 从报告中提取最终答案
+    report_text = result["report"]
+    agent_result = ""
+
+    # 尝试匹配 "## Final Answer" 或 "## 最终答案" 等标记
+    patterns = [
+        r"##\s*Final Answer[:\s]*\n(.+?)(?=\n##|$)",
+        r"##\s*最终答案[:\s]*\n(.+?)(?=\n##|$)",
+        r"##\s*Conclusion[:\s]*\n(.+?)(?=\n##|$)",
+        r"##\s*结论[:\s]*\n(.+?)(?=\n##|$)",
+    ]
+
+    for pattern in patterns:
+        match = re.search(pattern, report_text, re.DOTALL | re.IGNORECASE)
+        if match:
+            agent_result = match.group(1).strip()
+            break
+
+    # 如果没找到标记，取报告最后500字符
+    if not agent_result:
+        agent_result = report_text[-500:].strip()
+        logger.warning(f"未找到明确的Final Answer标记，使用报告末尾内容")
+
+    # 计算总token和时间
+    metadata = result["metadata"]
+    outline = result["outline"]
+
+    return {
+        "question":      question,
+        "golden_answer": golden_answer,
+        "task_id":       item.get("task_id", ""),
+        "bench":         item.get("bench", ""),
+        "metric":        item.get("metric", "accuracy"),
+        "metadata":      item.get("metadata", {}),
+        "agent_result":  agent_result,
+        "report":        report_text,
+        "report_outline": outline,
+        "report_metadata": metadata,
+        "input_tokens":  metadata.get("total_input_tokens", 0),
+        "output_tokens": metadata.get("total_output_tokens", 0),
+        "total_time":    metadata.get("elapsed_seconds", 0),
+    }
+
+
 def run_eval(framework, dataset_key, concurrency=8, max_steps=40, summary_interval=8):
     """对一个 (framework, dataset) 组合运行评测"""
     ds_cfg  = BENCHMARKS[dataset_key]
@@ -245,6 +394,26 @@ def run_eval(framework, dataset_key, concurrency=8, max_steps=40, summary_interv
         process_fn = lambda item, si, ms: process_item_flashsearcher(item, si, ms)
     elif framework == "dag_med":
         process_fn = lambda item, si, ms: process_item_dag(item, si, ms, prompts_type="medical")
+    elif framework == "report":
+        # Report模式：根据 metric 类型和数据集自动选择深度
+        # - researchqa: 深度研究任务，使用 full 模式
+        # - rubric评分: 使用 full 模式
+        # - 其他: 使用 ultra-lite 模式
+        metric = ds_cfg.get("metric", "accuracy")
+        if "researchqa" in dataset_key.lower():
+            depth = "full"
+            logger.info(f"  Report深度模式: {depth} (ResearchQA深度研究任务)")
+        elif metric == "rubric":
+            depth = "full"
+            logger.info(f"  Report深度模式: {depth} (metric={metric})")
+        else:
+            depth = "ultra-lite"
+            logger.info(f"  Report深度模式: {depth} (metric={metric})")
+        process_fn = lambda item, si, ms: process_item_report(
+            item,
+            depth=depth,
+            summary_interval=si
+        )
     else:  # dag
         process_fn = lambda item, si, ms: process_item_dag(item, si, ms, prompts_type="default")
 
@@ -266,8 +435,8 @@ def run_eval(framework, dataset_key, concurrency=8, max_steps=40, summary_interv
 
 def main():
     parser = argparse.ArgumentParser(description="exp3_med_full 推理评测脚本")
-    parser.add_argument("--framework", choices=["flashsearcher", "dag", "dag_med"], required=True,
-                        help="推理框架：dag_med=使用医学优化版 prompts")
+    parser.add_argument("--framework", choices=["flashsearcher", "dag", "dag_med", "report"], required=True,
+                        help="推理框架：dag_med=使用医学优化版prompts, report=使用两层DAG报告生成（自动选择深度）")
     parser.add_argument("--datasets",  nargs="+", default=list(BENCHMARKS.keys()),
                         help=f"要评测的数据集: {list(BENCHMARKS.keys())}")
     parser.add_argument("--concurrency",      type=int, default=8,  help="并发数")
